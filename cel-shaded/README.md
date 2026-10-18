@@ -8,7 +8,7 @@ This folder holds one shared editable iRacing livery for Rick (844824) and Justi
 - [Current flat preview](design/previews/paint-flat-current.png): useful for checking UV placement, but not proof of the result on the 3D car.
 - [Current state](docs/current-state.md): short resume point with the active source, output, mapping status, and next action.
 - [Creative brief](docs/brief.md), [progress log](docs/progress.md), and [automation](docs/automation.md): design intent, history, and the repeatable Photoshop route.
-- [Shared Porsche 718 GT4 mapping notes](../shared/cars/porsche718gt4/mapping/notes.md): wire boundaries, UV orientation, sources, and checks reusable for later liveries.
+- [Shared Porsche 718 GT4 mapping profile](../shared/cars/porsche718gt4/mapping/README.md): car-level evidence, wire boundaries, UV orientation, and checks reusable for later liveries.
 - `inputs/Porsche 718 GT4.psd` and `inputs/119_template_P718.zip`: untouched source template.
 
 **Review state and next action:** see [current state](docs/current-state.md). Update that file after accepted revisions so this README remains a stable entry point.

@@ -4,7 +4,7 @@ Applies to the 2048 × 2048 `Porsche 718 GT4.psd` in `cel-shaded/inputs/`, from 
 
 ## Fast start for the next 718 GT4 livery
 
-1. Start with the exact 718 template and its `Turn Off Before Exporting TGA > Wire` layer. Compare its size and wire layout with this project's template before reusing any coordinates. Use the [wire preview](../../../../cel-shaded/design/previews/template-wire-r000.png), [coordinate diagnostic](../../../../cel-shaded/design/diagnostics/coordinate-grid.png), and the mapped-region table below to identify every paint island.
+1. Start with the exact 718 template and its `Turn Off Before Exporting TGA > Wire` layer. Compare its size and wire layout with this project's template before reusing any coordinates. Use the [wire preview](wire/template-wire-r000.png), [coordinate diagnostic](diagnostics/coordinate-grid.png), and the mapped-region table below to identify every paint island.
 2. Use the numbered-grid car views to identify the physical region before selecting a wire edge. Trace main dark contours from real panel seams and body-plane changes. Green wire edges identify UV islands and some panel edges, but some enclose decal atlases rather than exterior seams. White mesh shows curvature and small recesses such as door handles. A nearby similar-looking edge is not proof of a cross-panel continuation. Draw each side independently: the passenger island is vertically reversed relative to the driver island.
 3. Keep short, uneven secondary echoes around actual features: hood nose and sides, handles, intakes, lights, roof flap, windows, ducts, spoiler, and rear bumper. Place shading only where a body plane or recess supports it. Keep ink and shadows on separate layers from the primary seam trace.
 4. Check number-box coverage and the car viewer early. Review both doors, hood/front, roof, and rear before filling gaps with extra lines. A pixel-aligned flat overlay confirms only UV placement. The current fuel-cap ring, passenger handle, roof flap, lamp, rear-bumper, and spoiler accents are still provisional until a fresh viewer check.
@@ -14,10 +14,10 @@ Shared logos from the 992 Cup source live in `Paints/general-logos/2-old-2-slow/
 
 ## Sources and evidence
 
-- The original PSD has a `Turn Off Before Exporting TGA > Wire` layer. [Wire preview](../../../../cel-shaded/design/previews/template-wire-r000.png): green boundaries show the paint island and panel edges; the white mesh shows local surface shape. Keep this guide hidden in exported paint.
-- [Clyde Coman, Porsche 718 GT4 Parts](https://www.tradingpaints.com/showroom/view/241344/Porsche-718-GT4-Parts) identifies separate painted parts. Local copies: [image 1](../../../../cel-shaded/design/references/clyde-718-parts-1.jpg), [image 2](../../../../cel-shaded/design/references/clyde-718-parts-2.jpg).
-- The project’s [complete coordinate diagnostic](../../../../cel-shaded/design/diagnostics/coordinate-grid.png) and user-supplied car-viewer screenshots establish island orientation and part placement. The diagnostic is a reference, not livery artwork.
-- The current direct tracing implementation is [TracePanelInk.cs](../../../../cel-shaded/scripts/TracePanelInk.cs). It uses the [isolated Wire layer](../../../../cel-shaded/design/diagnostics/wire-source.png) at native resolution, extracting green edges and excluding the white mesh. `RenderMappedCurrent.cs` belongs to the rejected hand-fitted drafts.
+- The original PSD has a `Turn Off Before Exporting TGA > Wire` layer. [Wire preview](wire/template-wire-r000.png): green boundaries show the paint island and panel edges; the white mesh shows local surface shape. Keep this guide hidden in exported paint.
+- [Clyde Coman, Porsche 718 GT4 Parts](https://www.tradingpaints.com/showroom/view/241344/Porsche-718-GT4-Parts) identifies separate painted parts. Local copies: [image 1](references/clyde-718-parts-1.jpg), [image 2](references/clyde-718-parts-2.jpg).
+- The [complete coordinate diagnostic](diagnostics/coordinate-grid.png) and user-supplied car-viewer screenshots establish island orientation and part placement. The diagnostic is a reference, not livery artwork. See [verification.md](verification.md) for evidence gaps.
+- The current direct tracing implementation is [TracePanelInk.cs](../../../../cel-shaded/scripts/TracePanelInk.cs). It uses the [isolated Wire layer](wire/wire-source.png) at native resolution, extracting green edges and excluding the white mesh. `RenderMappedCurrent.cs` belongs to the rejected hand-fitted drafts.
 
 ## Mapped regions and orientation
 
