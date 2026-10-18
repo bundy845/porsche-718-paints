@@ -1,0 +1,5 @@
+2-old-2-slow-passenger-door | source=2old2slow logo - Passenger Door | kind=LayerKind.SMARTOBJECT | sourceBounds=922,734,1148,946 | exportSize=226x212
+2-old-2-slow-driver-door | source=2old2slow logo - Driver Door | kind=LayerKind.SMARTOBJECT | sourceBounds=932,1727,1158,1939 | exportSize=226x212
+stay-ready-bumper-text | source=You don't have to get ready if you stay ready | kind=LayerKind.TEXT | sourceBounds=646,72,1160,100 | exportSize=514x28
+truth-bumper-text | source=Nothing echoes louder than the truth | kind=LayerKind.TEXT | sourceBounds=171,72,613,98 | exportSize=442x26
+me-outlined | source=Me outlined | kind=LayerKind.SMARTOBJECT | sourceBounds=772,1890,908,2160 | exportSize=136x270

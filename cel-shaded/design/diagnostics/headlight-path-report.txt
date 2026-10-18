@@ -1,0 +1,2 @@
+Passenger: fender samples=86, bumper samples=54
+Driver: fender samples=86, bumper samples=52

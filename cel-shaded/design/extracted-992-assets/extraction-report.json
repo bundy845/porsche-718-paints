@@ -1,0 +1,109 @@
+{
+  "source": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\MWM Season 12\\Porsche 992_2 Cup-Recovered.psd",
+  "canvas": [
+    2048,
+    2048
+  ],
+  "assets": [
+    {
+      "layer": "Me outlined",
+      "file": "me-outlined.png",
+      "source_bounds": [
+        772,
+        1890,
+        908,
+        2160
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        136,
+        270
+      ],
+      "size": [
+        136,
+        270
+      ]
+    },
+    {
+      "layer": "Nothing echoes louder than the truth",
+      "file": "truth-bumper-text.png",
+      "source_bounds": [
+        171,
+        72,
+        613,
+        98
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        442,
+        26
+      ],
+      "size": [
+        442,
+        26
+      ]
+    },
+    {
+      "layer": "You don't have to get ready if you stay ready",
+      "file": "stay-ready-bumper-text.png",
+      "source_bounds": [
+        646,
+        72,
+        1160,
+        100
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        514,
+        28
+      ],
+      "size": [
+        514,
+        28
+      ]
+    },
+    {
+      "layer": "2old2slow logo - Driver Door",
+      "file": "2-old-2-slow-driver-door.png",
+      "source_bounds": [
+        932,
+        1727,
+        1158,
+        1939
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        226,
+        212
+      ],
+      "size": [
+        226,
+        212
+      ]
+    },
+    {
+      "layer": "2old2slow logo - Passenger Door",
+      "file": "2-old-2-slow-passenger-door.png",
+      "source_bounds": [
+        922,
+        734,
+        1148,
+        946
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        226,
+        212
+      ],
+      "size": [
+        226,
+        212
+      ]
+    }
+  ]
+}

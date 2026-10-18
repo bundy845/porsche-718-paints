@@ -1,0 +1,115 @@
+Custom Spec Map | false | 0 px,0 px,2048 px,2048 px
+  Red Channel Metallic | true | 0 px,0 px,2048 px,2048 px
+    Parts | true | 142 px,29 px,2023 px,1824 px
+    Base Color | true | 0 px,0 px,2048 px,2048 px
+  Green Channel Roughness | true | 0 px,0 px,2048 px,2048 px
+    Parts | true | 0 px,0 px,2047 px,2046 px
+    Base Color | true | 0 px,0 px,2048 px,2048 px
+  Blue Channel Clearcoat | true | 0 px,0 px,2048 px,2048 px
+    Base Paint | true | 0 px,0 px,2048 px,2048 px
+Turn Off Before Exporting TGA | true | 0 px,0 px,2048 px,2048 px
+  Wire | false | 7 px,7 px,2042 px,2040 px
+  License | true | 13 px,221 px,30 px,238 px
+  Mask | true | 0 px,0 px,2048 px,2048 px
+  Sponsor Blocks | false | 428 px,241 px,1839 px,1946 px
+  Number Blocks | false | 942 px,71 px,1357 px,1925 px
+  Car Mandatory | true | 0 px,4 px,2032 px,2044 px
+Paintable Area | true | 0 px,0 px,2048 px,2048 px
+  Car Decal | true | 0 px,0 px,2025 px,1953 px
+  Pitbox | true | 1826 px,2022 px,1852 px,2046 px
+  Car Patterns | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_001.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_002.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_003.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_004.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_005.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_006.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_007.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_008.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_009.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_010.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_011.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_012.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_013.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_014.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_015.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_016.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_017.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_018.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_019.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_020.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_021.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_022.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_023.tga | false | 0 px,0 px,2048 px,2048 px
+    car_pattern_024.tga | false | 0 px,0 px,2048 px,2048 px
+  Base Color | true | 0 px,0 px,2048 px,2048 px
+CURRENT MASTER saved=false
+Custom Spec Map | false | 0 px,0 px,2048 px,2048 px
+  [SHARED] Satin ink - added contours | false | 4 px,5 px,2044 px,1957 px
+  [SHARED] Satin ink - traced artwork | false | 5 px,4 px,2044 px,2042 px
+  Red Channel Metallic | true | 0 px,0 px,2048 px,2048 px
+    Parts | true | 142 px,29 px,2023 px,1824 px
+    Base Color | true | 0 px,0 px,2048 px,2048 px
+  Green Channel Roughness | true | 0 px,0 px,2048 px,2048 px
+    Parts | true | 0 px,0 px,2047 px,2046 px
+    Base Color | true | 0 px,0 px,2048 px,2048 px
+  Blue Channel Clearcoat | true | 0 px,0 px,2048 px,2048 px
+    Base Paint | true | 0 px,0 px,2048 px,2048 px
+Turn Off Before Exporting TGA | true | 0 px,0 px,2048 px,2048 px
+  Wire | false | 7 px,7 px,2042 px,2040 px
+  License | true | 13 px,221 px,30 px,238 px
+  Mask | true | 0 px,0 px,2048 px,2048 px
+  Sponsor Blocks | false | 428 px,241 px,1839 px,1946 px
+  Number Blocks | false | 942 px,71 px,1357 px,1925 px
+  Car Mandatory | false | 0 px,4 px,2032 px,2044 px
+Paintable Area | true | 0 px,0 px,2048 px,2048 px
+  [SHARED] Cel-shaded artwork | true | 0 px,0 px,2048 px,2048 px
+    Exterior windshield banner - BUNDY | true | 1003 px,998 px,1092 px,1542 px
+      BUNDY - angular outlined vector (embedded SVG) | true | 1026 px,1095 px,1076 px,1439 px
+      Exterior strip black - 718 UV | true | 1003 px,998 px,1092 px,1542 px
+    04 Body contours, handle frames and inset ducts | true | 4 px,5 px,2044 px,1957 px
+    03 Short echoes and corner hatching | true | 13 px,4 px,2040 px,2032 px
+    02 Main ink - traced panel edges | true | 5 px,6 px,2044 px,2042 px
+      Separate small parts | true | 8 px,6 px,1949 px,1511 px
+      Front bumper and splitter | true | 5 px,697 px,383 px,2038 px
+      Wing | true | 5 px,7 px,638 px,462 px
+      Rear bumper | true | 972 px,6 px,2044 px,403 px
+      Roof and rear deck | true | 1077 px,1017 px,2039 px,1513 px
+      Passenger side - upper UV island | true | 377 px,497 px,2026 px,1023 px
+      Driver side - lower UV island | true | 377 px,1507 px,2026 px,2042 px
+      Hood | true | 352 px,976 px,963 px,1562 px
+    Shared highlights - Screen - adjust opacity | true | 71 px,735 px,1415 px,1779 px
+    Shared cel shadows - Multiply - adjust opacity | true | 20 px,163 px,1926 px,2030 px
+    01 DRIVER COLORS - show ONE fill; double-click swatch | true | 0 px,0 px,2048 px,2048 px
+      JUSTIN - trial E55D01 - edit swatch | false | 0 px,0 px,2048 px,2048 px
+      JUSTIN - prior orange - edit swatch | false | 0 px,0 px,2048 px,2048 px
+      RICK - Your color - edit swatch | true | 0 px,0 px,2048 px,2048 px
+      Paintable surface - shared clipping mask | true | 0 px,0 px,2048 px,2048 px
+  Car Decal | false | 0 px,0 px,2025 px,1953 px
+  Pitbox | false | 1826 px,2022 px,1852 px,2046 px
+  Car Patterns | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_001.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_002.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_003.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_004.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_005.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_006.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_007.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_008.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_009.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_010.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_011.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_012.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_013.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_014.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_015.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_016.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_017.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_018.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_019.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_020.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_021.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_022.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_023.tga | true | 0 px,0 px,2048 px,2048 px
+    car_pattern_024.tga | true | 0 px,0 px,2048 px,2048 px
+  Template blue fallback - color controls are in SHARED | true | 0 px,0 px,2048 px,2048 px

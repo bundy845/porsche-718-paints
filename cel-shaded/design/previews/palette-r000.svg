@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+  <rect width="1000" height="500" fill="#F4F1DA"/>
+  <text x="40" y="61" font-family="Arial,sans-serif" font-size="32" font-weight="bold" fill="#171D18">Porsche 718 GT4 · cel-shaded green</text>
+  <text x="40" y="95" font-family="Arial,sans-serif" font-size="18" fill="#355514">Proposed paint palette · r000</text>
+  <rect x="40" y="125" width="920" height="200" rx="22" fill="#B8F500" stroke="#171D18" stroke-width="8"/>
+  <path d="M52 166 Q285 122 525 150 Q742 176 943 138" fill="none" stroke="#E7FF66" stroke-width="27" stroke-linecap="round"/>
+  <path d="M75 285 Q400 240 643 279 L948 265 L948 314 L75 314 Z" fill="#4C7110"/>
+  <path d="M53 174 Q311 131 545 155 M59 306 Q365 261 710 291 M759 287 Q861 283 944 264" fill="none" stroke="#171D18" stroke-width="6" stroke-linecap="round"/>
+  <path d="M58 185 Q297 139 510 162 M70 296 Q365 270 620 290 M800 278 Q865 271 940 255" fill="none" stroke="#171D18" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="Arial,sans-serif" font-size="15" fill="#171D18">
+    <rect x="40" y="362" width="170" height="57" fill="#E7FF66"/><text x="40" y="443">Highlight · #E7FF66</text>
+    <rect x="227" y="362" width="170" height="57" fill="#B8F500"/><text x="227" y="443">Base · #B8F500</text>
+    <rect x="414" y="362" width="170" height="57" fill="#98CD00"/><text x="414" y="443">Midtone · #98CD00</text>
+    <rect x="601" y="362" width="170" height="57" fill="#4C7110"/><text x="601" y="443">Shadow · #4C7110</text>
+    <rect x="788" y="362" width="170" height="57" fill="#171D18"/><text x="788" y="443">Ink · #171D18</text>
+  </g>
+</svg>

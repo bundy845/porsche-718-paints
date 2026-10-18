@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="656" height="672" viewBox="0 0 164 168">
+  <title>2Old / 2Slow cel-shaded number panel - no painted race number</title>
+  <desc>Off-white header and footer; gray center reserved for the simulator. Hand-drawn vector lettering and loose frame strokes.</desc>
+  <path fill="#191e1c" opacity=".65" d="M12 12L159 10 157 163 10 161Z"/>
+  <path fill="#f2f0e5" d="M8 7L80 8 155 6 156 81 154 160 82 159 8 161 9 85Z"/>
+  <path fill="#60615a" d="M9 38L82 40 155 38 155 85 154 130 79 129 8 131Z"/>
+  <path fill="#444a45" d="M9 39L16 41 15 124 154 126 154 130 8 131Z"/>
+  <path fill="#75776d" opacity=".65" d="M17 42L151 41 151 45 17 45Z"/>
+  <g fill="none" stroke="#171e1b" stroke-linejoin="round" stroke-linecap="round">
+    <path stroke-width="2.7" d="M8 9L43 7 83 8 120 7 155 6 155 45 156 83 154 122 154 160 114 160 80 159 42 161 8 161 9 119 8 81 9 43Z"/>
+    <path stroke-width="2.1" d="M8 38L51 39 87 40 122 38 155 38M8 131L48 130 79 129 117 130 154 130"/>
+    <path stroke-width=".9" d="M4 32L5 69 4 96M12 4L58 5 81 4M104 3L139 3M160 50L159 90 160 115M24 165L62 164 98 165M122 164L151 165M12 43L48 43M92 134L146 134"/>
+    <path stroke-width="1.1" d="M1 13L19 12M13 1L12 22M144 4L163 4M151 1L150 17M1 151L20 152M14 145L13 167M144 156L163 157M158 147L157 167"/>
+    <!-- 2Old: deliberately imperfect, original monoline lettering. -->
+    <g transform="translate(44 15)" stroke-width="2.5">
+      <path d="M0 5Q2 -1 9 1Q17 2 13 8L1 20 15 20"/>
+      <path d="M28 1Q20 0 20 10Q19 21 28 21Q37 21 37 11Q37 1 28 1Z"/>
+      <path d="M44 0L43 18Q43 21 49 20"/>
+      <path d="M65 0L64 20M64 9Q54 4 54 14Q53 22 60 20L64 17"/>
+    </g>
+    <!-- 2Slow -->
+    <g transform="translate(39 136) scale(.96 .92)" stroke-width="2.4">
+      <path d="M0 5Q2 -1 9 1Q17 2 13 8L1 20 15 20"/>
+      <path d="M35 3Q22 -3 21 5Q20 10 29 11Q38 12 35 18Q31 24 20 19"/>
+      <path d="M43 0L42 17Q42 21 47 20"/>
+      <path d="M58 7Q50 6 50 14Q50 22 58 21Q65 21 65 14Q66 7 58 7Z"/>
+      <path d="M69 8L73 21 79 12 84 21 90 7"/>
+    </g>
+  </g>
+</svg>

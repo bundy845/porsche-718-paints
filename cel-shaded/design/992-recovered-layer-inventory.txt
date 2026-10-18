@@ -1,0 +1,67 @@
+source=C:\Dropbox\2 Old 2 Slow\Racing\iRacing\Paints\MWM Season 12\Porsche 992_2 Cup-Recovered.psd
+canvas=2048x2048 mode=DocumentMode.RGB bits=BitsPerChannelType.EIGHT
+Custom Spec Map | LayerSet | visible bounds=0,0,2048,2048
+  Custom Spec Map/Red Channel Metallic | LayerSet | hidden bounds=0,0,2048,2048
+    Custom Spec Map/Red Channel Metallic/Parts | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,1,2038,2048
+    Custom Spec Map/Red Channel Metallic/Base Paint | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Custom Spec Map/Green Channel Roughness | LayerSet | hidden bounds=0,0,2048,2048
+    Custom Spec Map/Green Channel Roughness/Parts | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,1,2038,2048
+    Custom Spec Map/Green Channel Roughness/Base Paint | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Custom Spec Map/Blue Channel Clearcoat | LayerSet | hidden bounds=0,0,2048,2048
+    Custom Spec Map/Blue Channel Clearcoat/Base Paint | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Custom Spec Map/Hood copy | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=199,1048,804,1623
+  Custom Spec Map/Spec Alpha Channel Shupp | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Custom Spec Map/Spec Alpha Channel | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+Turn Off Before Exporting TGA | LayerSet | visible bounds=0,0,2048,2048
+  Turn Off Before Exporting TGA/Wire | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=6,9,2041,2040
+  Turn Off Before Exporting TGA/Mask | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Turn Off Before Exporting TGA/Number Blocks | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=782,815,902,1857
+  Turn Off Before Exporting TGA/Sponsor Blocks | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=521,154,1978,1903
+  Turn Off Before Exporting TGA/Car_Mandatory | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=0,1,2038,2048
+  Turn Off Before Exporting TGA/Windshield Name Locations | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=1173,461,1705,618
+Paintable Area | LayerSet | visible bounds=0,0,2048,2160
+  Paintable Area/Color Change Logos | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=611,58,654,72
+  Paintable Area/Super Cup Branding copy | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=13,307,1368,1992
+  Paintable Area/Super Cup Branding | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=10,144,1369,1992
+  Paintable Area/Car_decal copy | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=92,3,2012,2044
+  Paintable Area/Car_decal | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=92,3,2012,2044
+  Paintable Area/pitbox colors | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=182,2021,243,2045
+  Paintable Area/Car Patterns | LayerSet | visible bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_001.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/side window addition | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_002.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_003.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_004.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_005.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_006.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_007.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_008.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_009.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_010.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_011.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_012.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_013.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_014.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_015.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_016.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_017.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_018.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_019.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_020.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_021.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_022.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_023.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+    Paintable Area/Car Patterns/car_pattern_024.tga | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Paintable Area/2old2slow logo - Passenger Door | ArtLayer | visible kind=LayerKind.SMARTOBJECT clipped=false bounds=922,734,1148,946
+  Paintable Area/2old2slow logo - Driver Door | ArtLayer | visible kind=LayerKind.SMARTOBJECT clipped=false bounds=932,1727,1158,1939
+  Paintable Area/You don't have to get ready if you stay ready | ArtLayer | visible kind=LayerKind.TEXT clipped=false bounds=646,72,1160,100
+  Paintable Area/Nothing echoes louder than the truth | ArtLayer | visible kind=LayerKind.TEXT clipped=false bounds=171,72,613,98
+  Paintable Area/Me outlined | ArtLayer | visible kind=LayerKind.SMARTOBJECT clipped=false bounds=772,1890,908,2160
+  Paintable Area/tito-s-vodka-barenfang-whiskey-chicago-golf-show-cmyk-a369bcec6e0b51079a67fc72f62da4c1 | ArtLayer | visible kind=LayerKind.SMARTOBJECT clipped=false bounds=1003,1180,1401,1491
+  Paintable Area/rum-captain-morgan-distilled-beverage-seagram-diageo-rhum-afbb0805ee59accf195d40f32afa42b3 | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=994,1172,1398,1499
+  Paintable Area/Mirrors and Wing | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=1003,319,2021,2045
+  Paintable Area/Color Fill 1 | ArtLayer | hidden kind=LayerKind.SOLIDFILL clipped=true bounds=0,0,2048,2048
+  Paintable Area/Accents | LayerSet | visible bounds=199,1048,804,1623
+    Paintable Area/Accents/Hood | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=199,1048,804,1623
+  Paintable Area/Justin Base | ArtLayer | hidden kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
+  Paintable Area/Rick Base | ArtLayer | visible kind=LayerKind.NORMAL clipped=false bounds=0,0,2048,2048
