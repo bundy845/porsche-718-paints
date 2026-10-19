@@ -1,0 +1,5819 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-19",
+  "template": {
+    "car": "Porsche 718 Cayman GT4 Clubsport",
+    "car_folder": "porsche718gt4",
+    "file": "Porsche 718 GT4.psd",
+    "width": 2048,
+    "height": 2048,
+    "bit_depth": 8,
+    "color_mode": "RGB",
+    "psd_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+    "archive_sha256": "819827063b1c4877a8ef608d115b5d26bfdd7f480866f3c100de738a490780bf",
+    "archive_member": "Porsche 718 GT4.psd",
+    "archive_member_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+    "psd_matches_archive": true,
+    "source_path_from_mapping": "../../../../cel-shaded/inputs/Porsche 718 GT4.psd",
+    "wire_sha256": "6411acd9a76126b6f436e329e4abda9e917a28767ef2d381bf38d1fa9de8666a",
+    "template_release": "Not supplied; hashes identify this exact saved version."
+  },
+  "coordinate_system": "Native 2048 pixels, origin top-left, x right, y down; bbox [x0,y0,x1,y1) is half-open. Normalized values preserve y-down, not a renderer UV convention.",
+  "status_scope": "Panel status confirms physical identity only. Read orientation, provisional mask geometry, features, and seams independently.",
+  "profile_complete": false,
+  "panels": [
+    {
+      "id": "I002",
+      "name": "Shared vertical front louver surround ahead of both front wheels",
+      "status": "confirmed",
+      "bbox_px": [
+        679,
+        6,
+        795,
+        131
+      ],
+      "bbox_normalized": [
+        0.33154296875,
+        0.0029296875,
+        0.38818359375,
+        0.06396484375
+      ],
+      "mask_file": "masks/I002.png",
+      "mask_pixels": 5065,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Large 2 appears on both sides: shared source. Driver-side digit upright; passenger-side digit reversed/inverted. An asymmetric letter/axis check is needed to distinguish reflection from rotation exactly. Separate small fins have separate UV pieces.",
+      "evidence": [
+        "K01",
+        "K02",
+        "X01"
+      ],
+      "diagnostic_label": "002",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 5065,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I003",
+      "name": "Unidentified reference component I003",
+      "status": "unknown",
+      "bbox_px": [
+        816,
+        8,
+        1170,
+        18
+      ],
+      "bbox_normalized": [
+        0.3984375,
+        0.00390625,
+        0.5712890625,
+        0.0087890625
+      ],
+      "mask_file": "masks/I003.png",
+      "mask_pixels": 3304,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "003",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 3304,
+        "selected_pixels": 3304,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I004",
+      "name": "Rear wing underside and wrapped rear lip",
+      "status": "confirmed",
+      "bbox_px": [
+        6,
+        9,
+        636,
+        227
+      ],
+      "bbox_normalized": [
+        0.0029296875,
+        0.00439453125,
+        0.310546875,
+        0.11083984375
+      ],
+      "mask_file": "masks/I004.png",
+      "mask_pixels": 85283,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Underside uses 004, including the orange lip visible above. Arrows point toward driver/left across span when viewed from rear; exact top/bottom edge correspondence remains uncalibrated.",
+      "evidence": [
+        "D07",
+        "D09",
+        "D10"
+      ],
+      "diagnostic_label": "004",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 85283,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I005",
+      "name": "Unidentified reference component I005",
+      "status": "unknown",
+      "bbox_px": [
+        317,
+        9,
+        373,
+        65
+      ],
+      "bbox_normalized": [
+        0.15478515625,
+        0.00439453125,
+        0.18212890625,
+        0.03173828125
+      ],
+      "mask_file": "masks/I005.png",
+      "mask_pixels": 2360,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "005",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2360,
+        "selected_pixels": 2360,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I006",
+      "name": "Unidentified reference component I006",
+      "status": "unknown",
+      "bbox_px": [
+        231,
+        10,
+        292,
+        70
+      ],
+      "bbox_normalized": [
+        0.11279296875,
+        0.0048828125,
+        0.142578125,
+        0.0341796875
+      ],
+      "mask_file": "masks/I006.png",
+      "mask_pixels": 2909,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "006",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2909,
+        "selected_pixels": 2909,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I007",
+      "name": "Rear bumper outer shell",
+      "status": "confirmed",
+      "bbox_px": [
+        978,
+        10,
+        2042,
+        282
+      ],
+      "bbox_normalized": [
+        0.4775390625,
+        0.0048828125,
+        0.9970703125,
+        0.1376953125
+      ],
+      "mask_file": "masks/I007.png",
+      "mask_pixels": 157590,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x travels from driver side toward passenger side around rear; +y goes down the rear face. Corners distort.",
+      "evidence": [
+        "G04",
+        "G01",
+        "G03",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "007",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 157590,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I008",
+      "name": "Unidentified reference component I008",
+      "status": "unknown",
+      "bbox_px": [
+        640,
+        31,
+        678,
+        66
+      ],
+      "bbox_normalized": [
+        0.3125,
+        0.01513671875,
+        0.3310546875,
+        0.0322265625
+      ],
+      "mask_file": "masks/I008.png",
+      "mask_pixels": 816,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "008",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 816,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I009",
+      "name": "Shared front brake-duct outer surround, both sides",
+      "status": "confirmed",
+      "bbox_px": [
+        801,
+        58,
+        1036,
+        169
+      ],
+      "bbox_normalized": [
+        0.39111328125,
+        0.0283203125,
+        0.505859375,
+        0.08251953125
+      ],
+      "mask_file": "masks/I009.png",
+      "mask_pixels": 13009,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "The same 009 appears on both front openings. Driver-side digits upright; passenger-side digits rotated 180 degrees. +x points outward toward each front wheel. Independent left/right graphics are impossible on these shared texels.",
+      "evidence": [
+        "D02",
+        "D03"
+      ],
+      "diagnostic_label": "009",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 13009,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I010",
+      "name": "Unidentified reference component I010",
+      "status": "unknown",
+      "bbox_px": [
+        643,
+        69,
+        682,
+        111
+      ],
+      "bbox_normalized": [
+        0.31396484375,
+        0.03369140625,
+        0.3330078125,
+        0.05419921875
+      ],
+      "mask_file": "masks/I010.png",
+      "mask_pixels": 910,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "010",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 910,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I011",
+      "name": "Unidentified reference component I011",
+      "status": "unknown",
+      "bbox_px": [
+        703,
+        84,
+        728,
+        115
+      ],
+      "bbox_normalized": [
+        0.34326171875,
+        0.041015625,
+        0.35546875,
+        0.05615234375
+      ],
+      "mask_file": "masks/I011.png",
+      "mask_pixels": 419,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "011",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 419,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I012",
+      "name": "Unidentified reference component I012",
+      "status": "unknown",
+      "bbox_px": [
+        731,
+        86,
+        753,
+        112
+      ],
+      "bbox_normalized": [
+        0.35693359375,
+        0.0419921875,
+        0.36767578125,
+        0.0546875
+      ],
+      "mask_file": "masks/I012.png",
+      "mask_pixels": 335,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "012",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 335,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I013",
+      "name": "Unidentified reference component I013",
+      "status": "unknown",
+      "bbox_px": [
+        1510,
+        101,
+        1533,
+        124
+      ],
+      "bbox_normalized": [
+        0.7373046875,
+        0.04931640625,
+        0.74853515625,
+        0.060546875
+      ],
+      "mask_file": "masks/I013.png",
+      "mask_pixels": 395,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "013",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 395,
+        "selected_pixels": 395,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I014",
+      "name": "Unidentified reference component I014",
+      "status": "unknown",
+      "bbox_px": [
+        1541,
+        105,
+        1607,
+        122
+      ],
+      "bbox_normalized": [
+        0.75244140625,
+        0.05126953125,
+        0.78466796875,
+        0.0595703125
+      ],
+      "mask_file": "masks/I014.png",
+      "mask_pixels": 1049,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "014",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1049,
+        "selected_pixels": 1049,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I015",
+      "name": "Unidentified reference component I015",
+      "status": "unknown",
+      "bbox_px": [
+        658,
+        116,
+        672,
+        131
+      ],
+      "bbox_normalized": [
+        0.3212890625,
+        0.056640625,
+        0.328125,
+        0.06396484375
+      ],
+      "mask_file": "masks/I015.png",
+      "mask_pixels": 170,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "015",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 170,
+        "selected_pixels": 170,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I016",
+      "name": "Unidentified reference component I016",
+      "status": "unknown",
+      "bbox_px": [
+        717,
+        120,
+        733,
+        136
+      ],
+      "bbox_normalized": [
+        0.35009765625,
+        0.05859375,
+        0.35791015625,
+        0.06640625
+      ],
+      "mask_file": "masks/I016.png",
+      "mask_pixels": 192,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "016",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 192,
+        "selected_pixels": 192,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I017",
+      "name": "Unidentified reference component I017",
+      "status": "unknown",
+      "bbox_px": [
+        779,
+        136,
+        1048,
+        224
+      ],
+      "bbox_normalized": [
+        0.38037109375,
+        0.06640625,
+        0.51171875,
+        0.109375
+      ],
+      "mask_file": "masks/I017.png",
+      "mask_pixels": 8337,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "017",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 8337,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I018",
+      "name": "Unidentified reference component I018",
+      "status": "unknown",
+      "bbox_px": [
+        650,
+        137,
+        686,
+        140
+      ],
+      "bbox_normalized": [
+        0.3173828125,
+        0.06689453125,
+        0.3349609375,
+        0.068359375
+      ],
+      "mask_file": "masks/I018.png",
+      "mask_pixels": 108,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "018",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 108,
+        "selected_pixels": 108,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I019",
+      "name": "Unidentified reference component I019",
+      "status": "unknown",
+      "bbox_px": [
+        707,
+        137,
+        744,
+        140
+      ],
+      "bbox_normalized": [
+        0.34521484375,
+        0.06689453125,
+        0.36328125,
+        0.068359375
+      ],
+      "mask_file": "masks/I019.png",
+      "mask_pixels": 109,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "019",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 109,
+        "selected_pixels": 109,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I020",
+      "name": "Shared front brake-duct inner return",
+      "status": "confirmed",
+      "bbox_px": [
+        590,
+        154,
+        846,
+        277
+      ],
+      "bbox_normalized": [
+        0.2880859375,
+        0.0751953125,
+        0.4130859375,
+        0.13525390625
+      ],
+      "mask_file": "masks/I020.png",
+      "mask_pixels": 17960,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "020 appears on the vertical inner return behind the 009 surround in both openings. Duct mesh stays separate. Complete interior extent and rotation need more sampling.",
+      "evidence": [
+        "D02",
+        "D03"
+      ],
+      "diagnostic_label": "020",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 17960,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I021",
+      "name": "Rear bumper center inset",
+      "status": "confirmed",
+      "bbox_px": [
+        1304,
+        175,
+        1715,
+        309
+      ],
+      "bbox_normalized": [
+        0.63671875,
+        0.08544921875,
+        0.83740234375,
+        0.15087890625
+      ],
+      "mask_file": "masks/I021.png",
+      "mask_pixels": 38352,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "021 reads upright from behind; +x goes toward passenger/right, +y down. The tow strap and circular tow opening remain separate.",
+      "evidence": [
+        "G04",
+        "D07",
+        "D08"
+      ],
+      "diagnostic_label": "021",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 38352,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I022",
+      "name": "Unidentified reference component I022",
+      "status": "unknown",
+      "bbox_px": [
+        874,
+        197,
+        902,
+        209
+      ],
+      "bbox_normalized": [
+        0.4267578125,
+        0.09619140625,
+        0.4404296875,
+        0.10205078125
+      ],
+      "mask_file": "masks/I022.png",
+      "mask_pixels": 302,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "022",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 294,
+        "selected_pixels": 302,
+        "opaque_fraction": 0.97351,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I023",
+      "name": "Unidentified reference component I023",
+      "status": "unknown",
+      "bbox_px": [
+        854,
+        199,
+        863,
+        208
+      ],
+      "bbox_normalized": [
+        0.4169921875,
+        0.09716796875,
+        0.42138671875,
+        0.1015625
+      ],
+      "mask_file": "masks/I023.png",
+      "mask_pixels": 58,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "023",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 58,
+        "selected_pixels": 58,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I024",
+      "name": "Unidentified reference component I024",
+      "status": "unknown",
+      "bbox_px": [
+        912,
+        202,
+        954,
+        206
+      ],
+      "bbox_normalized": [
+        0.4453125,
+        0.0986328125,
+        0.4658203125,
+        0.1005859375
+      ],
+      "mask_file": "masks/I024.png",
+      "mask_pixels": 166,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "024",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 166,
+        "selected_pixels": 166,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I025",
+      "name": "Unidentified reference component I025",
+      "status": "unknown",
+      "bbox_px": [
+        922,
+        208,
+        939,
+        224
+      ],
+      "bbox_normalized": [
+        0.4501953125,
+        0.1015625,
+        0.45849609375,
+        0.109375
+      ],
+      "mask_file": "masks/I025.png",
+      "mask_pixels": 217,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "025",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 217,
+        "selected_pixels": 217,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I026",
+      "name": "Unidentified reference component I026",
+      "status": "unknown",
+      "bbox_px": [
+        953,
+        214,
+        1030,
+        238
+      ],
+      "bbox_normalized": [
+        0.46533203125,
+        0.1044921875,
+        0.5029296875,
+        0.1162109375
+      ],
+      "mask_file": "masks/I026.png",
+      "mask_pixels": 1619,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "026",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1619,
+        "selected_pixels": 1619,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I027",
+      "name": "Unidentified reference component I027",
+      "status": "unknown",
+      "bbox_px": [
+        874,
+        215,
+        902,
+        226
+      ],
+      "bbox_normalized": [
+        0.4267578125,
+        0.10498046875,
+        0.4404296875,
+        0.1103515625
+      ],
+      "mask_file": "masks/I027.png",
+      "mask_pixels": 276,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "027",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 276,
+        "selected_pixels": 276,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I028",
+      "name": "Unidentified reference component I028",
+      "status": "unknown",
+      "bbox_px": [
+        855,
+        217,
+        864,
+        226
+      ],
+      "bbox_normalized": [
+        0.41748046875,
+        0.10595703125,
+        0.421875,
+        0.1103515625
+      ],
+      "mask_file": "masks/I028.png",
+      "mask_pixels": 61,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "028",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 61,
+        "selected_pixels": 61,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I029",
+      "name": "Unidentified reference component I029",
+      "status": "unknown",
+      "bbox_px": [
+        841,
+        233,
+        917,
+        257
+      ],
+      "bbox_normalized": [
+        0.41064453125,
+        0.11376953125,
+        0.44775390625,
+        0.12548828125
+      ],
+      "mask_file": "masks/I029.png",
+      "mask_pixels": 1601,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "029",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1601,
+        "selected_pixels": 1601,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I030",
+      "name": "Rear wing top",
+      "status": "confirmed",
+      "bbox_px": [
+        12,
+        234,
+        631,
+        445
+      ],
+      "bbox_normalized": [
+        0.005859375,
+        0.1142578125,
+        0.30810546875,
+        0.21728515625
+      ],
+      "mask_file": "masks/I030.png",
+      "mask_pixels": 78763,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x runs passenger/right to driver/left across wing; digits upside down from rear, so +y runs toward vehicle front on the visible upper face.",
+      "evidence": [
+        "G02",
+        "G05",
+        "D06",
+        "D08"
+      ],
+      "diagnostic_label": "030",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 78763,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I031",
+      "name": "Unidentified reference component I031",
+      "status": "unknown",
+      "bbox_px": [
+        968,
+        244,
+        987,
+        263
+      ],
+      "bbox_normalized": [
+        0.47265625,
+        0.119140625,
+        0.48193359375,
+        0.12841796875
+      ],
+      "mask_file": "masks/I031.png",
+      "mask_pixels": 278,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "031",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 278,
+        "selected_pixels": 278,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I032",
+      "name": "Unidentified reference component I032",
+      "status": "unknown",
+      "bbox_px": [
+        1020,
+        247,
+        1047,
+        259
+      ],
+      "bbox_normalized": [
+        0.498046875,
+        0.12060546875,
+        0.51123046875,
+        0.12646484375
+      ],
+      "mask_file": "masks/I032.png",
+      "mask_pixels": 277,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "032",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 277,
+        "selected_pixels": 277,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I033",
+      "name": "Unidentified reference component I033",
+      "status": "unknown",
+      "bbox_px": [
+        1050,
+        248,
+        1060,
+        257
+      ],
+      "bbox_normalized": [
+        0.5126953125,
+        0.12109375,
+        0.517578125,
+        0.12548828125
+      ],
+      "mask_file": "masks/I033.png",
+      "mask_pixels": 72,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "033",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 72,
+        "selected_pixels": 72,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I034",
+      "name": "Unidentified reference component I034",
+      "status": "unknown",
+      "bbox_px": [
+        1020,
+        262,
+        1046,
+        272
+      ],
+      "bbox_normalized": [
+        0.498046875,
+        0.1279296875,
+        0.5107421875,
+        0.1328125
+      ],
+      "mask_file": "masks/I034.png",
+      "mask_pixels": 252,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "034",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 252,
+        "selected_pixels": 252,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I035",
+      "name": "Unidentified reference component I035",
+      "status": "unknown",
+      "bbox_px": [
+        1049,
+        262,
+        1059,
+        272
+      ],
+      "bbox_normalized": [
+        0.51220703125,
+        0.1279296875,
+        0.51708984375,
+        0.1328125
+      ],
+      "mask_file": "masks/I035.png",
+      "mask_pixels": 68,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "035",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 68,
+        "selected_pixels": 68,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I036",
+      "name": "Unidentified reference component I036",
+      "status": "unknown",
+      "bbox_px": [
+        954,
+        268,
+        1001,
+        270
+      ],
+      "bbox_normalized": [
+        0.4658203125,
+        0.130859375,
+        0.48876953125,
+        0.1318359375
+      ],
+      "mask_file": "masks/I036.png",
+      "mask_pixels": 94,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "036",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 94,
+        "selected_pixels": 94,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I037",
+      "name": "Unidentified reference component I037",
+      "status": "unknown",
+      "bbox_px": [
+        841,
+        277,
+        945,
+        420
+      ],
+      "bbox_normalized": [
+        0.41064453125,
+        0.13525390625,
+        0.46142578125,
+        0.205078125
+      ],
+      "mask_file": "masks/I037.png",
+      "mask_pixels": 1966,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "037",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1966,
+        "selected_pixels": 1966,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I038",
+      "name": "Unidentified reference component I038",
+      "status": "unknown",
+      "bbox_px": [
+        1002,
+        279,
+        1107,
+        421
+      ],
+      "bbox_normalized": [
+        0.4892578125,
+        0.13623046875,
+        0.54052734375,
+        0.20556640625
+      ],
+      "mask_file": "masks/I038.png",
+      "mask_pixels": 1733,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "038",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1733,
+        "selected_pixels": 1733,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I039",
+      "name": "Unidentified reference component I039",
+      "status": "unknown",
+      "bbox_px": [
+        639,
+        308,
+        688,
+        389
+      ],
+      "bbox_normalized": [
+        0.31201171875,
+        0.150390625,
+        0.3359375,
+        0.18994140625
+      ],
+      "mask_file": "masks/I039.png",
+      "mask_pixels": 932,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "039",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 932,
+        "selected_pixels": 932,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I040",
+      "name": "Rear deck trailing lip, upper face",
+      "status": "confirmed",
+      "bbox_px": [
+        1604,
+        308,
+        2042,
+        395
+      ],
+      "bbox_normalized": [
+        0.783203125,
+        0.150390625,
+        0.9970703125,
+        0.19287109375
+      ],
+      "mask_file": "masks/I040.png",
+      "mask_pixels": 28283,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "040 is the orange horizontal ledge above the tail lamp/badge strip; distinct from the elevated rear wing. +x points toward driver/left; digits upside down when viewed from rear.",
+      "evidence": [
+        "D06",
+        "D08"
+      ],
+      "diagnostic_label": "040",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 28283,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I041",
+      "name": "Rear deck trailing lip, rear-facing face",
+      "status": "confirmed",
+      "bbox_px": [
+        1126,
+        311,
+        1613,
+        349
+      ],
+      "bbox_normalized": [
+        0.5498046875,
+        0.15185546875,
+        0.78759765625,
+        0.17041015625
+      ],
+      "mask_file": "masks/I041.png",
+      "mask_pixels": 10890,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "041 is the narrow face just above PORSCHE. +x points toward driver/left; lettering upside down from rear. This is not the wing underside.",
+      "evidence": [
+        "D07",
+        "D08",
+        "D09"
+      ],
+      "diagnostic_label": "041",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 10890,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I042",
+      "name": "Unidentified reference component I042",
+      "status": "unknown",
+      "bbox_px": [
+        994,
+        326,
+        1043,
+        408
+      ],
+      "bbox_normalized": [
+        0.4853515625,
+        0.1591796875,
+        0.50927734375,
+        0.19921875
+      ],
+      "mask_file": "masks/I042.png",
+      "mask_pixels": 910,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "042",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 910,
+        "selected_pixels": 910,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I043",
+      "name": "Unidentified reference component I043",
+      "status": "unknown",
+      "bbox_px": [
+        1114,
+        354,
+        1592,
+        400
+      ],
+      "bbox_normalized": [
+        0.5439453125,
+        0.1728515625,
+        0.77734375,
+        0.1953125
+      ],
+      "mask_file": "masks/I043.png",
+      "mask_pixels": 11529,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "043",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 11529,
+        "selected_pixels": 11529,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I044",
+      "name": "Driver/left wing outer endplate",
+      "status": "confirmed",
+      "bbox_px": [
+        317,
+        387,
+        467,
+        459
+      ],
+      "bbox_normalized": [
+        0.15478515625,
+        0.18896484375,
+        0.22802734375,
+        0.22412109375
+      ],
+      "mask_file": "masks/I044.png",
+      "mask_pixels": 8079,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "044 upright from outside driver side; +x points toward rear, +y down.",
+      "evidence": [
+        "D07",
+        "C02"
+      ],
+      "diagnostic_label": "044",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 8079,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I045",
+      "name": "Passenger/right wing outer endplate",
+      "status": "confirmed",
+      "bbox_px": [
+        151,
+        388,
+        299,
+        458
+      ],
+      "bbox_normalized": [
+        0.07373046875,
+        0.189453125,
+        0.14599609375,
+        0.2236328125
+      ],
+      "mask_file": "masks/I045.png",
+      "mask_pixels": 7934,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "045 upright from outside passenger side; +x points toward front, +y down. Do not copy driver text by reflection.",
+      "evidence": [
+        "D11",
+        "C02"
+      ],
+      "diagnostic_label": "045",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 7934,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I046",
+      "name": "Unidentified reference component I046",
+      "status": "unknown",
+      "bbox_px": [
+        1431,
+        390,
+        1617,
+        498
+      ],
+      "bbox_normalized": [
+        0.69873046875,
+        0.1904296875,
+        0.78955078125,
+        0.2431640625
+      ],
+      "mask_file": "masks/I046.png",
+      "mask_pixels": 6371,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "046",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 6371,
+        "selected_pixels": 6371,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I047",
+      "name": "Unidentified reference component I047",
+      "status": "unknown",
+      "bbox_px": [
+        1889,
+        401,
+        1939,
+        451
+      ],
+      "bbox_normalized": [
+        0.92236328125,
+        0.19580078125,
+        0.94677734375,
+        0.22021484375
+      ],
+      "mask_file": "masks/I047.png",
+      "mask_pixels": 1949,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "047",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1949,
+        "selected_pixels": 1949,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I048",
+      "name": "Unidentified reference component I048",
+      "status": "unknown",
+      "bbox_px": [
+        1084,
+        404,
+        1223,
+        497
+      ],
+      "bbox_normalized": [
+        0.529296875,
+        0.197265625,
+        0.59716796875,
+        0.24267578125
+      ],
+      "mask_file": "masks/I048.png",
+      "mask_pixels": 8112,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "048",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 4,
+        "selected_pixels": 8112,
+        "opaque_fraction": 0.000493,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I049",
+      "name": "Unidentified reference component I049",
+      "status": "unknown",
+      "bbox_px": [
+        1571,
+        407,
+        1665,
+        449
+      ],
+      "bbox_normalized": [
+        0.76708984375,
+        0.19873046875,
+        0.81298828125,
+        0.21923828125
+      ],
+      "mask_file": "masks/I049.png",
+      "mask_pixels": 2736,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "049",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2736,
+        "selected_pixels": 2736,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I050",
+      "name": "Unidentified reference component I050",
+      "status": "unknown",
+      "bbox_px": [
+        1738,
+        410,
+        1789,
+        461
+      ],
+      "bbox_normalized": [
+        0.8486328125,
+        0.2001953125,
+        0.87353515625,
+        0.22509765625
+      ],
+      "mask_file": "masks/I050.png",
+      "mask_pixels": 1972,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "050",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1964,
+        "selected_pixels": 1972,
+        "opaque_fraction": 0.995943,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I051",
+      "name": "Unidentified reference component I051",
+      "status": "unknown",
+      "bbox_px": [
+        1260,
+        418,
+        1368,
+        476
+      ],
+      "bbox_normalized": [
+        0.615234375,
+        0.2041015625,
+        0.66796875,
+        0.232421875
+      ],
+      "mask_file": "masks/I051.png",
+      "mask_pixels": 4520,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "051",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 4520,
+        "selected_pixels": 4520,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I052",
+      "name": "Unidentified reference component I052",
+      "status": "unknown",
+      "bbox_px": [
+        1843,
+        422,
+        1880,
+        434
+      ],
+      "bbox_normalized": [
+        0.89990234375,
+        0.2060546875,
+        0.91796875,
+        0.2119140625
+      ],
+      "mask_file": "masks/I052.png",
+      "mask_pixels": 402,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "052",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 402,
+        "selected_pixels": 402,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I053",
+      "name": "Unidentified reference component I053",
+      "status": "unknown",
+      "bbox_px": [
+        900,
+        425,
+        995,
+        493
+      ],
+      "bbox_normalized": [
+        0.439453125,
+        0.20751953125,
+        0.48583984375,
+        0.24072265625
+      ],
+      "mask_file": "masks/I053.png",
+      "mask_pixels": 877,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "053",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 877,
+        "selected_pixels": 877,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I054",
+      "name": "Unidentified reference component I054",
+      "status": "unknown",
+      "bbox_px": [
+        1697,
+        430,
+        1732,
+        443
+      ],
+      "bbox_normalized": [
+        0.82861328125,
+        0.2099609375,
+        0.845703125,
+        0.21630859375
+      ],
+      "mask_file": "masks/I054.png",
+      "mask_pixels": 387,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "054",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 387,
+        "selected_pixels": 387,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I055",
+      "name": "Unidentified reference component I055",
+      "status": "unknown",
+      "bbox_px": [
+        541,
+        433,
+        593,
+        476
+      ],
+      "bbox_normalized": [
+        0.26416015625,
+        0.21142578125,
+        0.28955078125,
+        0.232421875
+      ],
+      "mask_file": "masks/I055.png",
+      "mask_pixels": 1992,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "055",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1992,
+        "selected_pixels": 1992,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I056",
+      "name": "Unidentified reference component I056",
+      "status": "unknown",
+      "bbox_px": [
+        1013,
+        436,
+        1065,
+        479
+      ],
+      "bbox_normalized": [
+        0.49462890625,
+        0.212890625,
+        0.52001953125,
+        0.23388671875
+      ],
+      "mask_file": "masks/I056.png",
+      "mask_pixels": 1977,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "056",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1977,
+        "selected_pixels": 1977,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I057",
+      "name": "Unidentified reference component I057",
+      "status": "unknown",
+      "bbox_px": [
+        936,
+        437,
+        988,
+        484
+      ],
+      "bbox_normalized": [
+        0.45703125,
+        0.21337890625,
+        0.482421875,
+        0.236328125
+      ],
+      "mask_file": "masks/I057.png",
+      "mask_pixels": 2191,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "057",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2191,
+        "selected_pixels": 2191,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I058",
+      "name": "Unidentified reference component I058",
+      "status": "unknown",
+      "bbox_px": [
+        1828,
+        455,
+        1855,
+        470
+      ],
+      "bbox_normalized": [
+        0.892578125,
+        0.22216796875,
+        0.90576171875,
+        0.2294921875
+      ],
+      "mask_file": "masks/I058.png",
+      "mask_pixels": 205,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "058",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 205,
+        "selected_pixels": 205,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I059",
+      "name": "Unidentified reference component I059",
+      "status": "unknown",
+      "bbox_px": [
+        911,
+        456,
+        919,
+        464
+      ],
+      "bbox_normalized": [
+        0.44482421875,
+        0.22265625,
+        0.44873046875,
+        0.2265625
+      ],
+      "mask_file": "masks/I059.png",
+      "mask_pixels": 50,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "059",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 50,
+        "selected_pixels": 50,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I060",
+      "name": "Unidentified reference component I060",
+      "status": "unknown",
+      "bbox_px": [
+        929,
+        456,
+        931,
+        480
+      ],
+      "bbox_normalized": [
+        0.45361328125,
+        0.22265625,
+        0.45458984375,
+        0.234375
+      ],
+      "mask_file": "masks/I060.png",
+      "mask_pixels": 48,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "060",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 48,
+        "selected_pixels": 48,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I061",
+      "name": "Unidentified reference component I061",
+      "status": "unknown",
+      "bbox_px": [
+        1618,
+        456,
+        1668,
+        493
+      ],
+      "bbox_normalized": [
+        0.7900390625,
+        0.22265625,
+        0.814453125,
+        0.24072265625
+      ],
+      "mask_file": "masks/I061.png",
+      "mask_pixels": 1121,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "061",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1121,
+        "selected_pixels": 1121,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I062",
+      "name": "Unidentified reference component I062",
+      "status": "unknown",
+      "bbox_px": [
+        1865,
+        459,
+        1949,
+        469
+      ],
+      "bbox_normalized": [
+        0.91064453125,
+        0.22412109375,
+        0.95166015625,
+        0.22900390625
+      ],
+      "mask_file": "masks/I062.png",
+      "mask_pixels": 743,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "062",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 743,
+        "selected_pixels": 743,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I063",
+      "name": "Passenger/right wing inner endplate",
+      "status": "confirmed",
+      "bbox_px": [
+        153,
+        465,
+        301,
+        533
+      ],
+      "bbox_normalized": [
+        0.07470703125,
+        0.22705078125,
+        0.14697265625,
+        0.26025390625
+      ],
+      "mask_file": "masks/I063.png",
+      "mask_pixels": 7621,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "063 upright on inner face. Exact fore/aft arrow direction is not readable in these views.",
+      "evidence": [
+        "D07",
+        "D10"
+      ],
+      "diagnostic_label": "063",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 7621,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I064",
+      "name": "Driver/left wing inner endplate",
+      "status": "confirmed",
+      "bbox_px": [
+        315,
+        465,
+        463,
+        533
+      ],
+      "bbox_normalized": [
+        0.15380859375,
+        0.22705078125,
+        0.22607421875,
+        0.26025390625
+      ],
+      "mask_file": "masks/I064.png",
+      "mask_pixels": 7598,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "064 upright on inner face. Exact fore/aft arrow direction is not readable in this view.",
+      "evidence": [
+        "D09"
+      ],
+      "diagnostic_label": "064",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 7598,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I065",
+      "name": "Unidentified reference component I065",
+      "status": "unknown",
+      "bbox_px": [
+        1680,
+        466,
+        1706,
+        482
+      ],
+      "bbox_normalized": [
+        0.8203125,
+        0.2275390625,
+        0.8330078125,
+        0.2353515625
+      ],
+      "mask_file": "masks/I065.png",
+      "mask_pixels": 272,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "065",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 272,
+        "selected_pixels": 272,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I066",
+      "name": "Unidentified reference component I066",
+      "status": "unknown",
+      "bbox_px": [
+        1709,
+        468,
+        1792,
+        477
+      ],
+      "bbox_normalized": [
+        0.83447265625,
+        0.228515625,
+        0.875,
+        0.23291015625
+      ],
+      "mask_file": "masks/I066.png",
+      "mask_pixels": 730,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "066",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 730,
+        "selected_pixels": 730,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I067",
+      "name": "Unidentified reference component I067",
+      "status": "unknown",
+      "bbox_px": [
+        911,
+        470,
+        919,
+        478
+      ],
+      "bbox_normalized": [
+        0.44482421875,
+        0.2294921875,
+        0.44873046875,
+        0.2333984375
+      ],
+      "mask_file": "masks/I067.png",
+      "mask_pixels": 51,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "067",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 51,
+        "selected_pixels": 51,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I068",
+      "name": "Unidentified reference component I068",
+      "status": "unknown",
+      "bbox_px": [
+        1851,
+        471,
+        1949,
+        501
+      ],
+      "bbox_normalized": [
+        0.90380859375,
+        0.22998046875,
+        0.95166015625,
+        0.24462890625
+      ],
+      "mask_file": "masks/I068.png",
+      "mask_pixels": 2809,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "068",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2809,
+        "selected_pixels": 2809,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I069",
+      "name": "Unidentified reference component I069",
+      "status": "unknown",
+      "bbox_px": [
+        531,
+        473,
+        627,
+        541
+      ],
+      "bbox_normalized": [
+        0.25927734375,
+        0.23095703125,
+        0.30615234375,
+        0.26416015625
+      ],
+      "mask_file": "masks/I069.png",
+      "mask_pixels": 960,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "069",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 957,
+        "selected_pixels": 960,
+        "opaque_fraction": 0.996875,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I070",
+      "name": "Unidentified reference component I070",
+      "status": "unknown",
+      "bbox_px": [
+        1826,
+        475,
+        1841,
+        497
+      ],
+      "bbox_normalized": [
+        0.8916015625,
+        0.23193359375,
+        0.89892578125,
+        0.24267578125
+      ],
+      "mask_file": "masks/I070.png",
+      "mask_pixels": 217,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "070",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 217,
+        "selected_pixels": 217,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I071",
+      "name": "Unidentified reference component I071",
+      "status": "unknown",
+      "bbox_px": [
+        1255,
+        477,
+        1351,
+        492
+      ],
+      "bbox_normalized": [
+        0.61279296875,
+        0.23291015625,
+        0.65966796875,
+        0.240234375
+      ],
+      "mask_file": "masks/I071.png",
+      "mask_pixels": 728,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "071",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 728,
+        "selected_pixels": 728,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I072",
+      "name": "Unidentified reference component I072",
+      "status": "unknown",
+      "bbox_px": [
+        541,
+        481,
+        593,
+        528
+      ],
+      "bbox_normalized": [
+        0.26416015625,
+        0.23486328125,
+        0.28955078125,
+        0.2578125
+      ],
+      "mask_file": "masks/I072.png",
+      "mask_pixels": 2159,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "072",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2159,
+        "selected_pixels": 2159,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I073",
+      "name": "Unidentified reference component I073",
+      "status": "unknown",
+      "bbox_px": [
+        1734,
+        481,
+        1792,
+        509
+      ],
+      "bbox_normalized": [
+        0.8466796875,
+        0.23486328125,
+        0.875,
+        0.24853515625
+      ],
+      "mask_file": "masks/I073.png",
+      "mask_pixels": 1611,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "073",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1611,
+        "selected_pixels": 1611,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I074",
+      "name": "Unidentified reference component I074",
+      "status": "unknown",
+      "bbox_px": [
+        8,
+        486,
+        44,
+        703
+      ],
+      "bbox_normalized": [
+        0.00390625,
+        0.2373046875,
+        0.021484375,
+        0.34326171875
+      ],
+      "mask_file": "masks/I074.png",
+      "mask_pixels": 6959,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "074",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 6959,
+        "selected_pixels": 6959,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I075",
+      "name": "Unidentified reference component I075",
+      "status": "unknown",
+      "bbox_px": [
+        1712,
+        487,
+        1727,
+        509
+      ],
+      "bbox_normalized": [
+        0.8359375,
+        0.23779296875,
+        0.84326171875,
+        0.24853515625
+      ],
+      "mask_file": "masks/I075.png",
+      "mask_pixels": 208,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "075",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 208,
+        "selected_pixels": 208,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I076",
+      "name": "Unidentified reference component I076",
+      "status": "unknown",
+      "bbox_px": [
+        597,
+        499,
+        599,
+        523
+      ],
+      "bbox_normalized": [
+        0.29150390625,
+        0.24365234375,
+        0.29248046875,
+        0.25537109375
+      ],
+      "mask_file": "masks/I076.png",
+      "mask_pixels": 48,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "076",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 48,
+        "selected_pixels": 48,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I077",
+      "name": "Unidentified reference component I077",
+      "status": "unknown",
+      "bbox_px": [
+        601,
+        499,
+        603,
+        523
+      ],
+      "bbox_normalized": [
+        0.29345703125,
+        0.24365234375,
+        0.29443359375,
+        0.25537109375
+      ],
+      "mask_file": "masks/I077.png",
+      "mask_pixels": 48,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "077",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 48,
+        "selected_pixels": 48,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I078",
+      "name": "Passenger mirror outer shell",
+      "status": "confirmed",
+      "bbox_px": [
+        1813,
+        499,
+        1986,
+        657
+      ],
+      "bbox_normalized": [
+        0.88525390625,
+        0.24365234375,
+        0.9697265625,
+        0.32080078125
+      ],
+      "mask_file": "masks/I078.png",
+      "mask_pixels": 10256,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "078 on outer/top shell, locally upright from passenger side; arrows go toward vehicle front. Underside black insert and stalk are separate; far face not yet observed.",
+      "evidence": [
+        "D01"
+      ],
+      "diagnostic_label": "078",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 10256,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I079",
+      "name": "Unidentified reference component I079",
+      "status": "unknown",
+      "bbox_px": [
+        607,
+        504,
+        615,
+        512
+      ],
+      "bbox_normalized": [
+        0.29638671875,
+        0.24609375,
+        0.30029296875,
+        0.25
+      ],
+      "mask_file": "masks/I079.png",
+      "mask_pixels": 50,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "079",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 50,
+        "selected_pixels": 50,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I080",
+      "name": "Passenger side intake outer surround",
+      "status": "confirmed",
+      "bbox_px": [
+        668,
+        504,
+        817,
+        688
+      ],
+      "bbox_normalized": [
+        0.326171875,
+        0.24609375,
+        0.39892578125,
+        0.3359375
+      ],
+      "mask_file": "masks/I080.png",
+      "mask_pixels": 11525,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "080 upright from passenger side; +x points rearward, +y down. This differs from the upside-down passenger main-body texture.",
+      "evidence": [
+        "D01",
+        "G03"
+      ],
+      "diagnostic_label": "080",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 11525,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I081",
+      "name": "Passenger main body: fender, door, sill, pillars and rear quarter",
+      "status": "confirmed",
+      "bbox_px": [
+        394,
+        507,
+        2009,
+        1032
+      ],
+      "bbox_normalized": [
+        0.1923828125,
+        0.24755859375,
+        0.98095703125,
+        0.50390625
+      ],
+      "mask_file": "masks/I081.png",
+      "mask_pixels": 403537,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x front to rear; +y up the physical side. Rotate upright text 180 degrees relative to the driver side, never reflect lettering.",
+      "evidence": [
+        "G03",
+        "G02",
+        "G06",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "081",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 403537,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I082",
+      "name": "Unidentified reference component I082",
+      "status": "unknown",
+      "bbox_px": [
+        607,
+        513,
+        615,
+        521
+      ],
+      "bbox_normalized": [
+        0.29638671875,
+        0.25048828125,
+        0.30029296875,
+        0.25439453125
+      ],
+      "mask_file": "masks/I082.png",
+      "mask_pixels": 51,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "082",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 51,
+        "selected_pixels": 51,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I083",
+      "name": "Unidentified reference component I083",
+      "status": "unknown",
+      "bbox_px": [
+        1965,
+        513,
+        2021,
+        703
+      ],
+      "bbox_normalized": [
+        0.95947265625,
+        0.25048828125,
+        0.98681640625,
+        0.34326171875
+      ],
+      "mask_file": "masks/I083.png",
+      "mask_pixels": 1882,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "083",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 1882,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I084",
+      "name": "Unidentified reference component I084",
+      "status": "unknown",
+      "bbox_px": [
+        2036,
+        513,
+        2039,
+        728
+      ],
+      "bbox_normalized": [
+        0.994140625,
+        0.25048828125,
+        0.99560546875,
+        0.35546875
+      ],
+      "mask_file": "masks/I084.png",
+      "mask_pixels": 645,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "084",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 645,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I085",
+      "name": "Unidentified reference component I085",
+      "status": "unknown",
+      "bbox_px": [
+        1683,
+        521,
+        1791,
+        529
+      ],
+      "bbox_normalized": [
+        0.82177734375,
+        0.25439453125,
+        0.87451171875,
+        0.25830078125
+      ],
+      "mask_file": "masks/I085.png",
+      "mask_pixels": 698,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "085",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 698,
+        "selected_pixels": 698,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I086",
+      "name": "Unidentified reference component I086",
+      "status": "unknown",
+      "bbox_px": [
+        111,
+        528,
+        506,
+        587
+      ],
+      "bbox_normalized": [
+        0.05419921875,
+        0.2578125,
+        0.2470703125,
+        0.28662109375
+      ],
+      "mask_file": "masks/I086.png",
+      "mask_pixels": 9875,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "086",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 9875,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I087",
+      "name": "Unidentified reference component I087",
+      "status": "unknown",
+      "bbox_px": [
+        1704,
+        536,
+        1736,
+        558
+      ],
+      "bbox_normalized": [
+        0.83203125,
+        0.26171875,
+        0.84765625,
+        0.2724609375
+      ],
+      "mask_file": "masks/I087.png",
+      "mask_pixels": 518,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "087",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 518,
+        "selected_pixels": 518,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I088",
+      "name": "Unidentified reference component I088",
+      "status": "unknown",
+      "bbox_px": [
+        1677,
+        538,
+        1696,
+        552
+      ],
+      "bbox_normalized": [
+        0.81884765625,
+        0.2626953125,
+        0.828125,
+        0.26953125
+      ],
+      "mask_file": "masks/I088.png",
+      "mask_pixels": 190,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "088",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 190,
+        "selected_pixels": 190,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I089",
+      "name": "Unidentified reference component I089",
+      "status": "unknown",
+      "bbox_px": [
+        1756,
+        542,
+        1788,
+        568
+      ],
+      "bbox_normalized": [
+        0.857421875,
+        0.2646484375,
+        0.873046875,
+        0.27734375
+      ],
+      "mask_file": "masks/I089.png",
+      "mask_pixels": 787,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "089",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 787,
+        "selected_pixels": 787,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I090",
+      "name": "Unidentified reference component I090",
+      "status": "unknown",
+      "bbox_px": [
+        1625,
+        551,
+        1663,
+        589
+      ],
+      "bbox_normalized": [
+        0.79345703125,
+        0.26904296875,
+        0.81201171875,
+        0.28759765625
+      ],
+      "mask_file": "masks/I090.png",
+      "mask_pixels": 1153,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "090",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1153,
+        "selected_pixels": 1153,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I091",
+      "name": "Unidentified reference component I091",
+      "status": "unknown",
+      "bbox_px": [
+        1675,
+        561,
+        1741,
+        569
+      ],
+      "bbox_normalized": [
+        0.81787109375,
+        0.27392578125,
+        0.85009765625,
+        0.27783203125
+      ],
+      "mask_file": "masks/I091.png",
+      "mask_pixels": 506,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "091",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 506,
+        "selected_pixels": 506,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I092",
+      "name": "Unidentified reference component I092",
+      "status": "unknown",
+      "bbox_px": [
+        1687,
+        575,
+        1788,
+        586
+      ],
+      "bbox_normalized": [
+        0.82373046875,
+        0.28076171875,
+        0.873046875,
+        0.2861328125
+      ],
+      "mask_file": "masks/I092.png",
+      "mask_pixels": 995,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "092",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 995,
+        "selected_pixels": 995,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I093",
+      "name": "Unidentified reference component I093",
+      "status": "unknown",
+      "bbox_px": [
+        1687,
+        595,
+        1737,
+        624
+      ],
+      "bbox_normalized": [
+        0.82373046875,
+        0.29052734375,
+        0.84814453125,
+        0.3046875
+      ],
+      "mask_file": "masks/I093.png",
+      "mask_pixels": 1179,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "093",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1179,
+        "selected_pixels": 1179,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I094",
+      "name": "Unidentified reference component I094",
+      "status": "unknown",
+      "bbox_px": [
+        49,
+        596,
+        86,
+        823
+      ],
+      "bbox_normalized": [
+        0.02392578125,
+        0.291015625,
+        0.0419921875,
+        0.40185546875
+      ],
+      "mask_file": "masks/I094.png",
+      "mask_pixels": 7783,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "094",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 7783,
+        "selected_pixels": 7783,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I095",
+      "name": "Unidentified reference component I095",
+      "status": "unknown",
+      "bbox_px": [
+        1737,
+        598,
+        1789,
+        622
+      ],
+      "bbox_normalized": [
+        0.84814453125,
+        0.2919921875,
+        0.87353515625,
+        0.3037109375
+      ],
+      "mask_file": "masks/I095.png",
+      "mask_pixels": 933,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "095",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 933,
+        "selected_pixels": 933,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I096",
+      "name": "Unidentified reference component I096",
+      "status": "unknown",
+      "bbox_px": [
+        90,
+        602,
+        124,
+        816
+      ],
+      "bbox_normalized": [
+        0.0439453125,
+        0.2939453125,
+        0.060546875,
+        0.3984375
+      ],
+      "mask_file": "masks/I096.png",
+      "mask_pixels": 6750,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "096",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 6750,
+        "selected_pixels": 6750,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I097",
+      "name": "Unidentified reference component I097",
+      "status": "unknown",
+      "bbox_px": [
+        1848,
+        604,
+        1991,
+        696
+      ],
+      "bbox_normalized": [
+        0.90234375,
+        0.294921875,
+        0.97216796875,
+        0.33984375
+      ],
+      "mask_file": "masks/I097.png",
+      "mask_pixels": 4465,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "097",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 4465,
+        "selected_pixels": 4465,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I098",
+      "name": "Unidentified reference component I098",
+      "status": "unknown",
+      "bbox_px": [
+        1847,
+        629,
+        1898,
+        660
+      ],
+      "bbox_normalized": [
+        0.90185546875,
+        0.30712890625,
+        0.9267578125,
+        0.322265625
+      ],
+      "mask_file": "masks/I098.png",
+      "mask_pixels": 1034,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "098",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1034,
+        "selected_pixels": 1034,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I099",
+      "name": "Unidentified reference component I099",
+      "status": "unknown",
+      "bbox_px": [
+        1688,
+        640,
+        1733,
+        643
+      ],
+      "bbox_normalized": [
+        0.82421875,
+        0.3125,
+        0.84619140625,
+        0.31396484375
+      ],
+      "mask_file": "masks/I099.png",
+      "mask_pixels": 135,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "099",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 135,
+        "selected_pixels": 135,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I100",
+      "name": "Unidentified reference component I100",
+      "status": "unknown",
+      "bbox_px": [
+        1755,
+        643,
+        1783,
+        671
+      ],
+      "bbox_normalized": [
+        0.85693359375,
+        0.31396484375,
+        0.87060546875,
+        0.32763671875
+      ],
+      "mask_file": "masks/I100.png",
+      "mask_pixels": 713,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "100",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 713,
+        "selected_pixels": 713,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I101",
+      "name": "Unidentified reference component I101",
+      "status": "unknown",
+      "bbox_px": [
+        1688,
+        648,
+        1706,
+        666
+      ],
+      "bbox_normalized": [
+        0.82421875,
+        0.31640625,
+        0.8330078125,
+        0.3251953125
+      ],
+      "mask_file": "masks/I101.png",
+      "mask_pixels": 234,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "101",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 234,
+        "selected_pixels": 234,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I102",
+      "name": "Unidentified reference component I102",
+      "status": "unknown",
+      "bbox_px": [
+        1738,
+        648,
+        1745,
+        665
+      ],
+      "bbox_normalized": [
+        0.8486328125,
+        0.31640625,
+        0.85205078125,
+        0.32470703125
+      ],
+      "mask_file": "masks/I102.png",
+      "mask_pixels": 119,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "102",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 119,
+        "selected_pixels": 119,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I103",
+      "name": "Unidentified reference component I103",
+      "status": "unknown",
+      "bbox_px": [
+        1710,
+        659,
+        1735,
+        666
+      ],
+      "bbox_normalized": [
+        0.8349609375,
+        0.32177734375,
+        0.84716796875,
+        0.3251953125
+      ],
+      "mask_file": "masks/I103.png",
+      "mask_pixels": 147,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "103",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 147,
+        "selected_pixels": 147,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I104",
+      "name": "Unidentified reference component I104",
+      "status": "unknown",
+      "bbox_px": [
+        1821,
+        670,
+        1874,
+        693
+      ],
+      "bbox_normalized": [
+        0.88916015625,
+        0.3271484375,
+        0.9150390625,
+        0.33837890625
+      ],
+      "mask_file": "masks/I104.png",
+      "mask_pixels": 893,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "104",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 893,
+        "selected_pixels": 893,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I105",
+      "name": "Unidentified reference component I105",
+      "status": "unknown",
+      "bbox_px": [
+        1687,
+        673,
+        1785,
+        685
+      ],
+      "bbox_normalized": [
+        0.82373046875,
+        0.32861328125,
+        0.87158203125,
+        0.33447265625
+      ],
+      "mask_file": "masks/I105.png",
+      "mask_pixels": 1052,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "105",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1052,
+        "selected_pixels": 1052,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I106",
+      "name": "Unidentified reference component I106",
+      "status": "unknown",
+      "bbox_px": [
+        150,
+        677,
+        163,
+        690
+      ],
+      "bbox_normalized": [
+        0.0732421875,
+        0.33056640625,
+        0.07958984375,
+        0.3369140625
+      ],
+      "mask_file": "masks/I106.png",
+      "mask_pixels": 133,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "106",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 133,
+        "selected_pixels": 133,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I107",
+      "name": "Unidentified reference component I107",
+      "status": "unknown",
+      "bbox_px": [
+        1695,
+        689,
+        1784,
+        698
+      ],
+      "bbox_normalized": [
+        0.82763671875,
+        0.33642578125,
+        0.87109375,
+        0.3408203125
+      ],
+      "mask_file": "masks/I107.png",
+      "mask_pixels": 609,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "107",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 609,
+        "selected_pixels": 609,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I108",
+      "name": "Unidentified reference component I108",
+      "status": "unknown",
+      "bbox_px": [
+        147,
+        691,
+        182,
+        708
+      ],
+      "bbox_normalized": [
+        0.07177734375,
+        0.33740234375,
+        0.0888671875,
+        0.345703125
+      ],
+      "mask_file": "masks/I108.png",
+      "mask_pixels": 561,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "108",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 561,
+        "selected_pixels": 561,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I109",
+      "name": "Unidentified reference component I109",
+      "status": "unknown",
+      "bbox_px": [
+        1780,
+        694,
+        1881,
+        721
+      ],
+      "bbox_normalized": [
+        0.869140625,
+        0.3388671875,
+        0.91845703125,
+        0.35205078125
+      ],
+      "mask_file": "masks/I109.png",
+      "mask_pixels": 1506,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "109",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1506,
+        "selected_pixels": 1506,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I110",
+      "name": "Unidentified reference component I110",
+      "status": "unknown",
+      "bbox_px": [
+        1835,
+        703,
+        1942,
+        782
+      ],
+      "bbox_normalized": [
+        0.89599609375,
+        0.34326171875,
+        0.9482421875,
+        0.3818359375
+      ],
+      "mask_file": "masks/I110.png",
+      "mask_pixels": 2906,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "110",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2906,
+        "selected_pixels": 2906,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I111",
+      "name": "Unidentified reference component I111",
+      "status": "unknown",
+      "bbox_px": [
+        208,
+        707,
+        222,
+        745
+      ],
+      "bbox_normalized": [
+        0.1015625,
+        0.34521484375,
+        0.1083984375,
+        0.36376953125
+      ],
+      "mask_file": "masks/I111.png",
+      "mask_pixels": 517,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "111",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 517,
+        "selected_pixels": 517,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I112",
+      "name": "Unidentified reference component I112",
+      "status": "unknown",
+      "bbox_px": [
+        225,
+        708,
+        239,
+        746
+      ],
+      "bbox_normalized": [
+        0.10986328125,
+        0.345703125,
+        0.11669921875,
+        0.3642578125
+      ],
+      "mask_file": "masks/I112.png",
+      "mask_pixels": 514,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "112",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 514,
+        "selected_pixels": 514,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I113",
+      "name": "Unidentified reference component I113",
+      "status": "unknown",
+      "bbox_px": [
+        7,
+        711,
+        44,
+        939
+      ],
+      "bbox_normalized": [
+        0.00341796875,
+        0.34716796875,
+        0.021484375,
+        0.45849609375
+      ],
+      "mask_file": "masks/I113.png",
+      "mask_pixels": 7644,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "113",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 7644,
+        "selected_pixels": 7644,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I114",
+      "name": "Unidentified reference component I114",
+      "status": "unknown",
+      "bbox_px": [
+        1980,
+        717,
+        2021,
+        746
+      ],
+      "bbox_normalized": [
+        0.966796875,
+        0.35009765625,
+        0.98681640625,
+        0.3642578125
+      ],
+      "mask_file": "masks/I114.png",
+      "mask_pixels": 872,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "114",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 872,
+        "selected_pixels": 872,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I115",
+      "name": "Unidentified reference component I115",
+      "status": "unknown",
+      "bbox_px": [
+        150,
+        720,
+        163,
+        733
+      ],
+      "bbox_normalized": [
+        0.0732421875,
+        0.3515625,
+        0.07958984375,
+        0.35791015625
+      ],
+      "mask_file": "masks/I115.png",
+      "mask_pixels": 131,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "115",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 131,
+        "selected_pixels": 131,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I116",
+      "name": "Front bumper main skin",
+      "status": "confirmed",
+      "bbox_px": [
+        144,
+        730,
+        400,
+        1810
+      ],
+      "bbox_normalized": [
+        0.0703125,
+        0.3564453125,
+        0.1953125,
+        0.8837890625
+      ],
+      "mask_file": "masks/I116.png",
+      "mask_pixels": 151602,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+y goes from passenger/right across nose toward driver/left. At the central face +x goes upward toward hood. Lamp joins pending.",
+      "evidence": [
+        "G02",
+        "G01",
+        "G03",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "116",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 151602,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I117",
+      "name": "Unidentified reference component I117",
+      "status": "unknown",
+      "bbox_px": [
+        148,
+        735,
+        182,
+        753
+      ],
+      "bbox_normalized": [
+        0.072265625,
+        0.35888671875,
+        0.0888671875,
+        0.36767578125
+      ],
+      "mask_file": "masks/I117.png",
+      "mask_pixels": 545,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "117",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 545,
+        "selected_pixels": 545,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I118",
+      "name": "Unidentified reference component I118",
+      "status": "unknown",
+      "bbox_px": [
+        1985,
+        771,
+        2025,
+        800
+      ],
+      "bbox_normalized": [
+        0.96923828125,
+        0.37646484375,
+        0.98876953125,
+        0.390625
+      ],
+      "mask_file": "masks/I118.png",
+      "mask_pixels": 909,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "118",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 909,
+        "selected_pixels": 909,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I119",
+      "name": "Front lower splitter",
+      "status": "confirmed",
+      "bbox_px": [
+        9,
+        787,
+        156,
+        1753
+      ],
+      "bbox_normalized": [
+        0.00439453125,
+        0.38427734375,
+        0.076171875,
+        0.85595703125
+      ],
+      "mask_file": "masks/I119.png",
+      "mask_pixels": 38203,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Narrow left-edge strip. Cells 0,9 and 0,10 visible across nose; +y goes toward driver/left. Lip thickness and returns pending.",
+      "evidence": [
+        "G02",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "119",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 38203,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I120",
+      "name": "Passenger door handle outer face",
+      "status": "confirmed",
+      "bbox_px": [
+        802,
+        887,
+        913,
+        926
+      ],
+      "bbox_normalized": [
+        0.3916015625,
+        0.43310546875,
+        0.44580078125,
+        0.4521484375
+      ],
+      "mask_file": "masks/I120.png",
+      "mask_pixels": 2686,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "120 upright from passenger side. The handle recess is on main body; the physical handle face is this separate island. Text follows a curved horizontal face.",
+      "evidence": [
+        "D01"
+      ],
+      "diagnostic_label": "120",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 2686,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I121",
+      "name": "Passenger side-intake inner return candidate",
+      "status": "provisional",
+      "bbox_px": [
+        849,
+        930,
+        919,
+        950
+      ],
+      "bbox_normalized": [
+        0.41455078125,
+        0.4541015625,
+        0.44873046875,
+        0.4638671875
+      ],
+      "mask_file": "masks/I121.png",
+      "mask_pixels": 1041,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Cyan diagnostic appears behind the gray intake outer shell; full 121 ID is not readable. Paired source geometry supports this candidate only.",
+      "evidence": [
+        "K06",
+        "C02"
+      ],
+      "diagnostic_label": "121",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 1041,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I122",
+      "name": "Hood",
+      "status": "confirmed",
+      "bbox_px": [
+        365,
+        977,
+        947,
+        1563
+      ],
+      "bbox_normalized": [
+        0.17822265625,
+        0.47705078125,
+        0.46240234375,
+        0.76318359375
+      ],
+      "mask_file": "masks/I122.png",
+      "mask_pixels": 220428,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x nose to windshield; +y passenger/right to driver/left. Front-readable upright logo rotates 90 degrees clockwise in UV.",
+      "evidence": [
+        "G02",
+        "G06",
+        "C01",
+        "C02",
+        "E07"
+      ],
+      "diagnostic_label": "122",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 220428,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I123",
+      "name": "Unidentified reference component I123",
+      "status": "unknown",
+      "bbox_px": [
+        194,
+        993,
+        253,
+        1012
+      ],
+      "bbox_normalized": [
+        0.0947265625,
+        0.48486328125,
+        0.12353515625,
+        0.494140625
+      ],
+      "mask_file": "masks/I123.png",
+      "mask_pixels": 1060,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "123",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1060,
+        "selected_pixels": 1060,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I124",
+      "name": "Unidentified reference component I124",
+      "status": "unknown",
+      "bbox_px": [
+        1533,
+        996,
+        1588,
+        1033
+      ],
+      "bbox_normalized": [
+        0.74853515625,
+        0.486328125,
+        0.775390625,
+        0.50439453125
+      ],
+      "mask_file": "masks/I124.png",
+      "mask_pixels": 1616,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "124",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1605,
+        "selected_pixels": 1616,
+        "opaque_fraction": 0.993193,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I125",
+      "name": "Exterior windshield banner",
+      "status": "confirmed",
+      "bbox_px": [
+        1012,
+        1005,
+        1085,
+        1534
+      ],
+      "bbox_normalized": [
+        0.494140625,
+        0.49072265625,
+        0.52978515625,
+        0.7490234375
+      ],
+      "mask_file": "masks/I125.png",
+      "mask_pixels": 33933,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Runs across car along UV y. Readable front-view artwork uses top toward +x and reading direction +y. Visible crop limits remain unmeasured.",
+      "evidence": [
+        "C01",
+        "C02",
+        "E02",
+        "E07",
+        "T01"
+      ],
+      "diagnostic_label": "125",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 33933,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I126",
+      "name": "Interior windshield banner",
+      "status": "provisional",
+      "bbox_px": [
+        932,
+        1006,
+        1003,
+        1534
+      ],
+      "bbox_normalized": [
+        0.455078125,
+        0.4912109375,
+        0.48974609375,
+        0.7490234375
+      ],
+      "mask_file": "masks/I126.png",
+      "mask_pixels": 33416,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "INSIDE is printed on the guide. Cockpit projection, reading direction and visible crop need an interior view.",
+      "evidence": [
+        "C02",
+        "T01"
+      ],
+      "diagnostic_label": "126",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 33416,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I127",
+      "name": "Unidentified reference component I127",
+      "status": "unknown",
+      "bbox_px": [
+        198,
+        1015,
+        219,
+        1036
+      ],
+      "bbox_normalized": [
+        0.0966796875,
+        0.49560546875,
+        0.10693359375,
+        0.505859375
+      ],
+      "mask_file": "masks/I127.png",
+      "mask_pixels": 320,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "127",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 320,
+        "selected_pixels": 320,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I128",
+      "name": "Roof",
+      "status": "confirmed",
+      "bbox_px": [
+        1091,
+        1042,
+        1520,
+        1497
+      ],
+      "bbox_normalized": [
+        0.53271484375,
+        0.5087890625,
+        0.7421875,
+        0.73095703125
+      ],
+      "mask_file": "masks/I128.png",
+      "mask_pixels": 175914,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x windshield to rear glass; +y passenger/right to driver/left. Escape flap is a feature within this island.",
+      "evidence": [
+        "G02",
+        "G05",
+        "G06",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "128",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 175914,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I129",
+      "name": "Rear deck and rear-glass painted surround",
+      "status": "confirmed",
+      "bbox_px": [
+        1522,
+        1046,
+        2039,
+        1495
+      ],
+      "bbox_normalized": [
+        0.7431640625,
+        0.5107421875,
+        0.99560546875,
+        0.72998046875
+      ],
+      "mask_file": "masks/I129.png",
+      "mask_pixels": 93278,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x roof to tail; +y passenger/right to driver/left. The center is not body paint; atlas components sit inside its UV opening.",
+      "evidence": [
+        "G04",
+        "G05",
+        "G06",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "129",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 93278,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I130",
+      "name": "Unidentified reference component I130",
+      "status": "unknown",
+      "bbox_px": [
+        92,
+        1050,
+        168,
+        1489
+      ],
+      "bbox_normalized": [
+        0.044921875,
+        0.5126953125,
+        0.08203125,
+        0.72705078125
+      ],
+      "mask_file": "masks/I130.png",
+      "mask_pixels": 13278,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "130",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 13278,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I131",
+      "name": "Grille/radiator texture atlas inside rear-glass UV opening",
+      "status": "unknown",
+      "bbox_px": [
+        1655,
+        1072,
+        1829,
+        1245
+      ],
+      "bbox_normalized": [
+        0.80810546875,
+        0.5234375,
+        0.89306640625,
+        0.60791015625
+      ],
+      "mask_file": "masks/I131.png",
+      "mask_pixels": 27655,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Template content identifies an atlas texture. Physical use or repeated instances unknown; not rear-glass paint.",
+      "evidence": [
+        "T01",
+        "C02"
+      ],
+      "diagnostic_label": "131",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 27655,
+        "selected_pixels": 27655,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I132",
+      "name": "Porsche crest texture atlas inside rear-glass UV opening",
+      "status": "unknown",
+      "bbox_px": [
+        1667,
+        1250,
+        1824,
+        1451
+      ],
+      "bbox_normalized": [
+        0.81396484375,
+        0.6103515625,
+        0.890625,
+        0.70849609375
+      ],
+      "mask_file": "masks/I132.png",
+      "mask_pixels": 26142,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Template content identifies a crest atlas. Physical instances and mirroring unknown; not rear-glass paint.",
+      "evidence": [
+        "T01",
+        "C02"
+      ],
+      "diagnostic_label": "132",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 26108,
+        "selected_pixels": 26142,
+        "opaque_fraction": 0.998699,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I133",
+      "name": "Unidentified reference component I133",
+      "status": "unknown",
+      "bbox_px": [
+        404,
+        1498,
+        613,
+        1579
+      ],
+      "bbox_normalized": [
+        0.197265625,
+        0.7314453125,
+        0.29931640625,
+        0.77099609375
+      ],
+      "mask_file": "masks/I133.png",
+      "mask_pixels": 9287,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "133",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 9287,
+        "selected_pixels": 9287,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I134",
+      "name": "PORSCHE rear lettering texture atlas",
+      "status": "confirmed",
+      "bbox_px": [
+        1906,
+        1500,
+        2019,
+        1537
+      ],
+      "bbox_normalized": [
+        0.9306640625,
+        0.732421875,
+        0.98583984375,
+        0.75048828125
+      ],
+      "mask_file": "masks/I134.png",
+      "mask_pixels": 1621,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Rear letters pick up diagnostic pink from this atlas. Each glyph uses a small texture area: do not draw a body stripe through the atlas. Smaller badging lines remain unassigned.",
+      "evidence": [
+        "D06",
+        "D07",
+        "D08",
+        "T01"
+      ],
+      "diagnostic_label": "134",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 1621,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I135",
+      "name": "Unidentified reference component I135",
+      "status": "unknown",
+      "bbox_px": [
+        1534,
+        1507,
+        1588,
+        1545
+      ],
+      "bbox_normalized": [
+        0.7490234375,
+        0.73583984375,
+        0.775390625,
+        0.75439453125
+      ],
+      "mask_file": "masks/I135.png",
+      "mask_pixels": 1594,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "135",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1571,
+        "selected_pixels": 1594,
+        "opaque_fraction": 0.985571,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I136",
+      "name": "Driver main body: fender, door, sill, pillars and rear quarter",
+      "status": "confirmed",
+      "bbox_px": [
+        394,
+        1508,
+        2011,
+        2033
+      ],
+      "bbox_normalized": [
+        0.1923828125,
+        0.736328125,
+        0.98193359375,
+        0.99267578125
+      ],
+      "mask_file": "masks/I136.png",
+      "mask_pixels": 403667,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "+x front to rear; +y down the physical side. Text upright in UV reads upright in the side view.",
+      "evidence": [
+        "G01",
+        "G02",
+        "G06",
+        "C01",
+        "C02"
+      ],
+      "diagnostic_label": "136",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 403667,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I137",
+      "name": "Rear badging atlas: lower lines",
+      "status": "unknown",
+      "bbox_px": [
+        1907,
+        1532,
+        1987,
+        1558
+      ],
+      "bbox_normalized": [
+        0.93115234375,
+        0.748046875,
+        0.97021484375,
+        0.7607421875
+      ],
+      "mask_file": "masks/I137.png",
+      "mask_pixels": 969,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Texture atlas; not a body panel.",
+      "evidence": [
+        "T01",
+        "C02"
+      ],
+      "diagnostic_label": "137",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 969,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I138",
+      "name": "Unidentified reference component I138",
+      "status": "unknown",
+      "bbox_px": [
+        601,
+        1553,
+        779,
+        1631
+      ],
+      "bbox_normalized": [
+        0.29345703125,
+        0.75830078125,
+        0.38037109375,
+        0.79638671875
+      ],
+      "mask_file": "masks/I138.png",
+      "mask_pixels": 8843,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "138",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 8843,
+        "selected_pixels": 8843,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I139",
+      "name": "Rear badging atlas: bottom line",
+      "status": "unknown",
+      "bbox_px": [
+        1907,
+        1559,
+        1978,
+        1564
+      ],
+      "bbox_normalized": [
+        0.93115234375,
+        0.76123046875,
+        0.9658203125,
+        0.763671875
+      ],
+      "mask_file": "masks/I139.png",
+      "mask_pixels": 355,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Texture atlas; not a body panel.",
+      "evidence": [
+        "T01",
+        "C02"
+      ],
+      "diagnostic_label": "139",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 355,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I140",
+      "name": "Unidentified reference component I140",
+      "status": "unknown",
+      "bbox_px": [
+        1052,
+        1565,
+        1427,
+        1696
+      ],
+      "bbox_normalized": [
+        0.513671875,
+        0.76416015625,
+        0.69677734375,
+        0.828125
+      ],
+      "mask_file": "masks/I140.png",
+      "mask_pixels": 24721,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "140",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 24721,
+        "selected_pixels": 24721,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I141",
+      "name": "Driver side-intake inner return candidate",
+      "status": "provisional",
+      "bbox_px": [
+        848,
+        1590,
+        920,
+        1611
+      ],
+      "bbox_normalized": [
+        0.4140625,
+        0.7763671875,
+        0.44921875,
+        0.78662109375
+      ],
+      "mask_file": "masks/I141.png",
+      "mask_pixels": 1069,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Green diagnostic appears behind the gray outer shell; digit fragments are insufficient for an exact-face assignment. Confirm full 141 or use one isolated patch.",
+      "evidence": [
+        "K03",
+        "C02"
+      ],
+      "diagnostic_label": "141",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 1069,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I142",
+      "name": "Unidentified reference component I142",
+      "status": "unknown",
+      "bbox_px": [
+        6,
+        1613,
+        35,
+        2037
+      ],
+      "bbox_normalized": [
+        0.0029296875,
+        0.78759765625,
+        0.01708984375,
+        0.99462890625
+      ],
+      "mask_file": "masks/I142.png",
+      "mask_pixels": 7133,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "142",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 7133,
+        "selected_pixels": 7133,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I143",
+      "name": "Driver door handle outer face",
+      "status": "confirmed",
+      "bbox_px": [
+        802,
+        1613,
+        913,
+        1654
+      ],
+      "bbox_normalized": [
+        0.3916015625,
+        0.78759765625,
+        0.44580078125,
+        0.8076171875
+      ],
+      "mask_file": "masks/I143.png",
+      "mask_pixels": 2740,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "143 upside down from driver side; handle face separate from main-body recess. Use a 180-degree text rotation relative to the diagnostic.",
+      "evidence": [
+        "D05"
+      ],
+      "diagnostic_label": "143",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 2740,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I144",
+      "name": "Unidentified reference component I144",
+      "status": "unknown",
+      "bbox_px": [
+        379,
+        1661,
+        438,
+        1740
+      ],
+      "bbox_normalized": [
+        0.18505859375,
+        0.81103515625,
+        0.2138671875,
+        0.849609375
+      ],
+      "mask_file": "masks/I144.png",
+      "mask_pixels": 2640,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "144",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2640,
+        "selected_pixels": 2640,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I145",
+      "name": "Unidentified reference component I145",
+      "status": "unknown",
+      "bbox_px": [
+        30,
+        1665,
+        77,
+        2031
+      ],
+      "bbox_normalized": [
+        0.0146484375,
+        0.81298828125,
+        0.03759765625,
+        0.99169921875
+      ],
+      "mask_file": "masks/I145.png",
+      "mask_pixels": 9591,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "145",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 9591,
+        "selected_pixels": 9591,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I146",
+      "name": "Unidentified reference component I146",
+      "status": "unknown",
+      "bbox_px": [
+        1984,
+        1740,
+        2025,
+        1769
+      ],
+      "bbox_normalized": [
+        0.96875,
+        0.849609375,
+        0.98876953125,
+        0.86376953125
+      ],
+      "mask_file": "masks/I146.png",
+      "mask_pixels": 912,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "146",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 912,
+        "selected_pixels": 912,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I147",
+      "name": "Unidentified reference component I147",
+      "status": "unknown",
+      "bbox_px": [
+        1835,
+        1757,
+        1942,
+        1836
+      ],
+      "bbox_normalized": [
+        0.89599609375,
+        0.85791015625,
+        0.9482421875,
+        0.896484375
+      ],
+      "mask_file": "masks/I147.png",
+      "mask_pixels": 2863,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "147",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2863,
+        "selected_pixels": 2863,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I148",
+      "name": "Unidentified reference component I148",
+      "status": "unknown",
+      "bbox_px": [
+        1981,
+        1794,
+        2021,
+        1822
+      ],
+      "bbox_normalized": [
+        0.96728515625,
+        0.8759765625,
+        0.98681640625,
+        0.8896484375
+      ],
+      "mask_file": "masks/I148.png",
+      "mask_pixels": 868,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "148",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 868,
+        "selected_pixels": 868,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I149",
+      "name": "Unidentified reference component I149",
+      "status": "unknown",
+      "bbox_px": [
+        2036,
+        1812,
+        2039,
+        2027
+      ],
+      "bbox_normalized": [
+        0.994140625,
+        0.884765625,
+        0.99560546875,
+        0.98974609375
+      ],
+      "mask_file": "masks/I149.png",
+      "mask_pixels": 645,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "149",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 645,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I150",
+      "name": "Unidentified reference component I150",
+      "status": "unknown",
+      "bbox_px": [
+        1776,
+        1818,
+        1882,
+        1869
+      ],
+      "bbox_normalized": [
+        0.8671875,
+        0.8876953125,
+        0.9189453125,
+        0.91259765625
+      ],
+      "mask_file": "masks/I150.png",
+      "mask_pixels": 2434,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "150",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 2428,
+        "selected_pixels": 2434,
+        "opaque_fraction": 0.997535,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I151",
+      "name": "Unidentified reference component I151",
+      "status": "unknown",
+      "bbox_px": [
+        1964,
+        1836,
+        2021,
+        2026
+      ],
+      "bbox_normalized": [
+        0.958984375,
+        0.896484375,
+        0.98681640625,
+        0.9892578125
+      ],
+      "mask_file": "masks/I151.png",
+      "mask_pixels": 1874,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "151",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 1874,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "unresolved_do_not_guess"
+    },
+    {
+      "id": "I152",
+      "name": "Unidentified reference component I152",
+      "status": "unknown",
+      "bbox_px": [
+        1848,
+        1844,
+        1990,
+        1935
+      ],
+      "bbox_normalized": [
+        0.90234375,
+        0.900390625,
+        0.9716796875,
+        0.94482421875
+      ],
+      "mask_file": "masks/I152.png",
+      "mask_pixels": 4365,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "152",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 4365,
+        "selected_pixels": 4365,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I153",
+      "name": "Driver side intake outer surround",
+      "status": "confirmed",
+      "bbox_px": [
+        667,
+        1852,
+        817,
+        2036
+      ],
+      "bbox_normalized": [
+        0.32568359375,
+        0.904296875,
+        0.39892578125,
+        0.994140625
+      ],
+      "mask_file": "masks/I153.png",
+      "mask_pixels": 11608,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "153 upright from driver side; +x points rearward, +y down. Separate from side body.",
+      "evidence": [
+        "D05",
+        "G01"
+      ],
+      "diagnostic_label": "153",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 11608,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I154",
+      "name": "Unidentified reference component I154",
+      "status": "unknown",
+      "bbox_px": [
+        281,
+        1874,
+        475,
+        2037
+      ],
+      "bbox_normalized": [
+        0.13720703125,
+        0.9150390625,
+        0.23193359375,
+        0.99462890625
+      ],
+      "mask_file": "masks/I154.png",
+      "mask_pixels": 28790,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "154",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 28790,
+        "selected_pixels": 28790,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I155",
+      "name": "Unidentified reference component I155",
+      "status": "unknown",
+      "bbox_px": [
+        1847,
+        1880,
+        1899,
+        1910
+      ],
+      "bbox_normalized": [
+        0.90185546875,
+        0.91796875,
+        0.92724609375,
+        0.9326171875
+      ],
+      "mask_file": "masks/I155.png",
+      "mask_pixels": 1058,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "155",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 1058,
+        "selected_pixels": 1058,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    },
+    {
+      "id": "I156",
+      "name": "Driver mirror outer shell",
+      "status": "confirmed",
+      "bbox_px": [
+        1813,
+        1881,
+        1986,
+        2040
+      ],
+      "bbox_normalized": [
+        0.88525390625,
+        0.91845703125,
+        0.9697265625,
+        0.99609375
+      ],
+      "mask_file": "masks/I156.png",
+      "mask_pixels": 10242,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "156 locally upside down from driver side, arrows point toward rear. Underside black insert/stalk separate; far face not yet observed.",
+      "evidence": [
+        "D05"
+      ],
+      "diagnostic_label": "156",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 0,
+        "selected_pixels": 10242,
+        "opaque_fraction": 0.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "mapped_surface_check_orientation_and_seams"
+    },
+    {
+      "id": "I157",
+      "name": "Unidentified reference component I157",
+      "status": "unknown",
+      "bbox_px": [
+        1611,
+        1893,
+        1751,
+        2032
+      ],
+      "bbox_normalized": [
+        0.78662109375,
+        0.92431640625,
+        0.85498046875,
+        0.9921875
+      ],
+      "mask_file": "masks/I157.png",
+      "mask_pixels": 17548,
+      "geometry_status": "provisional_reference_segmentation",
+      "geometry_limit": "JPEG foreground component; not an exact production clipping mask. One component may be part of a larger UV island.",
+      "orientation": "Unknown; use the matching d003 number before assigning a physical part.",
+      "evidence": [
+        "C02",
+        "T02"
+      ],
+      "diagnostic_label": "157",
+      "exact_seams_confirmed": false,
+      "template_mandatory_overlay": {
+        "source": "T05",
+        "opaque_pixels": 17548,
+        "selected_pixels": 17548,
+        "opaque_fraction": 1.0,
+        "limit": "Measured overlap with native template overlay, not a claim of on-car identity. JPEG edge fringes can lie outside the opaque overlay."
+      },
+      "placement_policy": "protected_template_overlay"
+    }
+  ],
+  "features": [
+    {
+      "id": "F01",
+      "name": "Passenger fuel-cap face",
+      "parent": "I081",
+      "bbox_px": [
+        786,
+        751,
+        872,
+        812
+      ],
+      "status": "confirmed",
+      "evidence": [
+        "E01",
+        "G03",
+        "T02"
+      ],
+      "note": "Oval source becomes circular on car. This is not the door handle. Native green-wire bounds; accent safe area is outside face."
+    },
+    {
+      "id": "F02",
+      "name": "Passenger handle recess",
+      "parent": "I081",
+      "center_px": [
+        1372,
+        750
+      ],
+      "status": "provisional",
+      "evidence": [
+        "T02",
+        "G03"
+      ],
+      "note": "White mesh recess; outer handle may use a separate atlas piece. Earlier y771 treatment misplaced. Do not confuse with fuel cap."
+    },
+    {
+      "id": "F03",
+      "name": "Driver handle recess",
+      "parent": "I136",
+      "center_px": [
+        1372,
+        1787
+      ],
+      "status": "provisional",
+      "evidence": [
+        "T02",
+        "G01"
+      ],
+      "note": "White mesh recess; exact projected stroke bounds unverified."
+    },
+    {
+      "id": "F04",
+      "name": "Roof escape flap",
+      "parent": "I128",
+      "bbox_px": [
+        1217,
+        1263,
+        1467,
+        1462
+      ],
+      "status": "provisional",
+      "evidence": [
+        "G05",
+        "T02"
+      ],
+      "note": "Physical flap confirmed; approximate source bounds retained from wire review. Same roof texture, not a separate paint island."
+    },
+    {
+      "id": "F05",
+      "name": "Driver door number reserve",
+      "parent": "I136",
+      "bbox_px": [
+        942,
+        1852,
+        1051,
+        1925
+      ],
+      "status": "confirmed",
+      "evidence": [
+        "T03",
+        "E05"
+      ],
+      "note": "Template number-guide footprint, half-open bounds; text upright in UV. Reserve additional header/footer margin if adding panels."
+    },
+    {
+      "id": "F06",
+      "name": "Passenger door number reserve",
+      "parent": "I081",
+      "bbox_px": [
+        942,
+        615,
+        1051,
+        688
+      ],
+      "status": "confirmed",
+      "evidence": [
+        "T03",
+        "E06"
+      ],
+      "note": "Template number-guide footprint; text must rotate 180 degrees, not mirror."
+    },
+    {
+      "id": "F07",
+      "name": "Rear bumper number reserve",
+      "parent": "I007",
+      "bbox_px": [
+        1248,
+        71,
+        1357,
+        144
+      ],
+      "status": "confirmed",
+      "evidence": [
+        "T03",
+        "G04"
+      ],
+      "note": "Template footprint, independently measured from magenta pixels. Text upright from rear; keep body graphics clear of the sim-number area."
+    }
+  ],
+  "template_regions": [
+    {
+      "id": "X01",
+      "name": "Pitbox layer swatch",
+      "bbox_px": [
+        1826,
+        2022,
+        1852,
+        2046
+      ],
+      "evidence": [
+        "T04"
+      ],
+      "raster_file": "template/original-pitbox-raster.png",
+      "placement_policy": "reserve_for_pitbox_not_body_artwork",
+      "limit": "Original layer footprint; pitbox appearance not inspected in-game."
+    }
+  ],
+  "review_constraints": [
+    {
+      "date": "2026-10-19",
+      "region": "I126",
+      "note": "User reports inside-cockpit review is difficult in the viewer and launching the game would be a large interruption. Defer cockpit-only confirmation; no in-game review claimed."
+    }
+  ],
+  "excluded_components": [
+    {
+      "id": "I001",
+      "reason": "8189-pixel JPEG outer image frame; not a paint island."
+    }
+  ]
+}

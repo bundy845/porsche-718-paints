@@ -1,5 +1,5 @@
 param(
-    [Parameter(Mandatory)][ValidateSet('refresh-headlight-loops.jsx', 'export-shared-current.jsx')][string]$Script,
+    [Parameter(Mandatory)][ValidateSet('refresh-headlight-loops.jsx', 'remove-headlight-loops.jsx', 'copy-driver-headlight-echo.jsx', 'export-shared-current.jsx')][string]$Script,
     [switch]$CheckOnly
 )
 

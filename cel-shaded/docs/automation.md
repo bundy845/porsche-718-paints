@@ -10,9 +10,11 @@ Run `scripts/iterate.ps1` from an **approved elevated PowerShell execution route
 pwsh -NoProfile -File .\cel-shaded\scripts\invoke-photoshop.ps1 -Script refresh-headlight-loops.jsx -CheckOnly
 ```
 
-The launcher checks that the on-disk master exists, requires it to be closed in Photoshop, runs only the two allowlisted existing JSX scripts, and returns compact JSON or a short stage error. This protects the user's open editing session because the existing JSX opens and closes the master. The master was observed open with unsaved edits early on 2026-10-18; a later check found no open documents. Recheck each session. Save or resolve manual changes and close the master before automation. Do not automatically save or close the user's open document.
+The launcher checks that the on-disk master exists, requires it to be closed in Photoshop, runs only allowlisted project JSX scripts, and returns compact JSON or a short stage error. This protects the user's open editing session because the existing JSX opens and closes the master. The master was observed open with unsaved edits early on 2026-10-18; a later check found no open documents. Recheck each session. Save or resolve manual changes and close the master before automation. Do not automatically save or close the user's open document.
 
 ## Headlight iteration
+
+The heavy-loop workflow below is historical: the user rejected and removed those layers. Current passenger details are flipped driver pixels, documented in `current-state.md`. Do not rerun the heavy-loop Apply stage or the one-time `copy-driver-headlight-echo.jsx` against the completed current master.
 
 From the repository root:
 

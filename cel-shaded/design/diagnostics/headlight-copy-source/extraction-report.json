@@ -1,0 +1,69 @@
+{
+  "source": "cel-shaded\\source\\rick-cel-shaded.psd",
+  "canvas": [
+    2048,
+    2048
+  ],
+  "assets": [
+    {
+      "layer": "Passenger side - upper UV island",
+      "file": "passenger-seams.png",
+      "source_bounds": [
+        377,
+        497,
+        2026,
+        1023
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        1649,
+        526
+      ],
+      "size": [
+        1649,
+        526
+      ]
+    },
+    {
+      "layer": "03 Short echoes and corner hatching",
+      "file": "echoes.png",
+      "source_bounds": [
+        13,
+        4,
+        2040,
+        2032
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        2027,
+        2028
+      ],
+      "size": [
+        2027,
+        2028
+      ]
+    },
+    {
+      "layer": "[SHARED] Satin ink - traced artwork",
+      "file": "traced-spec.png",
+      "source_bounds": [
+        5,
+        4,
+        2044,
+        2042
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        2039,
+        2038
+      ],
+      "size": [
+        2039,
+        2038
+      ]
+    }
+  ]
+}

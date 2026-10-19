@@ -1,0 +1,400 @@
+{
+  "schema_version": 1,
+  "coordinate_system": "Same as panels.json",
+  "seams": [
+    {
+      "id": "S01",
+      "panels": [
+        "I122",
+        "I081"
+      ],
+      "description": "Hood to passenger fender",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02",
+        "G03"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S02",
+      "panels": [
+        "I122",
+        "I136"
+      ],
+      "description": "Hood to driver fender",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02",
+        "G01"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S03",
+      "panels": [
+        "I122",
+        "I116"
+      ],
+      "description": "Hood nose to bumper across grille",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S04",
+      "panels": [
+        "I081",
+        "I116"
+      ],
+      "description": "Passenger fender to bumper around headlight",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02",
+        "E03",
+        "H02"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces.",
+      "confirmed_cell_regions": {
+        "resolution_px": 32,
+        "bumper_lower_return_cells_inclusive": {
+          "columns": [
+            10,
+            11
+          ],
+          "rows": [
+            25,
+            32
+          ]
+        },
+        "fender_surround_cells_inclusive": {
+          "columns": [
+            13,
+            18
+          ],
+          "rows": [
+            23,
+            28
+          ]
+        },
+        "limit": "Observed surrounding cells, not a paint polygon or paired endpoint. Lens boundary cuts cells; derive native edge from Wire and use endpoint ticks for exact continuation."
+      }
+    },
+    {
+      "id": "S05",
+      "panels": [
+        "I136",
+        "I116"
+      ],
+      "description": "Driver fender to bumper around headlight",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02",
+        "E04",
+        "H01"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces.",
+      "confirmed_cell_regions": {
+        "resolution_px": 32,
+        "bumper_lower_return_cells_inclusive": {
+          "columns": [
+            10,
+            11
+          ],
+          "rows": [
+            47,
+            54
+          ]
+        },
+        "fender_surround_cells_inclusive": {
+          "columns": [
+            13,
+            18
+          ],
+          "rows": [
+            51,
+            56
+          ]
+        },
+        "limit": "Observed surrounding cells, not a paint polygon or paired endpoint. Lens boundary cuts cells; derive native edge from Wire and use endpoint ticks for exact continuation."
+      }
+    },
+    {
+      "id": "S06",
+      "panels": [
+        "I116",
+        "I119"
+      ],
+      "description": "Front bumper to splitter",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S07",
+      "panels": [
+        "I081",
+        "I080"
+      ],
+      "description": "Passenger door/body to intake surround",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G03"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S08",
+      "panels": [
+        "I136",
+        "I153"
+      ],
+      "description": "Driver door/body to intake surround",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G01"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S09",
+      "panels": [
+        "I081",
+        "I128"
+      ],
+      "description": "Passenger roof rail to roof",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G05",
+        "G06"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S10",
+      "panels": [
+        "I136",
+        "I128"
+      ],
+      "description": "Driver roof rail to roof",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G05",
+        "G06"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S11",
+      "panels": [
+        "I128",
+        "I129"
+      ],
+      "description": "Roof to rear-glass surround",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G05"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S12",
+      "panels": [
+        "I081",
+        "I129"
+      ],
+      "description": "Passenger rear quarter to rear deck",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G05"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S13",
+      "panels": [
+        "I136",
+        "I129"
+      ],
+      "description": "Driver rear quarter to rear deck",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G05"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S14",
+      "panels": [
+        "I081",
+        "I007"
+      ],
+      "description": "Passenger rear quarter to rear bumper at lamp",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G03",
+        "G04"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S15",
+      "panels": [
+        "I136",
+        "I007"
+      ],
+      "description": "Driver rear quarter to rear bumper at lamp",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G01",
+        "G04"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S16",
+      "panels": [
+        "I007",
+        "I021"
+      ],
+      "description": "Rear bumper outer shell to center insert",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G04"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S17",
+      "panels": [
+        "I030",
+        "I044"
+      ],
+      "description": "Wing top to driver endplate",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G01",
+        "G05"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S18",
+      "panels": [
+        "I030",
+        "I045"
+      ],
+      "description": "Wing top to passenger endplate",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G03",
+        "G05"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S19",
+      "panels": [
+        "I030",
+        "I004"
+      ],
+      "description": "Wing leading/trailing lip to underside candidate",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "C02"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    },
+    {
+      "id": "S20",
+      "panels": [
+        "I125",
+        "I128"
+      ],
+      "description": "Exterior banner to roof across windshield edge",
+      "status": "provisional",
+      "adjacency_evidence": [
+        "G02",
+        "C01"
+      ],
+      "paired_boundary_points_px": [],
+      "limitation": "Views establish broad adjacency only; no matched source-space edge samples yet. A physical gap/trim may separate these surfaces."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "R01",
+      "description": "Passenger wheelward path mistaken for lower lamp return",
+      "points_px": [
+        [
+          325,
+          730
+        ],
+        [
+          326,
+          811
+        ],
+        [
+          340,
+          850
+        ]
+      ],
+      "evidence": [
+        "E03"
+      ]
+    },
+    {
+      "id": "R02",
+      "description": "Driver wheelward path mistaken for lower lamp return",
+      "points_px": [
+        [
+          340,
+          1683
+        ],
+        [
+          326,
+          1740
+        ],
+        [
+          325,
+          1800
+        ]
+      ],
+      "evidence": [
+        "E04"
+      ]
+    },
+    {
+      "id": "R03",
+      "description": "One universal side reflection",
+      "evidence": [
+        "E05",
+        "E06"
+      ],
+      "reason": "Decorative raster copy used y=2536-y; earlier door art used approximately 2560-y. Neither is an exact car-wide transform, and mirrored lettering is wrong."
+    }
+  ]
+}

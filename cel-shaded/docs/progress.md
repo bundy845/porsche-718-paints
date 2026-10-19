@@ -1,5 +1,31 @@
 # Progress
 
+## 2026-10-18 - replaced invented accents with exact flipped driver pixels
+
+- The user rejected the newly drawn marks and clarified that matching means copying the original artwork with flips/rotations. Removed the invented passenger paint/spec layers and replaced the passenger portion of the old echo pattern with actual donor pixels from the driver's `03 Short echoes and corner hatching` layer.
+- Copied six complete raster components using `x'=x, y'=2536-y`, without scaling, resampling, clipping, or drawing. The saved PSD's 774 destination pixels exactly match their source RGBA values. All fit the painted passenger island. The target spec patch restores the original passenger primary-seam spec plus the copied marks; driver crop remains pixel identical.
+- Source/previous exports and rejected generator archived in `archive/before-headlight-mark-copy-20261018/`; prior installed pair is in its `installed/` subfolder. Rick paint/spec passed 2048×2048 24-bit RLE checks and were installed with matching hashes. Justin's flat preview was refreshed. In-car appearance of the flipped marks remains to be reviewed.
+- Copy evidence and source selection: `design/diagnostics/headlight-copy-source/copy-report.txt` and `source-and-copy.png`. The active copy layer is `Passenger headlight - flipped driver marks`.
+
+## 2026-10-18 - passenger headlight short accents matched to driver
+
+- The user liked the surviving short marks around the driver lamp and requested similar detail on the passenger lamp. Kept the rejected heavy rings removed. Checkpointed the prior source and exports in `archive/before-passenger-headlight-echo-20261018/`.
+- Added four short strokes near the two tapered ends of the passenger lamp on a separate shared layer, plus matching satin spec. Rick and Justin exports were refreshed from the PSD. Flat proof: `design/diagnostics/passenger-headlight-small-echo-proof.png`.
+- The driver's Rick crop is pixel identical to the pre-edit crop. The new paint/spec alpha matches on all 488 added pixels, with no pixels outside the passenger paint island. Both current TGAs passed 2048×2048 24-bit RLE checks and were installed for Rick with matching hashes; prior installed files are in `archive/installed-before-passenger-headlight-echo-20261018/`. In-car projection remains to be reviewed.
+
+## 2026-10-18 - heavy headlight loops removed
+
+- The user rejected the latest surround treatment and asked to take it off. Checkpointed the immediately preceding PSD and current exports in `archive/before-headlight-loop-removal-20261018/`.
+- Removed `Headlights - heavy sketch loops` and `[SHARED] Satin headlight sketch loops` from the layered master. Refreshed Rick paint/spec exports and Justin's flat preview. The primary traced panel outline around each lamp remains.
+- Verified both exports are 2048×2048, 24-bit RLE TGAs; inspected flat crops of both headlights without the added rings. Installed the new Rick pair under 844824 with matching hashes. Backed up the prior installed files in `archive/installed-before-headlight-loop-removal-20261018/`. The proposed temporary numbered guide was not installed.
+
+## 2026-10-18 - headlight edge and lower-return curve revision
+
+- The user supplied a car close-up and PSD crops showing loose top endpoints, breaks between fender/bumper panels, and lower returns curving incorrectly or remaining straight. Started from the newer saved PSD after Photoshop confirmed the master was closed. Checkpoint: `archive/iteration-headlights-20261018-153048/`.
+- Updated only `RenderHeadlightLoops.cs` and refreshed the isolated headlight paint/spec layers. The new renderer clips to exact painted pixels, preserves the fender endpoints within their island, and shapes both lower bumper returns with a smooth inward bow. The original rejected wheelward paths remain excluded.
+- Refreshed Rick's current paint/spec TGAs and Justin's flat preview; checked both 2048×2048 24-bit exports, matching headlight paint/spec alpha, and zero artwork outside the allowed headlight UV region. Installed Rick's pair with matching SHA-256 hashes. Prior installed files are in `archive/installed-before-headlight-curve-20261018-1531/`.
+- Flat crops: `design/diagnostics/headlight-loops-{passenger,driver}-{wire,rick,justin}.png`. The exact cross-panel join still needs close-up car views from both front corners.
+
 ## 2026-10-18 - headlight bumper mapping corrected after in-car rejection
 
 - The user supplied close-ups of both headlights: the three fender sweeps follow the upper lamp shape, but the added bumper strokes run toward the wheels and stop beside the lamps. The lower lamp edges remain untreated. The user correctly pointed out that the earlier color/number mapping should have been used before choosing those bumper segments.

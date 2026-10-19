@@ -1,0 +1,64 @@
+{
+  "diagnostics": [
+    {
+      "id": "d003-small-parts",
+      "file": "d003-small-parts.tga",
+      "sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "24-bit uncompressed top-left TGA"
+    },
+    {
+      "id": "d004-headlight-joins",
+      "file": "d004-headlight-joins.tga",
+      "sha256": "eefb42c10d434ad3302d5141b86c5b2431ff927dde0084a17a3ebffea9e90fc5",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "24-bit uncompressed top-left TGA"
+    },
+    {
+      "id": "d005-remaining-parts",
+      "file": "d005-remaining-parts.tga",
+      "sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "24-bit uncompressed top-left TGA"
+    },
+    {
+      "id": "d006-exterior-codes",
+      "file": "d006-exterior-codes.tga",
+      "sha256": "ce0e98ad556e86fb2948c10872410ef011cd4097595a306136a61500743aefeb",
+      "size": [
+        2048,
+        2048
+      ],
+      "format": "24-bit uncompressed top-left TGA"
+    }
+  ],
+  "d006_codes": {
+    "A": "I008",
+    "B": "I010",
+    "C": "I011",
+    "D": "I012",
+    "E": "I017",
+    "F": "I048",
+    "G": "I083",
+    "H": "I084",
+    "J": "I086",
+    "K": "I121",
+    "L": "I130",
+    "M": "I137",
+    "N": "I139",
+    "P": "I141",
+    "Q": "I149",
+    "S": "I151",
+    "R": "I002"
+  },
+  "d006_note": "Single characters on unresolved exterior components; R distinguishes the I002 side transform. White ticks on thin H/Q strips. No interior review in this pass."
+}

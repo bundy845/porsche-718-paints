@@ -1,0 +1,17 @@
+{
+  "car": "Porsche 718 Cayman GT4 Clubsport",
+  "car_folder": "porsche718gt4",
+  "file": "Porsche 718 GT4.psd",
+  "width": 2048,
+  "height": 2048,
+  "bit_depth": 8,
+  "color_mode": "RGB",
+  "psd_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "archive_sha256": "819827063b1c4877a8ef608d115b5d26bfdd7f480866f3c100de738a490780bf",
+  "archive_member": "Porsche 718 GT4.psd",
+  "archive_member_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "psd_matches_archive": true,
+  "source_path_from_mapping": "../../../../cel-shaded/inputs/Porsche 718 GT4.psd",
+  "wire_sha256": "6411acd9a76126b6f436e329e4abda9e917a28767ef2d381bf38d1fa9de8666a",
+  "template_release": "Not supplied; hashes identify this exact saved version."
+}

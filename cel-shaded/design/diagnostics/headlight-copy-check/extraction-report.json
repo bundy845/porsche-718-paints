@@ -1,0 +1,49 @@
+{
+  "source": "cel-shaded\\source\\rick-cel-shaded.psd",
+  "canvas": [
+    2048,
+    2048
+  ],
+  "assets": [
+    {
+      "layer": "Passenger headlight - flipped driver marks",
+      "file": "copied-marks.png",
+      "source_bounds": [
+        412,
+        734,
+        565,
+        942
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        153,
+        208
+      ],
+      "size": [
+        153,
+        208
+      ]
+    },
+    {
+      "layer": "[SHARED] Satin passenger headlight - copied marks and original seams",
+      "file": "copied-spec.png",
+      "source_bounds": [
+        380,
+        710,
+        600,
+        947
+      ],
+      "crop_within_layer": [
+        0,
+        0,
+        220,
+        237
+      ],
+      "size": [
+        220,
+        237
+      ]
+    }
+  ]
+}

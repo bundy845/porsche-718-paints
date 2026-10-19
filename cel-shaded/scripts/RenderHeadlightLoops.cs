@@ -23,6 +23,17 @@ public static class RenderHeadlightLoops {
   var pts=new List<PointF>();for(int p=end;p!=-1;p=prev[p])pts.Add(new PointF(p%N,p/N));pts.Reverse();return pts;
  }
  static List<PointF> Trace(int[] anchors,Rectangle box){var all=new List<PointF>();for(int i=0;i<anchors.Length-2;i+=2){var part=Route(Snap(anchors[i],anchors[i+1]),Snap(anchors[i+2],anchors[i+3]),box);if(all.Count>0)part.RemoveAt(0);all.AddRange(part);}var smooth=new List<PointF>();for(int i=0;i<all.Count;i+=3){float x=0,y=0;int n=0;for(int j=Math.Max(0,i-4);j<=Math.Min(all.Count-1,i+4);j++){x+=all[j].X;y+=all[j].Y;n++;}smooth.Add(new PointF(x/n,y/n));}smooth.Add(all[all.Count-1]);return smooth;}
+ static List<PointF> BumperCurve(List<PointF> edge){
+  var a=edge[0];var b=edge[edge.Count-1];var curve=new List<PointF>();
+  for(int i=0;i<=90;i++){double t=i/90.0;
+   // The wire zigzags through the bumper mesh. A single inward bow gives the
+   // three lower returns the same curvature on both sides of the car.
+   float x=(float)(a.X+(b.X-a.X)*t-10*Math.Sin(Math.PI*t));
+   float y=(float)(a.Y+(b.Y-a.Y)*t);
+   curve.Add(new PointF(x,y));
+  }
+  return curve;
+ }
  static PointF Normal(List<PointF> p,int i,int sign){var a=p[Math.Max(0,i-3)];var b=p[Math.Min(p.Count-1,i+3)];double dx=b.X-a.X,dy=b.Y-a.Y,len=Math.Sqrt(dx*dx+dy*dy);return new PointF((float)(sign*dy/len),(float)(-sign*dx/len));}
  static void Loops(Graphics g,List<PointF> p,int sign,double phase,float bleed){
   for(int ring=0;ring<3;ring++){
@@ -37,7 +48,7 @@ public static class RenderHeadlightLoops {
   }
  }
  static Bitmap New(){var b=new Bitmap(N,N,PixelFormat.Format32bppArgb);b.SetResolution(72,72);return b;}
- static void Clip(Bitmap b){for(int y=680;y<1840;y++)for(int x=270;x<640;x++){var c=b.GetPixel(x,y);if(c.A==0)continue;bool body=false;for(int dy=-2;dy<=2&&!body;dy++)for(int dx=-2;dx<=2;dx++)if(allowed[(y+dy)*N+x+dx]){body=true;break;}if(!body)b.SetPixel(x,y,Color.Transparent);}}
+ static void Clip(Bitmap b){for(int y=680;y<1840;y++)for(int x=270;x<640;x++){var c=b.GetPixel(x,y);if(c.A==0)continue;if(!allowed[y*N+x])b.SetPixel(x,y,Color.Transparent);}}
  public static string Run(string root){
   string dir=Path.Combine(root,"graphics","current"),diag=Path.Combine(root,"design","diagnostics");
   using(var wire=new Bitmap(Path.Combine(diag,"wire-source.png")))for(int y=0;y<N;y++)for(int x=0;x<N;x++){var c=wire.GetPixel(x,y);green[y*N+x]=c.A>50&&c.G>c.R+45&&c.G>c.B+45;}
@@ -58,7 +69,7 @@ public static class RenderHeadlightLoops {
   var log=new List<string>();
   using(var all=New())using(var ga=Graphics.FromImage(all)){
    for(int side=0;side<2;side++)using(var layer=New()){
-    using(var g=Graphics.FromImage(layer)){g.SmoothingMode=SmoothingMode.AntiAlias;Loops(g,paths[side],1,side*.8,25);Loops(g,paths[side+2],-1,side*.8+2,12);}
+    using(var g=Graphics.FromImage(layer)){g.SmoothingMode=SmoothingMode.AntiAlias;Loops(g,paths[side],1,side*.8,25);Loops(g,BumperCurve(paths[side+2]),-1,side*.8+2,15);}
     Clip(layer);layer.Save(Path.Combine(dir,side==0?"headlight-loops-passenger.png":"headlight-loops-driver.png"),ImageFormat.Png);ga.DrawImage(layer,new Rectangle(0,0,N,N));
     log.Add((side==0?"Passenger":"Driver")+": fender samples="+paths[side].Count+", bumper samples="+paths[side+2].Count);
    }

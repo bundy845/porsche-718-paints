@@ -1,0 +1,7 @@
+Source {X=425,Y=1595,Width=6,Height=4}: 12 pixels; target x=x, y=2536-y
+Source {X=422,Y=1608,Width=54,Height=15}: 283 pixels; target x=x, y=2536-y
+Source {X=412,Y=1625,Width=43,Height=17}: 134 pixels; target x=x, y=2536-y
+Source {X=555,Y=1690,Width=10,Height=12}: 35 pixels; target x=x, y=2536-y
+Source {X=531,Y=1765,Width=30,Height=16}: 93 pixels; target x=x, y=2536-y
+Source {X=488,Y=1787,Width=45,Height=16}: 217 pixels; target x=x, y=2536-y
+Copied pixels=774; outside painted mask=0

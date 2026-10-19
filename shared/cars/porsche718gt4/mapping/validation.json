@@ -1,0 +1,20 @@
+{
+  "evidence_files": 40,
+  "reference_components": 156,
+  "features": 7,
+  "seams": 20,
+  "identity_status_counts": {
+    "confirmed": 28,
+    "provisional": 3,
+    "unknown": 125
+  },
+  "diagnostic_session_status": "restored",
+  "active_diagnostic": "d006-exterior-codes",
+  "placement_policy_counts": {
+    "mapped_surface_check_orientation_and_seams": 28,
+    "protected_template_overlay": 111,
+    "unresolved_do_not_guess": 17
+  },
+  "checks": "Evidence hashes, unique IDs, cross references, source bounds, PNG sizes, TGA headers/lengths, template/archive equality, installation/backup hashes, top-level Markdown link targets passed.",
+  "full_mapping_complete": false
+}

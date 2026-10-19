@@ -1,0 +1,13 @@
+{
+  "status": "restored",
+  "target": "C:\\Users\\bundy\\Documents\\iRacing\\paint\\porsche718gt4\\car_844824.tga",
+  "backup_paint": "diagnostics/backups/0e58949d69b346eb8bd96ca283615fbc/car_844824.tga",
+  "original_sha256": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
+  "backup_hashes": {
+    "car_spec_844824.tga": "7addd6f97f1dccefab4ec3392ed357fda47f94f0f635f24701c74c80cf18e7fc",
+    "car_844824.tga": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
+    "car_spec_844824.mip": "6e8242aff03f48e13b70e5255d2cc495ae231d621d9c7acfbbc2ea0c351bde63"
+  },
+  "diagnostic": "d006-exterior-codes",
+  "diagnostic_sha256": "ce0e98ad556e86fb2948c10872410ef011cd4097595a306136a61500743aefeb"
+}

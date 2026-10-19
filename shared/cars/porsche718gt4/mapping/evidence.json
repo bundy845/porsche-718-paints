@@ -1,0 +1,365 @@
+{
+  "recovered_on": "2026-10-19",
+  "sources": [
+    {
+      "id": "G01",
+      "file": "rendered/G01-driver.png",
+      "sha256": "c23c426682cc2af6d0f3c6afb4a7c10129ba86b5e63dc75bca84ab1e71847e30",
+      "role": "numbered in-car screenshot",
+      "observations": "Driver side, upright grid; body +x front to rear; intake separate; wing outer face.",
+      "original_file": "Screenshot 2026-10-16 160427.png"
+    },
+    {
+      "id": "G02",
+      "file": "rendered/G02-front-top.png",
+      "sha256": "d28d313523827d888695e256f7f0b9428e0eb88c2161f4e802bd496ae2989dff",
+      "role": "numbered in-car screenshot",
+      "observations": "Hood nose at low x; roof and hood +y toward driver; front bumper and splitter cells.",
+      "original_file": "Screenshot 2026-10-16 160444.png"
+    },
+    {
+      "id": "G03",
+      "file": "rendered/G03-passenger.png",
+      "sha256": "8a707cf396794627e05cd18193c18aab69144675a318e1a9daaa22250d64b5e1",
+      "role": "numbered in-car screenshot",
+      "observations": "Passenger side grid upside down; fuel cap on front fender; intake separate.",
+      "original_file": "Screenshot 2026-10-16 160451.png"
+    },
+    {
+      "id": "G04",
+      "file": "rendered/G04-rear.png",
+      "sha256": "94c701f1dc15af3fa28e3dded810515953c767dfd7ac1c9649dcca4d83270fe4",
+      "role": "numbered in-car screenshot",
+      "observations": "Rear bumper shell versus central insert; rear deck separate from wing.",
+      "original_file": "Screenshot 2026-10-16 160459.png"
+    },
+    {
+      "id": "G05",
+      "file": "rendered/G05-rear-overhead.png",
+      "sha256": "8ed4962f0274f9ce8c22103294eb0ee0eb574f21f35d29dfff5b3ac6ecd79eca",
+      "role": "numbered in-car screenshot",
+      "observations": "Roof, flap, rear-glass ring and wing top; readable span direction.",
+      "original_file": "Screenshot 2026-10-16 160507.png"
+    },
+    {
+      "id": "G06",
+      "file": "rendered/G06-whole-overhead.png",
+      "sha256": "9e2db9579d7318af1d283a3dd894c3f6c7462ea5badc811b7d65791662779018",
+      "role": "numbered in-car screenshot",
+      "observations": "Hood/roof/deck orientation together; side pillars and separate wing.",
+      "original_file": "Screenshot 2026-10-16 160515.png"
+    },
+    {
+      "id": "E01",
+      "file": "rendered/E01-fuel-cap.png",
+      "sha256": "3a39520f5bcb9fb9329a2104de164adc8f5728510fbbb13f0936dd758830ab65",
+      "role": "livery in-car screenshot",
+      "observations": "Oval on passenger front fender is the fuel cap, not a door handle.",
+      "original_file": "Screenshot 2026-10-17 110542.png"
+    },
+    {
+      "id": "E02",
+      "file": "rendered/E02-banner-clipping.png",
+      "sha256": "2de65d41c4de4a9017fb3ce6a73b76029bfa78c66b0e536ff9ee9128880497f1",
+      "role": "livery in-car screenshot",
+      "observations": "Exterior BUNDY strip visible; lower letter crop of earlier layout.",
+      "original_file": "Screenshot 2026-10-17 191437.png"
+    },
+    {
+      "id": "E03",
+      "file": "rendered/E03-passenger-rejected-return.png",
+      "sha256": "3e28202a9cf227724fc7794a57687a575db74f60dd46eef016b7ef26bd1110c6",
+      "role": "livery in-car screenshot",
+      "observations": "Lamp-loop bumper return runs wheelward; rejected exact path retained in seams.json.",
+      "original_file": "Screenshot 2026-10-18 091306.png"
+    },
+    {
+      "id": "E04",
+      "file": "rendered/E04-driver-rejected-return.png",
+      "sha256": "2554e2a4f619b780261ebf43a97971a732ddb046e95b3f2b3d36c1b629a48544",
+      "role": "livery in-car screenshot",
+      "observations": "Opposite lamp return does not complete the surround.",
+      "original_file": "Screenshot 2026-10-18 091312.png"
+    },
+    {
+      "id": "E05",
+      "file": "rendered/E05-driver-number.png",
+      "sha256": "f1e402119333ebaaf3156ecc9afa20f2acf6772ead2d1c6a1609bd7840973019",
+      "role": "livery in-car screenshot",
+      "observations": "Driver number panel reads upright on car.",
+      "original_file": "Screenshot 2026-10-18 154550.png"
+    },
+    {
+      "id": "E06",
+      "file": "rendered/E06-passenger-number.png",
+      "sha256": "596f218435d7510939aa4fdc10d09c5661ddb12a0993b3ee148b93267e4c3727",
+      "role": "livery in-car screenshot",
+      "observations": "Passenger number panel reads upright after 180-degree source rotation.",
+      "original_file": "Screenshot 2026-10-18 154645.png"
+    },
+    {
+      "id": "E07",
+      "file": "rendered/E07-hood-banner.png",
+      "sha256": "45b9d7e9b213331583ac088d6837dac28ff66d2ceab5c6d9270336073b91d09c",
+      "role": "livery in-car screenshot",
+      "observations": "Hood logo reads from front and inset banner is visible; not a measured safe-area boundary.",
+      "original_file": "Screenshot 2026-10-18 154624.png"
+    },
+    {
+      "id": "D01",
+      "file": "rendered/d003/Screenshot 2026-10-19 080548.png",
+      "sha256": "e0f3b802e3a7a2ae256bf692c3e75c125f622619f3a82d4306ec39bee9dfe42f",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Passenger mirror 078, handle 120 and side intake 080; arrows and local digit direction readable.",
+      "original_file": "Screenshot 2026-10-19 080548.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D02",
+      "file": "rendered/d003/Screenshot 2026-10-19 080604.png",
+      "sha256": "148cdfaf296d1a0ae60caacaa1f5a752a33099f274e8f2d8e8a2168dc5ca403f",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Passenger front duct 009 upside down and inner return 020; vertical louver label partly obscured.",
+      "original_file": "Screenshot 2026-10-19 080604.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D03",
+      "file": "rendered/d003/Screenshot 2026-10-19 080620.png",
+      "sha256": "28a48856f98f9461a6783e1ffc20905997477a7915f6d9962eb69db09b5f5994",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Driver front duct 009 upright and inner return 020. Shared texels across both front ducts confirmed against D02.",
+      "original_file": "Screenshot 2026-10-19 080620.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D04",
+      "file": "rendered/d003/Screenshot 2026-10-19 080629.png",
+      "sha256": "29ffd36b929311d9d7c7156bdaf7ece8697ef0b08046bba166405e6200e9f18d",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Driver front wheelward vertical louver panel is colored, but its three-digit label is not fully readable.",
+      "original_file": "Screenshot 2026-10-19 080629.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D05",
+      "file": "rendered/d003/Screenshot 2026-10-19 080641.png",
+      "sha256": "efee4d2868141294bb451c880c07b4a484568e13d013be2c739b69fc517c117e",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Driver mirror 156, handle 143 and intake 153. Mirror and handle digits inverted; intake upright.",
+      "original_file": "Screenshot 2026-10-19 080641.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D06",
+      "file": "rendered/d003/Screenshot 2026-10-19 080654.png",
+      "sha256": "ce408b2680308b5183297641ed7b178ce867f098914d2676c63b47fc01cd0bf3",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Wing top 030; separate deck lip upper face 040 and rear face 041; visible rear lettering picks up atlas color.",
+      "original_file": "Screenshot 2026-10-19 080654.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D07",
+      "file": "rendered/d003/Screenshot 2026-10-19 080702.png",
+      "sha256": "b82eca7c3edecff64dd890f6d9ce5e5075dc3995fbdb2a8620f7e1b964c73003",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Wing underside 004, driver outer endplate 044 and passenger inner endplate 063; deck strip 041 and bumper inset 021.",
+      "original_file": "Screenshot 2026-10-19 080702.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D08",
+      "file": "rendered/d003/Screenshot 2026-10-19 080718.png",
+      "sha256": "fef329f218ae4c249470996bb7567a8f2d11985394e98ad64a0d1639f5e26486",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Rear 021 upright, 040/041 inverted; wing top 030 inverted from rear. Rear lettering responds to atlas colors.",
+      "original_file": "Screenshot 2026-10-19 080718.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D09",
+      "file": "rendered/d003/Screenshot 2026-10-19 080734.png",
+      "sha256": "89dc271d646d30899e5ceef428ff6b7f22b9bd27017f98cfd41fd0bf4cffdc6f",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Wing underside 004, driver inner endplate 064 and passenger outer endplate 045.",
+      "original_file": "Screenshot 2026-10-19 080734.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D10",
+      "file": "rendered/d003/Screenshot 2026-10-19 080745.png",
+      "sha256": "5cd40c6a5d31a16ee3bfd3b4a041fcfa2ea3095810d3925a13aec4133e519e6c",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Close passenger inner endplate 063 under wing underside 004.",
+      "original_file": "Screenshot 2026-10-19 080745.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "D11",
+      "file": "rendered/d003/Screenshot 2026-10-19 080754.png",
+      "sha256": "56e4908b05a60471b794c4200405af9468c5ee36349bb12a1deff6ac73751f9d",
+      "role": "d003 numbered in-car screenshot",
+      "observations": "Passenger outer endplate 045 upright, +x arrow toward vehicle front.",
+      "original_file": "Screenshot 2026-10-19 080754.png",
+      "diagnostic_file": "diagnostics/d003-small-parts.tga",
+      "diagnostic_sha256": "00a5b75545312a48b7fbeff2bb3a259b7f050e12ff83ceeb9b276fe251163684"
+    },
+    {
+      "id": "H01",
+      "file": "rendered/d004/Screenshot 2026-10-19 081158.png",
+      "sha256": "8add72f6099784826cced7c031d7e1422bd4323d6270c70adccfa3756a3df229",
+      "role": "d004 32px grid in-car screenshot",
+      "observations": "Driver headlight: lower painted return is on front bumper, mainly columns 10-11 and rows 47-54; upper/fender surround spans columns 13-18, rows 51-56. Cell-level correspondence only.",
+      "original_file": "Screenshot 2026-10-19 081158.png",
+      "diagnostic_file": "diagnostics/d004-headlight-joins.tga",
+      "diagnostic_sha256": "eefb42c10d434ad3302d5141b86c5b2431ff927dde0084a17a3ebffea9e90fc5"
+    },
+    {
+      "id": "H02",
+      "file": "rendered/d004/Screenshot 2026-10-19 081208.png",
+      "sha256": "e3f17132bb751ae604fe83fea873cf87e8ca07256cfb031ad7f4f429b0fee675",
+      "role": "d004 32px grid in-car screenshot",
+      "observations": "Passenger headlight: lower painted return is on front bumper, mainly columns 10-11 and rows 25-32; upper/fender surround spans columns 13-18, rows 23-28. Cell-level correspondence only.",
+      "original_file": "Screenshot 2026-10-19 081208.png",
+      "diagnostic_file": "diagnostics/d004-headlight-joins.tga",
+      "diagnostic_sha256": "eefb42c10d434ad3302d5141b86c5b2431ff927dde0084a17a3ebffea9e90fc5"
+    },
+    {
+      "id": "K01",
+      "file": "rendered/d005/Screenshot 2026-10-19 082209.png",
+      "sha256": "99ee2a6dab6f58800331bf9d3cf37b25292d68339a7e0ab0a58b0185d08489b1",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Passenger vertical front louver displays large 2; shared source with K02. Small fin IDs not fully readable.",
+      "original_file": "Screenshot 2026-10-19 082209.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "K02",
+      "file": "rendered/d005/Screenshot 2026-10-19 082220.png",
+      "sha256": "c5128a87e45e443eb7bd838b187d96a180fe55d72bb1ad2da69785d4d9366392",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Driver vertical front louver displays upright large 2. Separate colored upper/lower fins; IDs too small for confident full assignment.",
+      "original_file": "Screenshot 2026-10-19 082220.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "K03",
+      "file": "rendered/d005/Screenshot 2026-10-19 082233.png",
+      "sha256": "1f21165973fcb3f18f836a8a0cf8dc2ff3d77bf2b104ef44d369b11ba0167b4a",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Green inner intake patch behind neutral outer shell. Partial lettering only; candidate I141 remains provisional.",
+      "original_file": "Screenshot 2026-10-19 082233.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "K04",
+      "file": "rendered/d005/Screenshot 2026-10-19 082243.png",
+      "sha256": "916f9214f8a077f199ce4c397d789063883bad9824c354fa9bf20e3f7a4464d7",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Mirror back/glass view shows colored rim; insufficient ID lettering to match a specific narrow component.",
+      "original_file": "Screenshot 2026-10-19 082243.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "K05",
+      "file": "rendered/d005/Screenshot 2026-10-19 082256.png",
+      "sha256": "2479486cc6ece33b83a2db62070bc0496996f3fc447f2306768dc0da88694c5d",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Opposite mirror back/glass view shows colored rim; insufficient ID lettering to match a specific narrow component.",
+      "original_file": "Screenshot 2026-10-19 082256.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "K06",
+      "file": "rendered/d005/Screenshot 2026-10-19 082306.png",
+      "sha256": "1991700e63d6d5360d5b38fd3b9377ae2ad10c3b3d83740f0da3e9eb69778b4b",
+      "role": "d005 remaining-parts in-car screenshot",
+      "observations": "Cyan inner intake return behind neutral outer shell; candidate I121, label not fully readable.",
+      "original_file": "Screenshot 2026-10-19 082306.png",
+      "diagnostic_file": "diagnostics/d005-remaining-parts.tga",
+      "diagnostic_sha256": "a6d11a7023faf92323505be8d973cade2d6044ccc263d68d7dc3b556d16fd04c"
+    },
+    {
+      "id": "X01",
+      "file": "rendered/d006/X01-passenger-louver.png",
+      "sha256": "fb687477b265c8a3f80cf891b40305c0734842524c0e3d0daf77a72dd4eef000",
+      "role": "d006 exterior-code in-car screenshot",
+      "observations": "The user identifies this as the passenger-side view. Code R lands on the vertical front louver surround ahead of the front wheel, confirming d006 code R maps to passenger-side I002. d005 K01/K02 show the corresponding feature on both sides; exact mirrored/rotated source transform remains unresolved.",
+      "original_file": "Screenshot 2026-10-19 084006.png",
+      "diagnostic_file": "diagnostics/d006-exterior-codes.tga",
+      "diagnostic_sha256": "ce0e98ad556e86fb2948c10872410ef011cd4097595a306136a61500743aefeb"
+    },
+    {
+      "id": "C01",
+      "file": "references/clyde-718-parts-1.jpg",
+      "sha256": "0f30a26e4fd29faf30ce8bbbf94fa55dd8e0bd941c78e3c3406d9380f2142af9",
+      "role": "Clyde exact-car rendered parts reference",
+      "observations": "Visible panel colors, wing TOP/L/R and paintable exterior surfaces.",
+      "original_file": null
+    },
+    {
+      "id": "C02",
+      "file": "references/clyde-718-parts-2.jpg",
+      "sha256": "11d55b724ed75fd3219b68ea04cb774c83d3c0be015ac9dc46aa4d5cebb16394",
+      "role": "Clyde flat parts atlas JPEG",
+      "observations": "2048-square flat source; identity-layout correspondence visually checked against original wire; not a lossless paint mask.",
+      "original_file": null
+    },
+    {
+      "id": "T01",
+      "file": "wire/template-wire-r000.png",
+      "sha256": "d8665c1b108d9d9d90933901a3790f72443c2f52e98b79ec9994580b6fa859b8",
+      "role": "original template wire composite",
+      "observations": "Native source-space layout and template decal content.",
+      "original_file": null
+    },
+    {
+      "id": "T02",
+      "file": "wire/wire-source.png",
+      "sha256": "6411acd9a76126b6f436e329e4abda9e917a28767ef2d381bf38d1fa9de8666a",
+      "role": "isolated original Wire layer",
+      "observations": "Native green edges and white mesh; edges also enclose texture atlases.",
+      "original_file": null
+    },
+    {
+      "id": "T03",
+      "file": "template/template-number-blocks.png",
+      "sha256": "0d933b024e9251b41fbd14704ec8d86388b306c8a8efc175f00c6cb71d063de8",
+      "role": "original template Number Blocks export",
+      "observations": "Exact number reserve rectangles; not a physical panel boundary.",
+      "original_file": null
+    },
+    {
+      "id": "T04",
+      "file": "template/inventory.json",
+      "sha256": "acb134008eb960280adaaf9f0ddb09205ca97e7684a4f3b57b8fab842f34910e",
+      "role": "read-only original PSD structure inventory",
+      "observations": "52 records, layer hierarchy markers, bounds, channels, masks, clipping/blends, text/smart-object tags and image-resource IDs. Pitbox footprint is explicit.",
+      "original_file": null
+    },
+    {
+      "id": "T05",
+      "file": "template/original-mandatory-raster.png",
+      "sha256": "57915517a8b6d622bae6f91323073445e15cad13a9afd05040a4366fd9e5722a",
+      "role": "raw original Car Mandatory layer RGBA",
+      "observations": "Native alpha establishes protected template overlay coverage. Layer has no additional mask; see inventory. Physical identities are independent of this protection classification.",
+      "original_file": null
+    }
+  ]
+}
