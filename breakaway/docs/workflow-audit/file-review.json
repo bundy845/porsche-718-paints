@@ -1,0 +1,2932 @@
+{
+  "livery": "breakaway",
+  "root": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\porsche718gt4\\breakaway",
+  "method": "Conservative explicit path/unique filename references, manifest-relative paths and known renderer/validator dynamic inputs. Inventories are not dependencies. Deletion scope excludes shared assets and other liveries.",
+  "unreferenced": [],
+  "unreferenced_bytes": 0,
+  "referenced": [
+    {
+      "path": ".gitignore",
+      "bytes": 378,
+      "references": [
+        "Implicit project/directory entry point",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1400,
+      "references": [
+        "Implicit project/directory entry point",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-audit/fresh-sol-transcript.md",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "design/previews/rejected-r006-first-rear-check/justin-paint-flat-r006.png",
+      "bytes": 913418,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "design/previews/rejected-r006-first-rear-check/justin-spec-flat-r006.png",
+      "bytes": 447956,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "design/previews/rejected-r006-first-rear-check/rick-paint-flat-r006.png",
+      "bytes": 913229,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "design/previews/rejected-r006-first-rear-check/rick-spec-flat-r006.png",
+      "bytes": 447956,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "design/previews/rick-paint-flat-r003.png",
+      "bytes": 768359,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "design/previews/rick-paint-flat-r004.png",
+      "bytes": 773541,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "design/references/hexagon-concept-comparison.png",
+      "bytes": 1853844,
+      "references": [
+        "breakaway/design/references/README.md"
+      ]
+    },
+    {
+      "path": "design/references/README.md",
+      "bytes": 1066,
+      "references": [
+        "Implicit project/directory entry point",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "docs/automation-history.md",
+      "bytes": 10512,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/automation.md",
+      "bytes": 3658,
+      "references": [
+        "breakaway/README.md",
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)",
+        "cel-shaded/README.md",
+        "cel-shaded/docs/current-state.md"
+      ]
+    },
+    {
+      "path": "docs/brief.md",
+      "bytes": 4406,
+      "references": [
+        "breakaway/README.md",
+        "cel-shaded/README.md"
+      ]
+    },
+    {
+      "path": "docs/current-state.md",
+      "bytes": 4804,
+      "references": [
+        "breakaway/AGENTS.md",
+        "breakaway/README.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)",
+        "cel-shaded/README.md",
+        "cel-shaded/docs/automation.md",
+        "shared/cars/porsche718gt4/mapping/verification.md"
+      ]
+    },
+    {
+      "path": "docs/editing-guide.md",
+      "bytes": 2213,
+      "references": [
+        "breakaway/docs/automation.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r001.md",
+      "bytes": 2831,
+      "references": [
+        "breakaway/docs/placement-r002.md",
+        "breakaway/docs/placement-r003.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r002.md",
+      "bytes": 3273,
+      "references": [
+        "breakaway/docs/placement-r003.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r003.md",
+      "bytes": 3588,
+      "references": [
+        "breakaway/docs/placement-r004.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r004.md",
+      "bytes": 1962,
+      "references": [
+        "breakaway/docs/placement-r005.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r005.md",
+      "bytes": 1874,
+      "references": [
+        "breakaway/docs/placement-r006.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r006.md",
+      "bytes": 2123,
+      "references": [
+        "breakaway/docs/placement-r007.md"
+      ]
+    },
+    {
+      "path": "docs/placement-r007.md",
+      "bytes": 1690,
+      "references": [
+        "breakaway/docs/placement.md"
+      ]
+    },
+    {
+      "path": "docs/placement.md",
+      "bytes": 1174,
+      "references": [
+        "breakaway/README.md",
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/progress.md"
+      ]
+    },
+    {
+      "path": "docs/progress.md",
+      "bytes": 24880,
+      "references": [
+        "breakaway/README.md",
+        "cel-shaded/README.md",
+        "cel-shaded/docs/automation.md",
+        "cel-shaded/docs/current-state.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/cleanup-result.json",
+      "bytes": 44029,
+      "references": [
+        "Retained cleanup audit record",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/demo-mask-test-report.json",
+      "bytes": 15715,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/demo-report.json",
+      "bytes": 16019,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/export-report.json",
+      "bytes": 428,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/file-review.json",
+      "bytes": 117635,
+      "references": [
+        "Retained cleanup audit record",
+        "breakaway/AGENTS.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/fresh-sol-transcript.md",
+      "bytes": 3572,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/guard-validation.json",
+      "bytes": 1414,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/inspect-report.json",
+      "bytes": 14086,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/migration-validation.json",
+      "bytes": 1273,
+      "references": [
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-state.json"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/palette-validation.json",
+      "bytes": 3285,
+      "references": [
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/photoshop-layers.png",
+      "bytes": 1102342,
+      "references": [
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/preflight-rear-sample.json",
+      "bytes": 11519,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/preview-report.json",
+      "bytes": 32079,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/README.md",
+      "bytes": 10389,
+      "references": [
+        "Implicit project/directory entry point",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/request.jsxinc",
+      "bytes": 292,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/scripts/invoke-photoshop.ps1",
+        "breakaway/scripts/invoke-photoshop.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/workflow.jsx",
+        "breakaway/scripts/workflow.jsx (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "docs/workflow-audit/skill-validation.json",
+      "bytes": 273,
+      "references": [
+        "breakaway/docs/workflow-audit/README.md"
+      ]
+    },
+    {
+      "path": "docs/workflow-state.json",
+      "bytes": 4426,
+      "references": [
+        "breakaway/README.md",
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/scripts/install-review.ps1",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/invoke-photoshop.ps1",
+        "breakaway/scripts/invoke-photoshop.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-exports.py",
+        "breakaway/scripts/validate-exports.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/current/car_844824.png",
+      "bytes": 895830,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_844824.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_845005.png",
+      "bytes": 896543,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_845005.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_spec_844824.png",
+      "bytes": 456029,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_spec_844824.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_spec_845005.png",
+      "bytes": 456029,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/car_spec_845005.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/current/export-manifest.json",
+        "cel-shaded/archive/before-headlight-mark-copy-20261018/RenderPassengerHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/archive/current-before-headlight-bumper-remap-20261018/RenderHeadlightLoops-rejected-bumper.cs (dynamic driver export path)",
+        "cel-shaded/scripts/CopyDriverHeadlightEcho.cs (dynamic driver export path)",
+        "cel-shaded/scripts/RenderHeadlightLoops.cs (dynamic driver export path)",
+        "cel-shaded/scripts/apply-wire-detail-update.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/consolidate-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/iterate.ps1 (dynamic driver export path)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/refine-shared-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/update-mapped-current.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/validate-headlights.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/current/export-manifest.json",
+      "bytes": 2661,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r001/car_844824.tga",
+      "bytes": 326552,
+      "references": [
+        "breakaway/exports/r001/installed-session.json",
+        "breakaway/exports/r001/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r001.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r001.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r001/car_845005.tga",
+      "bytes": 326552,
+      "references": [
+        "breakaway/exports/r001/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r001.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r001.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r001/car_spec_844824.tga",
+      "bytes": 560576,
+      "references": [
+        "breakaway/exports/r001/installed-session.json",
+        "breakaway/exports/r001/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r001.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r001.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r001/car_spec_845005.tga",
+      "bytes": 560775,
+      "references": [
+        "breakaway/exports/r001/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r001.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r001.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r001/installed-session.json",
+      "bytes": 727,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/progress.md",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r001/validation.json",
+      "bytes": 1851,
+      "references": [
+        "breakaway/docs/progress.md",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r002/car_844824.tga",
+      "bytes": 1799229,
+      "references": [
+        "breakaway/exports/r002/installed-session.json",
+        "breakaway/exports/r002/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r002.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r002.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r002/car_845005.tga",
+      "bytes": 1799229,
+      "references": [
+        "breakaway/exports/r002/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r002.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r002.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r002/car_spec_844824.tga",
+      "bytes": 1181822,
+      "references": [
+        "breakaway/exports/r002/installed-session.json",
+        "breakaway/exports/r002/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r002.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r002.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r002/car_spec_845005.tga",
+      "bytes": 1181822,
+      "references": [
+        "breakaway/exports/r002/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r002.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r002.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r002/installed-session.json",
+      "bytes": 751,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r002/validation.json",
+      "bytes": 1934,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r003/car_844824.tga",
+      "bytes": 2681885,
+      "references": [
+        "breakaway/exports/r003/installed-session.json",
+        "breakaway/exports/r003/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r003.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r003.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/diagnostics/d007-plan.json",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r003/car_845005.tga",
+      "bytes": 2681885,
+      "references": [
+        "breakaway/exports/r003/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r003.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r003.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r003/car_spec_844824.tga",
+      "bytes": 1381044,
+      "references": [
+        "breakaway/exports/r003/installed-session.json",
+        "breakaway/exports/r003/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r003.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r003.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r003/car_spec_845005.tga",
+      "bytes": 1381044,
+      "references": [
+        "breakaway/exports/r003/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r003.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r003.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r003/installed-session.json",
+      "bytes": 794,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r003/validation.json",
+      "bytes": 3649,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r004/car_844824.tga",
+      "bytes": 2417038,
+      "references": [
+        "breakaway/exports/r004/installed-session.json",
+        "breakaway/exports/r004/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r004.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r004.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/diagnostics/d008-dpi-rejected-plan.json",
+        "shared/cars/porsche718gt4/mapping/diagnostics/d008-plan.json",
+        "shared/cars/porsche718gt4/mapping/diagnostics/installed-session.json",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r004/car_845005.tga",
+      "bytes": 2417038,
+      "references": [
+        "breakaway/exports/r004/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r004.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r004.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r004/car_spec_844824.tga",
+      "bytes": 1532349,
+      "references": [
+        "breakaway/exports/r004/installed-session.json",
+        "breakaway/exports/r004/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r004.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r004.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r004/car_spec_845005.tga",
+      "bytes": 1532349,
+      "references": [
+        "breakaway/exports/r004/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r004.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r004.jsx (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r004/installed-session.json",
+      "bytes": 875,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r004/validation.json",
+      "bytes": 3843,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r005/car_844824.tga",
+      "bytes": 2501375,
+      "references": [
+        "breakaway/exports/r005/installed-session.json",
+        "breakaway/exports/r005/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r005.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r005.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r005/car_845005.tga",
+      "bytes": 2501375,
+      "references": [
+        "breakaway/exports/r005/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r005.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r005.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r005/car_spec_844824.tga",
+      "bytes": 1576635,
+      "references": [
+        "breakaway/exports/r005/installed-session.json",
+        "breakaway/exports/r005/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r005.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r005.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r005/car_spec_845005.tga",
+      "bytes": 1576635,
+      "references": [
+        "breakaway/exports/r005/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "cel-shaded/scripts/build-r005.jsx (dynamic driver export path)",
+        "cel-shaded/scripts/export-spec-r005.jsx (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r005/installed-session.json",
+      "bytes": 737,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r005/validation.json",
+      "bytes": 3910,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r006/car_844824.tga",
+      "bytes": 2611986,
+      "references": [
+        "breakaway/exports/r006/installed-session.json",
+        "breakaway/exports/r006/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r006/car_845005.tga",
+      "bytes": 2611986,
+      "references": [
+        "breakaway/exports/r006/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r006/car_spec_844824.tga",
+      "bytes": 1652183,
+      "references": [
+        "breakaway/exports/r006/installed-session.json",
+        "breakaway/exports/r006/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r006/car_spec_845005.tga",
+      "bytes": 1652183,
+      "references": [
+        "breakaway/exports/r006/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r006/installed-session.json",
+      "bytes": 737,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r006/validation.json",
+      "bytes": 4747,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r006-first-rear-check/build-report.json",
+      "bytes": 769,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "exports/r006-first-rear-check/car_844824.tga",
+      "bytes": 2618053,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "exports/r006-first-rear-check/car_845005.tga",
+      "bytes": 2618053,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "exports/r006-first-rear-check/car_spec_844824.tga",
+      "bytes": 1593949,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "exports/r006-first-rear-check/car_spec_845005.tga",
+      "bytes": 1593949,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "exports/r007/car_844824.tga",
+      "bytes": 2539308,
+      "references": [
+        "breakaway/exports/r007/installed-session.json",
+        "breakaway/exports/r007/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r007/car_845005.tga",
+      "bytes": 2539308,
+      "references": [
+        "breakaway/exports/r007/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r007/car_spec_844824.tga",
+      "bytes": 1632407,
+      "references": [
+        "breakaway/exports/r007/installed-session.json",
+        "breakaway/exports/r007/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r007/car_spec_845005.tga",
+      "bytes": 1632407,
+      "references": [
+        "breakaway/exports/r007/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r007/installed-session.json",
+      "bytes": 737,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r007/validation.json",
+      "bytes": 4326,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r008/car_844824.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/exports/r008/installed-session.json",
+        "breakaway/exports/r008/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)",
+        "shared/cars/porsche718gt4/mapping/diagnostics/installed-session.json"
+      ]
+    },
+    {
+      "path": "exports/r008/car_845005.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/exports/r008/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r008/car_spec_844824.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/r008/installed-session.json",
+        "breakaway/exports/r008/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r008/car_spec_845005.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/r008/validation.json",
+        "breakaway/scripts/install-review.ps1 (dynamic driver export path)",
+        "breakaway/scripts/render-r008.ps1 (dynamic driver export path)",
+        "breakaway/scripts/review-files.py (dynamic driver export path)"
+      ]
+    },
+    {
+      "path": "exports/r008/installed-session.json",
+      "bytes": 726,
+      "references": [
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-diagnostic.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r008/validation.json",
+      "bytes": 4306,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-pixels.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-profile.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_844824.png",
+      "bytes": 895830,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_844824.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_845005.png",
+      "bytes": 896543,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_845005.tga",
+      "bytes": 2505146,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_spec_844824.png",
+      "bytes": 456029,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_spec_844824.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_spec_845005.png",
+      "bytes": 456029,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/car_spec_845005.tga",
+      "bytes": 1626707,
+      "references": [
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "exports/r008-palette-migration/export-manifest.json",
+      "bytes": 2661,
+      "references": [
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r001/geometry.json",
+      "bytes": 158869,
+      "references": [
+        "breakaway/design/references/README.md"
+      ]
+    },
+    {
+      "path": "graphics/r001/native-mask-report.txt",
+      "bytes": 679,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r002/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/graphics/r002/placement.json",
+        "breakaway/graphics/r002/texture-provenance.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r002/native-mask-report.txt",
+      "bytes": 1178,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r002/placement.json",
+      "bytes": 11891,
+      "references": [
+        "breakaway/docs/placement-r002.md",
+        "breakaway/docs/progress.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r002/texture-provenance.md",
+      "bytes": 3249,
+      "references": [
+        "breakaway/design/references/README.md",
+        "breakaway/docs/placement-r002.md",
+        "breakaway/docs/progress.md"
+      ]
+    },
+    {
+      "path": "graphics/r003/breakaway-source.png",
+      "bytes": 1475103,
+      "references": [
+        "breakaway/graphics/r003/texture-provenance.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r003/native-mask-report.txt",
+      "bytes": 1288,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I002.png",
+      "bytes": 17658,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I004.png",
+      "bytes": 18367,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I007.png",
+      "bytes": 20273,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I009.png",
+      "bytes": 17090,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I020.png",
+      "bytes": 17470,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I021.png",
+      "bytes": 17522,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I030.png",
+      "bytes": 19178,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I040.png",
+      "bytes": 17143,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I041.png",
+      "bytes": 16683,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I044.png",
+      "bytes": 16854,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I045.png",
+      "bytes": 16833,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I063.png",
+      "bytes": 16851,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I064.png",
+      "bytes": 16853,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I078.png",
+      "bytes": 17504,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I080.png",
+      "bytes": 18006,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I081.png",
+      "bytes": 22836,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I116.png",
+      "bytes": 26370,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I119.png",
+      "bytes": 27261,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I120.png",
+      "bytes": 16658,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I122.png",
+      "bytes": 24097,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I125.png",
+      "bytes": 19265,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I128.png",
+      "bytes": 19082,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I129.png",
+      "bytes": 21696,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I134.png",
+      "bytes": 16621,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I136.png",
+      "bytes": 24666,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I143.png",
+      "bytes": 16667,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I153.png",
+      "bytes": 18011,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/panel-masks/I156.png",
+      "bytes": 17524,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-hood-fender-check.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r003/placement.json",
+      "bytes": 17600,
+      "references": [
+        "breakaway/docs/placement-r003.md",
+        "breakaway/graphics/r003/texture-provenance.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r003/texture-provenance.md",
+      "bytes": 3064,
+      "references": [
+        "breakaway/docs/progress.md"
+      ]
+    },
+    {
+      "path": "graphics/r004/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r004/native-mask-report.txt",
+      "bytes": 1288,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I002.png",
+      "bytes": 17658,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I004.png",
+      "bytes": 18367,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I007.png",
+      "bytes": 20273,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I009.png",
+      "bytes": 17090,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I020.png",
+      "bytes": 17470,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I021.png",
+      "bytes": 17522,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I030.png",
+      "bytes": 19178,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I040.png",
+      "bytes": 17143,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I041.png",
+      "bytes": 16683,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I044.png",
+      "bytes": 16854,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I045.png",
+      "bytes": 16833,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I063.png",
+      "bytes": 16851,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I064.png",
+      "bytes": 16853,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I078.png",
+      "bytes": 17504,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I080.png",
+      "bytes": 18006,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I081.png",
+      "bytes": 22836,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I116.png",
+      "bytes": 26370,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I119.png",
+      "bytes": 27261,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I120.png",
+      "bytes": 16658,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I122.png",
+      "bytes": 24097,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I125.png",
+      "bytes": 19265,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I128.png",
+      "bytes": 19082,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I129.png",
+      "bytes": 21696,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I134.png",
+      "bytes": 16621,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I136.png",
+      "bytes": 24666,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I143.png",
+      "bytes": 16667,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I153.png",
+      "bytes": 18011,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/panel-masks/I156.png",
+      "bytes": 17524,
+      "references": [
+        "shared/cars/porsche718gt4/mapping/scripts/prepare-continuity-grid.ps1 (dynamic panel-mask directory)",
+        "shared/cars/porsche718gt4/mapping/scripts/validate-continuity-grid.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r004/placement.json",
+      "bytes": 17961,
+      "references": [
+        "breakaway/docs/placement-r004.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r005/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r005/native-mask-report.txt",
+      "bytes": 1288,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r005/panel-masks/I007.png",
+      "bytes": 20273,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r005/panel-masks/I009.png",
+      "bytes": 17090,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r005/placement.json",
+      "bytes": 16831,
+      "references": [
+        "breakaway/docs/placement-r005.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/reference-fit-r005.md"
+      ]
+    },
+    {
+      "path": "graphics/r006/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r006/native-mask-report.txt",
+      "bytes": 1548,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r006/panel-masks/I007.png",
+      "bytes": 20269,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r006/panel-masks/I009.png",
+      "bytes": 17121,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r006/placement.json",
+      "bytes": 17529,
+      "references": [
+        "breakaway/docs/placement-r006.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/accent-mask.png",
+      "bytes": 897719,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/base-mask.png",
+      "bytes": 92051,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/ink-mask.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/metal-accent-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/metal-primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/native-mask-report.txt",
+      "bytes": 1548,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I002.png",
+      "bytes": 17658,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I004.png",
+      "bytes": 18367,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I007.png",
+      "bytes": 20269,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I009.png",
+      "bytes": 17121,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I020.png",
+      "bytes": 17470,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I021.png",
+      "bytes": 17522,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I030.png",
+      "bytes": 19178,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I040.png",
+      "bytes": 17143,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I041.png",
+      "bytes": 16683,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I044.png",
+      "bytes": 16854,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I045.png",
+      "bytes": 16833,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I063.png",
+      "bytes": 16851,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I064.png",
+      "bytes": 16853,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I078.png",
+      "bytes": 17504,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I080.png",
+      "bytes": 18006,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I081.png",
+      "bytes": 22836,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I116.png",
+      "bytes": 26370,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I119.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I120.png",
+      "bytes": 16658,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I122.png",
+      "bytes": 24097,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I125.png",
+      "bytes": 19265,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I128.png",
+      "bytes": 19082,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I129.png",
+      "bytes": 21696,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I134.png",
+      "bytes": 16621,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I136.png",
+      "bytes": 24666,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I143.png",
+      "bytes": 16667,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I153.png",
+      "bytes": 18011,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/panel-masks/I156.png",
+      "bytes": 17524,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/placement.json",
+      "bytes": 17398,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r006-first-rear-check/primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/docs/automation-history.md (named historical checkpoint set)",
+        "breakaway/docs/progress.md (named historical checkpoint set)",
+        "breakaway/scripts/review-files.py (named historical checkpoint set)"
+      ]
+    },
+    {
+      "path": "graphics/r007/accent-mask.png",
+      "bytes": 895255,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/base-mask.png",
+      "bytes": 92051,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/scripts/render-r008.ps1",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r007/ink-mask.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/metal-accent-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/metal-primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/native-mask-report.txt",
+      "bytes": 1622,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I002.png",
+      "bytes": 17658,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I004.png",
+      "bytes": 18367,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I007.png",
+      "bytes": 20269,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I009.png",
+      "bytes": 17121,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I020.png",
+      "bytes": 17470,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I021.png",
+      "bytes": 17522,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I030.png",
+      "bytes": 19178,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I040.png",
+      "bytes": 17143,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I041.png",
+      "bytes": 16683,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I044.png",
+      "bytes": 16854,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I045.png",
+      "bytes": 16833,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I063.png",
+      "bytes": 16851,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I064.png",
+      "bytes": 16853,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I078.png",
+      "bytes": 17504,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I080.png",
+      "bytes": 18006,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I081.png",
+      "bytes": 22836,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I116.png",
+      "bytes": 26370,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I119.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I120.png",
+      "bytes": 16658,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I122.png",
+      "bytes": 24097,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I125.png",
+      "bytes": 19265,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I128.png",
+      "bytes": 19082,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I129.png",
+      "bytes": 21696,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I134.png",
+      "bytes": 16621,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I136.png",
+      "bytes": 24666,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I143.png",
+      "bytes": 16667,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I153.png",
+      "bytes": 18011,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/panel-masks/I156.png",
+      "bytes": 17524,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/placement.json",
+      "bytes": 17297,
+      "references": [
+        "breakaway/docs/placement-r007.md",
+        "breakaway/scripts/render-r008.ps1",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r007/primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r007/rear-field-samples.json",
+      "bytes": 1394,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r008/accent-mask.png",
+      "bytes": 885936,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/base-mask.png",
+      "bytes": 92051,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/breakaway-source.png",
+      "bytes": 1461472,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r008/ink-mask.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/metal-accent-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/metal-primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/native-mask-report.txt",
+      "bytes": 1605,
+      "references": [
+        "breakaway/scripts/PatternRenderer.cs (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I002.png",
+      "bytes": 17658,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I004.png",
+      "bytes": 18367,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I007.png",
+      "bytes": 20269,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I009.png",
+      "bytes": 17121,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I020.png",
+      "bytes": 17470,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I021.png",
+      "bytes": 17522,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I030.png",
+      "bytes": 19178,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I040.png",
+      "bytes": 17143,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I041.png",
+      "bytes": 16683,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I044.png",
+      "bytes": 16854,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I045.png",
+      "bytes": 16833,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I063.png",
+      "bytes": 16851,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I064.png",
+      "bytes": 16853,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I078.png",
+      "bytes": 17504,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I080.png",
+      "bytes": 18006,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I081.png",
+      "bytes": 22836,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I116.png",
+      "bytes": 26370,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I119.png",
+      "bytes": 27261,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I120.png",
+      "bytes": 16658,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I122.png",
+      "bytes": 24097,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I125.png",
+      "bytes": 19265,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I128.png",
+      "bytes": 19082,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I129.png",
+      "bytes": 21696,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I134.png",
+      "bytes": 16621,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I136.png",
+      "bytes": 24666,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I143.png",
+      "bytes": 16667,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I153.png",
+      "bytes": 18011,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/panel-masks/I156.png",
+      "bytes": 17524,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic panel-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/placement.json",
+      "bytes": 17723,
+      "references": [
+        "breakaway/docs/placement.md",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "graphics/r008/primary-mask.png",
+      "bytes": 16400,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic role-mask directory)"
+      ]
+    },
+    {
+      "path": "graphics/r008/rear-field-samples.json",
+      "bytes": 1713,
+      "references": [
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "inputs/Porsche 718 GT4.psd",
+      "bytes": 25966518,
+      "references": [
+        "Required active source, rollback or original template in workflow-state.json",
+        "breakaway/README.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "cel-shaded/README.md",
+        "cel-shaded/docs/brief.md",
+        "cel-shaded/docs/current-state.md",
+        "cel-shaded/docs/progress.md",
+        "cel-shaded/scripts/build-r001.jsx",
+        "cel-shaded/scripts/build-r001.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/build-r002.jsx",
+        "cel-shaded/scripts/build-r002.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/export-clean-mask.jsx",
+        "cel-shaded/scripts/export-clean-mask.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/export-template-previews.jsx",
+        "cel-shaded/scripts/export-template-previews.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/export-wire-source.jsx",
+        "cel-shaded/scripts/export-wire-source.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/inspect-number-panels.jsx",
+        "cel-shaded/scripts/inspect-number-panels.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/inspect-template.jsx",
+        "cel-shaded/scripts/inspect-template.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/scripts/rebuild-traced-current.jsx",
+        "cel-shaded/scripts/rebuild-traced-current.jsx (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/README.md",
+        "shared/cars/porsche718gt4/mapping/README.md",
+        "shared/cars/porsche718gt4/mapping/notes.md",
+        "shared/cars/porsche718gt4/mapping/panels.json",
+        "shared/cars/porsche718gt4/mapping/scripts/build-profile.py",
+        "shared/cars/porsche718gt4/mapping/scripts/build-profile.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/inspect-template.py",
+        "shared/cars/porsche718gt4/mapping/scripts/inspect-template.py (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/sources.md",
+        "shared/cars/porsche718gt4/mapping/template/identity.json",
+        "shared/cars/porsche718gt4/mapping/template/inventory.json"
+      ]
+    },
+    {
+      "path": "README.md",
+      "bytes": 2556,
+      "references": [
+        "Implicit project/directory entry point",
+        "README.md",
+        "breakaway/AGENTS.md",
+        "breakaway/scripts/review-files.py",
+        "breakaway/scripts/review-files.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/export_readers.py",
+      "bytes": 1072,
+      "references": [
+        "breakaway/docs/automation.md",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/install-review.ps1",
+      "bytes": 4616,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/invoke-photoshop.ps1",
+      "bytes": 3921,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/workflow-audit/fresh-sol-transcript.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/workflow.jsx",
+        "breakaway/scripts/workflow.jsx (dynamic filename consumer/producer)",
+        "cel-shaded/docs/automation.md",
+        "cel-shaded/scripts/iterate.ps1",
+        "cel-shaded/scripts/iterate.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/json.jsxinc",
+      "bytes": 645,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/workflow.jsx",
+        "breakaway/scripts/workflow.jsx (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/PatternRenderer.cs",
+      "bytes": 18975,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation.md",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/render-r008.ps1",
+        "breakaway/scripts/render-r008.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/preflight.py",
+      "bytes": 9006,
+      "references": [
+        "AGENTS.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/workflow-audit/fresh-sol-transcript.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/install-review.ps1",
+        "breakaway/scripts/install-review.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/invoke-photoshop.ps1",
+        "breakaway/scripts/invoke-photoshop.ps1 (dynamic filename consumer/producer)",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1",
+        "shared/cars/porsche718gt4/mapping/scripts/preview-continuity-grid.ps1 (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/render-r008.ps1",
+      "bytes": 3824,
+      "references": [
+        "breakaway/docs/automation.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/review-files.py",
+      "bytes": 6185,
+      "references": [
+        "breakaway/AGENTS.md",
+        "breakaway/docs/automation.md"
+      ]
+    },
+    {
+      "path": "scripts/validate-exports.py",
+      "bytes": 958,
+      "references": [
+        "breakaway/docs/automation-history.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/validate-workflow.py",
+      "bytes": 6326,
+      "references": [
+        "breakaway/docs/automation.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/invoke-photoshop.ps1",
+        "breakaway/scripts/invoke-photoshop.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-exports.py",
+        "breakaway/scripts/validate-exports.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "scripts/workflow.jsx",
+      "bytes": 6935,
+      "references": [
+        "breakaway/docs/automation.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/workflow-audit/fresh-sol-transcript.md",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/scripts/invoke-photoshop.ps1",
+        "breakaway/scripts/invoke-photoshop.ps1 (dynamic filename consumer/producer)",
+        "breakaway/scripts/preflight.py",
+        "breakaway/scripts/preflight.py (dynamic filename consumer/producer)",
+        "breakaway/scripts/validate-workflow.py",
+        "breakaway/scripts/validate-workflow.py (dynamic filename consumer/producer)"
+      ]
+    },
+    {
+      "path": "source/breakaway-master.psd",
+      "bytes": 41043040,
+      "references": [
+        "Required active source, rollback or original template in workflow-state.json",
+        "breakaway/README.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/progress.md",
+        "breakaway/docs/workflow-audit/README.md",
+        "breakaway/docs/workflow-audit/export-report.json",
+        "breakaway/docs/workflow-audit/migration-validation.json",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-audit/preview-report.json",
+        "breakaway/docs/workflow-audit/request.jsxinc",
+        "breakaway/docs/workflow-state.json",
+        "breakaway/exports/current/export-manifest.json",
+        "breakaway/exports/r008-palette-migration/export-manifest.json"
+      ]
+    },
+    {
+      "path": "source/breakaway-r008.psd",
+      "bytes": 38218870,
+      "references": [
+        "Required active source, rollback or original template in workflow-state.json",
+        "breakaway/README.md",
+        "breakaway/docs/automation.md",
+        "breakaway/docs/current-state.md",
+        "breakaway/docs/editing-guide.md",
+        "breakaway/docs/workflow-audit/demo-report.json",
+        "breakaway/docs/workflow-audit/inspect-report.json",
+        "breakaway/docs/workflow-audit/migration-validation.json",
+        "breakaway/docs/workflow-audit/preflight-rear-sample.json",
+        "breakaway/docs/workflow-state.json"
+      ]
+    }
+  ],
+  "referenced_bytes": 218270505
+}

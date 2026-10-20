@@ -1,0 +1,15 @@
+# r003 texture and placement
+
+Created with the built-in imagegen tool on 2026-10-19. Project-local original: `breakaway-source.png`. Generated as a new source mask; it is not copied livery artwork or a 3D car render. The image supplies irregular paint shapes; native panel ownership and independent UV placement are handled by scripts/render-r003.ps1 and recorded in placement.json.
+
+User direction: keep current colors/spec settings, fix the two front patches, move the breakup toward the front with corresponding hood extent, lengthen and vary the transition, carry it into the rear and onto handles, mirrors and intake/duct surrounds, and change the wing to yellow/lime with sparse purple remnants. Exact separate-part phase and hood/fender seams remain provisional pending in-car review.
+
+Full prompt:
+
+> Production source texture mask for an original racing-car paint design. ONE wide rectangular flat grayscale bitmap, 3072 wide by 1536 tall if possible. Full bleed. Pure black and white with crisp irregular edges. NO car, no letters, labels, margins or shadows. Black represents violet paint remaining; white represents yellow/lime showing through.
+>
+> A LONG, highly varied paint-breakaway transition running horizontally LEFT FRONT to RIGHT REAR. Leftmost 8 percent clean black. Sparse irregular white torn flecks begin at different positions across the height, roughly x12 to x35 percent, becoming a mix of small and larger detached white paint islands. Middle x35 to x75 is an expansive dramatic but tasteful field of torn paint: irregular chipped patches and interrupted swaths of varied lengths and thicknesses, clear breathing spaces, ragged sharp broken edges. Right x75 to x100 mostly white BUT KEEP a few sparse black torn remnants and interrupted narrow black trails all the way to the right edge, so the rear still has violet detail.
+>
+> CRITICAL: avoid the uniform repetitive parallel scratch texture of a dry-brush stock image. Use widely varied patch sizes and density: a few large organic eroded paint islands, medium irregular flakes, fine distressed edges and scattered small flecks. Flow generally sweeps rearward with gentle curves and branching irregular clumps; no evenly spaced rows, no repeated motif, no stripe grid, no identical chips, no straight diagonal wedge, no narrow vertical fade band. Onset varies strongly with height, with broad organic incursions. Do not create a single continuous thick white slash. Across the HEIGHT, distribute distinct irregular clusters and quieter gaps so neighboring surfaces do not look like the same repeated texture.
+>
+> The texture must be cohesive and professionally composed, vigorous but controlled, like paint shedding in the airflow, with an extended secondary-color takeover. Flat binary BLACK and WHITE ONLY (small antialiasing allowed). No grayscale airbrush gradients, blurs, tire tracks, barcode, halftone, geometric shards, hexagons, cubes, triangles, flames, smoke, liquid drips, round paint splatter, stars, watermark. This is a usable source mask, not a mockup or photograph.

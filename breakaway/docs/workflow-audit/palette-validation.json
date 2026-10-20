@@ -1,0 +1,118 @@
+{
+  "status": "PASS",
+  "baseline_tgas_byte_identical": 4,
+  "palette_values_edited": 4,
+  "mapped_surfaces_per_driver": 28,
+  "saved_reopened_mask_edit": true,
+  "reexport_byte_identical": 4,
+  "demo_source_sha256": "96a26190c646a919f5b72e5b5a2d8246ecb54ce39d22948155f38c96285b0299",
+  "demo_psd_bytes": 40288705,
+  "files": {
+    "car_844824.tga": {
+      "sha256": "939de208e3cbab913026a0da19bb302ac16bab52a59989d2814f140b3a3a8757",
+      "bytes": 2491211
+    },
+    "car_spec_844824.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707
+    },
+    "car_845005.tga": {
+      "sha256": "61e7fda22332b9aa2aeb079b6d301423ca27632188b40003ced5628db3f19594",
+      "bytes": 2134622
+    },
+    "car_spec_845005.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707
+    }
+  },
+  "results": [
+    {
+      "driver": "844824",
+      "exact_palette_pixels": {
+        "ed2570": 2558072,
+        "18ffc7": 276491
+      },
+      "recolored_pixels_by_surface": {
+        "I002": 10964,
+        "I004": 96461,
+        "I007": 22997,
+        "I009": 24026,
+        "I020": 24262,
+        "I021": 4968,
+        "I030": 10770,
+        "I040": 4741,
+        "I041": 2586,
+        "I044": 1363,
+        "I045": 1387,
+        "I063": 9547,
+        "I064": 9565,
+        "I078": 3111,
+        "I080": 2978,
+        "I081": 176500,
+        "I116": 206257,
+        "I119": 0,
+        "I120": 764,
+        "I122": 191902,
+        "I125": 38299,
+        "I128": 43833,
+        "I129": 19462,
+        "I134": 3637,
+        "I136": 158432,
+        "I143": 636,
+        "I153": 2826,
+        "I156": 3581
+      },
+      "retained_neutral_parts": [
+        "I119"
+      ],
+      "spec_unchanged": true,
+      "manual_artwork_pixels": 64
+    },
+    {
+      "driver": "845005",
+      "exact_palette_pixels": {
+        "18ffc7": 2558072,
+        "ed2570": 276491
+      },
+      "recolored_pixels_by_surface": {
+        "I002": 10964,
+        "I004": 96461,
+        "I007": 22997,
+        "I009": 24026,
+        "I020": 24262,
+        "I021": 4968,
+        "I030": 10770,
+        "I040": 4741,
+        "I041": 2586,
+        "I044": 1363,
+        "I045": 1387,
+        "I063": 9547,
+        "I064": 9565,
+        "I078": 3111,
+        "I080": 2978,
+        "I081": 176500,
+        "I116": 206257,
+        "I119": 0,
+        "I120": 764,
+        "I122": 191902,
+        "I125": 38299,
+        "I128": 43833,
+        "I129": 19462,
+        "I134": 3637,
+        "I136": 158432,
+        "I143": 636,
+        "I153": 2826,
+        "I156": 3581
+      },
+      "retained_neutral_parts": [
+        "I119"
+      ],
+      "spec_unchanged": true,
+      "manual_artwork_pixels": 64
+    }
+  ],
+  "user_acceptance": "APPROVED_AND_MIGRATED",
+  "limits": "Historical evidence only; current master/export validation is separate. No in-car seam acceptance.",
+  "validation_scope": "Historical export-buffer consistency and earlier saved/reopened demonstration; demo input removed after user approval. Not a current live-demo validation.",
+  "demo_artifact_status": "REMOVED_BY_USER_DIRECTION"
+}

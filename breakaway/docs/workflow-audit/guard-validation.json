@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "scope": "Deterministic guard tests; not a fresh model session or Photoshop human acceptance test",
+  "results": [
+    {
+      "test": "known-panel-preflight",
+      "status": "PASS",
+      "note": "Existing I122 evidence only; no Photoshop, diagnostics, mapping writes or PSD copies"
+    },
+    {
+      "test": "rear-seam-preflight",
+      "status": "PASS",
+      "gaps": [
+        "S01",
+        "S02",
+        "S04",
+        "S05",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "rear-deck-lip-bumper-registration"
+      ]
+    },
+    {
+      "test": "saved-manual-source-change-policy",
+      "status": "PASS",
+      "note": "Changed source blocks build but allows read-only export; no source rewritten"
+    },
+    {
+      "test": "missing-and-incompatible-template",
+      "status": "PASS"
+    },
+    {
+      "test": "diagnostic-requires-specific-gap-plan",
+      "status": "PASS"
+    },
+    {
+      "test": "revision-policy-no-extra-PSD",
+      "status": "PASS",
+      "source_count": 2,
+      "new_psd_copies": 0
+    },
+    {
+      "test": "installed-drift-detected",
+      "status": "PASS",
+      "matches_record": false
+    },
+    {
+      "test": "active-docs-source-and-command-agreement",
+      "status": "PASS"
+    }
+  ]
+}

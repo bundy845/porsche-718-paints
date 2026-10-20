@@ -1,0 +1,148 @@
+{
+  "status": "PASS",
+  "revision": "r006",
+  "source_sha256": "7cefe887377f91b035ec1978c6eb49ebea65aae32be107f8eec70c7d981f4fd6",
+  "template_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "files": {
+    "car_844824.tga": {
+      "sha256": "450e43b9d83b61463edc2716654758856ca52792e24b3528d3a422b2c53bdcfb",
+      "bytes": 2611986,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_844824.tga": {
+      "sha256": "17f636bfd710184efb2055e899ff3bb98c957001866848e9baea7cad5872376c",
+      "bytes": 1652183,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_845005.tga": {
+      "sha256": "d1d91aa1e44353b170964d6dd22ed84044fccd0ba801df4b0787c943390a72b1",
+      "bytes": 2611986,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_845005.tga": {
+      "sha256": "17f636bfd710184efb2055e899ff3bb98c957001866848e9baea7cad5872376c",
+      "bytes": 1652183,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    }
+  },
+  "pixel_checks": {
+    "violet_to_lime_pixels": 2558402,
+    "lime_to_violet_pixels": 274690,
+    "shared_charcoal_pixels": 82642,
+    "mapped_pixels_checked": 2604502,
+    "confirmed_panel_ids_included": 28,
+    "front_duct_primary_pixels": 24026,
+    "patterned_separate_parts_checked": 8,
+    "wing_secondary_pixels": 10720,
+    "wing_primary_remnants": 50
+  },
+  "photoshop_source_inspection": "18 clipped SOLIDFILL controls; 9 masks; Rick paint saved with spec/guides hidden",
+  "installed": false,
+  "in_car_verified": false,
+  "finish_verified": false,
+  "mips_created": false,
+  "limits": [
+    "Native first-draft masks need physical edge/bleed review",
+    "Exact cross-panel seams remain provisional",
+    "Metallic/roughness values need in-car lighting review"
+  ],
+  "separate_part_color_checks": {
+    "I009": {
+      "pixels": 24026,
+      "primary": 24026,
+      "secondary": 0,
+      "secondary_within_4_levels": 0,
+      "charcoal": 0
+    },
+    "I030": {
+      "pixels": 91948,
+      "primary": 50,
+      "secondary": 10720,
+      "secondary_within_4_levels": 89831,
+      "charcoal": 0
+    },
+    "I120": {
+      "pixels": 4283,
+      "primary": 50,
+      "secondary": 714,
+      "secondary_within_4_levels": 2303,
+      "charcoal": 0
+    },
+    "I143": {
+      "pixels": 4467,
+      "primary": 90,
+      "secondary": 546,
+      "secondary_within_4_levels": 1810,
+      "charcoal": 0
+    },
+    "I078": {
+      "pixels": 14770,
+      "primary": 3015,
+      "secondary": 96,
+      "secondary_within_4_levels": 1826,
+      "charcoal": 0
+    },
+    "I156": {
+      "pixels": 14108,
+      "primary": 3577,
+      "secondary": 4,
+      "secondary_within_4_levels": 148,
+      "charcoal": 0
+    },
+    "I080": {
+      "pixels": 16617,
+      "primary": 736,
+      "secondary": 2242,
+      "secondary_within_4_levels": 8037,
+      "charcoal": 0
+    },
+    "I153": {
+      "pixels": 16665,
+      "primary": 868,
+      "secondary": 1958,
+      "secondary_within_4_levels": 6617,
+      "charcoal": 0
+    },
+    "I007": {
+      "pixels": 181250,
+      "primary": 602,
+      "secondary": 24355,
+      "secondary_within_4_levels": 169439,
+      "charcoal": 0
+    }
+  },
+  "hood_fender_join": "Common source sample at both contour edges; existing numbered views G02/G06 support coarse longitudinal alignment",
+  "texture": "Exact original r002 fine texture reused",
+  "boundary_sampling_pairs_checked": 770,
+  "alignment_status": "Reference-based corrections; physical fit provisional pending ordinary livery review. No new diagnostic required or installed.",
+  "native_primary_basecoat_pixels_added": 169597,
+  "native_base_color_pixels_recolored_outside_masks": 1589267,
+  "outside_correction_pixels_checked": 3743586,
+  "unchanged_full_coverage_art_pixels": 2153784,
+  "native_basecoat_blended_pixels": 50,
+  "unchanged_spec_pixels_outside_corrections": 3743586,
+  "rear_flow": "Source longitudinal axis follows native rear +y down, per G04/D07/D08",
+  "mirror_sampling": "Known shells: three times former source footprint, bilinear interpolation; global native basecoat primary in exposed unpatterned paint",
+  "hood_pins": "Native Base Color corrected beneath existing fittings; saved G02/E07 show gray-blue hardware under different body colors. No new hardware UV identity claimed; physical appearance awaits review.",
+  "number_box": "Deferred; preview options before installation"
+}

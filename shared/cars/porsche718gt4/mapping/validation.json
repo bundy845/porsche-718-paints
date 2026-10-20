@@ -9,12 +9,14 @@
     "unknown": 125
   },
   "diagnostic_session_status": "restored",
-  "active_diagnostic": "d006-exterior-codes",
+  "active_diagnostic": null,
   "placement_policy_counts": {
     "mapped_surface_check_orientation_and_seams": 28,
     "protected_template_overlay": 111,
     "unresolved_do_not_guess": 17
   },
   "checks": "Evidence hashes, unique IDs, cross references, source bounds, PNG sizes, TGA headers/lengths, template/archive equality, installation/backup hashes, top-level Markdown link targets passed.",
-  "full_mapping_complete": false
+  "full_mapping_complete": false,
+  "validation_scope": "Historical static mapping audit, not a current installed-state verification. Run livery preflight for current hashes.",
+  "last_diagnostic": "d008-continuity-grid"
 }

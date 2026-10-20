@@ -1,0 +1,31 @@
+I002: 10964 protected native-blue pixels
+I004: 99790 protected native-blue pixels
+I007: 224163 protected native-blue pixels
+I009: 25082 protected native-blue pixels
+I020: 24262 protected native-blue pixels
+I021: 47050 protected native-blue pixels
+I030: 108294 protected native-blue pixels
+I040: 34785 protected native-blue pixels
+I041: 16648 protected native-blue pixels
+I044: 10070 protected native-blue pixels
+I045: 9782 protected native-blue pixels
+I063: 9547 protected native-blue pixels
+I064: 9565 protected native-blue pixels
+I078: 14770 protected native-blue pixels
+I080: 16617 protected native-blue pixels
+I081: 476039 protected native-blue pixels
+I116: 217810 protected native-blue pixels
+I119: 82642 protected native-blue pixels
+I120: 4283 protected native-blue pixels
+I122: 259547 protected native-blue pixels
+I125: 38335 protected native-blue pixels
+I128: 185585 protected native-blue pixels
+I129: 114165 protected native-blue pixels
+I134: 3637 protected native-blue pixels
+I136: 483880 protected native-blue pixels
+I143: 4467 protected native-blue pixels
+I153: 16665 protected native-blue pixels
+I156: 14108 protected native-blue pixels
+Exclusive ownership: removed 127647 overlapping claims; smaller confirmed native components take precedence.
+Front/rear overlap: 1056 rear texels reclaimed using eroded reference cores and native green-wire barriers; boundary still subject to physical review.
+Native primary basecoat fallback: 169597 additional unprotected blue texels; no new detailed part mapping.

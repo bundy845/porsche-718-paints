@@ -1,0 +1,13 @@
+# Large binary originals, working art and review exports stay in this Dropbox
+# project folder. Decide binary storage before adding them to ordinary Git.
+inputs/*.psd
+source/*.psd
+archive/
+exports/**/*.tga
+design/previews/*.png
+design/references/*.png
+graphics/**/*-mask.png
+scripts/__pycache__/
+docs/workflow-audit/request.jsxinc
+exports/**/*.psd
+exports/**/*.png

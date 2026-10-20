@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "diagnostic": "d008-continuity-grid",
+  "tga_sha256": "b17adc9ce084bb0f41765f77d564e1510b59f538295ec1262e1cf3861aa7de61",
+  "dimensions": [
+    2048,
+    2048
+  ],
+  "png_tga_pixels_match": true,
+  "unchanged_pixels_outside_selected_masks": 2111386,
+  "changed_pixels_inside_selected_masks": 2082918,
+  "in_car_verified": false
+}

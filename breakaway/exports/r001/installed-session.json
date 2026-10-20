@@ -1,0 +1,22 @@
+{
+  "status": "installed",
+  "revision": "r001",
+  "driver": "Rick",
+  "customer_id": "844824",
+  "paint_folder": "C:\\Users\\bundy\\Documents\\iRacing\\paint\\porsche718gt4",
+  "backup_requested": false,
+  "backup_created": false,
+  "installed_at_utc": "2026-10-19T20:18:16.8868970Z",
+  "files": {
+    "car_spec_844824.tga": {
+      "sha256": "16e640613fd7c795b7170711403fba0b78481c1b8a29939201a434bc6e3eef45",
+      "bytes": 560576
+    },
+    "car_844824.tga": {
+      "sha256": "f1fcd05f9f20acb0dcceb4d533dc4beb3c58e8bb6f85f59c764307cf93fea0e6",
+      "bytes": 326552
+    }
+  },
+  "in_car_verified": false,
+  "spec_mip_status": "Existing MIP is older than new spec TGA; iRacing regeneration pending"
+}

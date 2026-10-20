@@ -4,3 +4,4 @@ Each livery has its own folder under this common root. Reusable car mapping find
 
 - [Porsche 718 GT4 shared car profile](shared/cars/porsche718gt4/README.md)
 - [Cel-shaded livery](cel-shaded/README.md)
+- [Breakaway livery](breakaway/README.md)

@@ -20,9 +20,10 @@ The 156 indexed components come from the flat Clyde reference, including tiny sy
 - Door number reserves, passenger fuel cap and roof flap are indexed as features. Reserve number space before drawing. The fuel cap is not the door handle.
 - Radiator/grille and crest images inside the rear-glass UV opening are texture atlases, not rear-window body paint. Do not trace every small atlas border as an exterior seam.
 - Keep diagnostics out of final livery exports.
+- Native component masks can overlap even on confirmed parts. Read [mask-ownership.md](mask-ownership.md) for the observed I007/I009 rear-to-front color contamination and the limits of locator bounds before constructing paint masks.
 
 ## Active verification
 
-See [verification.md](verification.md) for remaining work, [diagnostics/README.md](diagnostics/README.md) for preview/restore commands, and [installed-session.json](diagnostics/installed-session.json) for the actual temporary installation state.
+See [verification.md](verification.md) for remaining work and [installed-session.json](diagnostics/installed-session.json) for the historical diagnostic session. As of the 2026-10-20 workflow audit, d008 is recorded restored; no diagnostic is recorded installed. Its last normal record points to r008, but actual Rick paint bytes differ from that record. The livery preflight hashes the actual installed paint and is authoritative for current bytes. Do not repeat d006/d008 or restore historical paint from stale summaries. Preview commands in diagnostics/README.md are historical and are gated by a specific gap plan; the old backup-generating installer is retired.
 
 Provenance and mask limits are in [sources.md](sources.md). [notes.md](notes.md) preserves earlier livery observations and rejections; the structured profile supersedes its coarse tables. Rejected headlight paths and hand-fitted outlines are not seam coordinates.

@@ -1,35 +1,16 @@
 # Mapping session state
 
-Updated 2026-10-19. Scope: complete the reusable car mapping for future liveries. Branch: `feature/complete-718-mapping`. Existing cel-shaded work and user edits were left in place with explicit authorization; no livery source/export files were changed by this audit.
+Updated 2026-10-20 for workflow audit. This profile remains incomplete. No new mapping, diagnostics, screenshots or geometry calibration were created by the workflow cleanup.
 
-## Sources and evidence
+- Exact template: 2048-square 8-bit RGB Porsche 718 GT4; SHA-256 in template/identity.json.
+- Reuse panels.json, seams.json and evidence.json, independently checking identity, orientation, geometry and seam registration. There are 28 confirmed identities, not 28 fully calibrated surfaces.
+- G01-G06 grids, E01-E07 livery views, D01-D11 small-parts views, H01/H02 lamp views, K01-K06 remaining parts and X01 d006 louver evidence remain available. Newer r007/r008 findings also remain in the shared mapping folder.
+- Diagnostic session records restored d008-continuity-grid. d006 was an earlier restored diagnostic. No diagnostic is currently recorded installed; do not request new mapping merely because a thread starts.
+- Last normal session record points to r008, but actual Rick paint hash at audit is ad29044d077240c692ffdc6fa96c75bd4542a5df02930af945863d011ca4d962, differing from recorded r008. The spec matches. Preserve current installed paint; run the livery preflight to obtain current bytes. Restoration records are historical, not live state.
+- Native mandatory protection covers 111 reference components; 17 remain unresolved for placement. Keep unknown/inside pieces off-limits. Cockpit review remains deferred.
+- Seam records establish adjacency but have no confirmed paired boundary points. In particular S14/S15 and the complete deck/lip/bumper registration chain remain unregistered. Artwork-specific virtual coordinates are not geometry.
+- The 770 hood/fender sample agreements are livery-file checks; structured S01/S02 remain provisional. No in-car seam acceptance is inferred.
+- Existing validation.json is the historical mapping audit. Current-state hashes must come from preflight, not its old diagnostic labels or backup checks.
+- Do not create installed-paint backups by default. The backup-generating historical installer now refuses Install; Restore remains guarded for its historical sessions. A new diagnostic requires a scoped gap plan with existing evidence checked, smallest target and shared persistence path, plus a current matching recoverable normal source.
 
-- Exact 2048-square template hashes match the original ZIP member: [identity](template/identity.json).
-- Recovered original G01-G06 grid views, E01-E07 livery evidence, D01-D11 small-parts views, H01/H02 headlight views, K01-K06 remaining-part views, and X01 d006 front-louver confirmation: [evidence.json](evidence.json).
-- Corrected old description of Clyde image 2: it is the flat parts atlas.
-- Added 156 candidate component masks, measured bounds, seven source placement features, a Pitbox reservation, and 20 seam records. Components include atlas fragments, not 156 physical panels.
-- Placement policies: 28 identified components; 111 protected by the original Car Mandatory overlay; 17 unresolved. Exact physical names for protected hardware remain unknown where not visible.
-
-## Active diagnostic
-
-- **Original paint is restored** for Rick 844824 after the d006 review. [installed-session.json](diagnostics/installed-session.json) records the verified restore and last diagnostic.
-- Original installed paint was backed up and hash-verified. Spec TGA/MIP were not changed.
-- d006-exterior-codes was used for the exterior review, then the original paint was restored. Its letters simplify the tiny labels and its thin strips have white ticks.
-- Restore with `scripts/preview-diagnostic.ps1 -Action Restore` after the last review. It checks the currently installed hash before replacing anything.
-
-## Limits and decisions
-
-- No universal side mirror transform. Separate mirrors/handles/intakes have independent directions.
-- Both front duct surrounds/inner returns share source texels; both front vertical louver surrounds share I002.
-- Lamp lower returns are now located by saved 32px cells, but precise matched fender/bumper endpoints remain uncalibrated.
-- Geometry masks remain provisional reference segmentation. Native mandatory-alpha protection is measured separately.
-- Cockpit-only review is deferred because the current viewer makes it difficult and launching the game is a substantial interruption for the user. Do not claim the inside banner is verified.
-- `mapping/image.png` appeared during the session and was left untouched; it duplicates the rear diagnostic view already saved as D08 evidence.
-
-## Validation
-
-See [validation.json](validation.json) and [pixel-validation.json](pixel-validation.json). Evidence/template/backup/install hashes, references, bounds, image dimensions, native mask counts, and diagnostic PNG/TGA equality are checked. Full mapping remains incomplete and is not ready for final sign-off.
-
-## Next action
-
-X01 confirms d006 code R on the passenger-side front louver surround (I002); K01/K02 show the feature on both sides. The user reports the remaining d006 marks are tiny or tucked under/inside parts; keep those unknown components off-limits for livery artwork rather than guessing. The original paint is restored. Cockpit-only review remains deferred.
+Next action: reuse this profile for authorized livery work; report specific gaps before any diagnostic. Rear calibration belongs to the separately scoped Task 2.

@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "revision": "r006",
+  "design": "paint-breakaway",
+  "source": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\porsche718gt4\\breakaway\\source\\breakaway-r006.psd",
+  "parent_source": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\porsche718gt4\\breakaway\\source\\breakaway-r005.psd",
+  "width": 2048,
+  "height": 2048,
+  "bits": 8,
+  "mode": "RGB",
+  "editableDriverFills": 18,
+  "sharedGeometryMasks": 9,
+  "savedState": "Rick paint; spec and guides hidden",
+  "reopenedAndInspected": true,
+  "metallic": 0,
+  "roughness": {
+    "base": 90,
+    "accent": 45,
+    "ink": 160
+  },
+  "clearcoat": "Native template group unchanged",
+  "installed": false,
+  "inCarVerified": false,
+  "finishVerified": false
+}

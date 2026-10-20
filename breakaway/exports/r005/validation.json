@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "revision": "r005",
+  "source_sha256": "b03db00136538939b80dfae69d333ff0a3cf1550d1d3d0322945a71a2f31706f",
+  "template_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "files": {
+    "car_844824.tga": {
+      "sha256": "844759e5a5defa0f79a223fd06cbf35e36591bbbe8bb09c2ac48719b49ca26a5",
+      "bytes": 2501375,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_844824.tga": {
+      "sha256": "72e41306b2674edd3a772383779a204d1975845860dfbb1daf71b155cdb0b78e",
+      "bytes": 1576635,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_845005.tga": {
+      "sha256": "79cf45106ba661db9c4e250ab71fde7b76a458386976fcfe363090acfff0a358",
+      "bytes": 2501375,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_845005.tga": {
+      "sha256": "72e41306b2674edd3a772383779a204d1975845860dfbb1daf71b155cdb0b78e",
+      "bytes": 1576635,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    }
+  },
+  "pixel_checks": {
+    "violet_to_lime_pixels": 800879,
+    "lime_to_violet_pixels": 273508,
+    "shared_charcoal_pixels": 82642,
+    "mapped_pixels_checked": 2434905,
+    "confirmed_panel_ids_included": 28,
+    "front_duct_primary_pixels": 25082,
+    "patterned_separate_parts_checked": 8,
+    "wing_secondary_pixels": 10720,
+    "wing_primary_remnants": 50
+  },
+  "photoshop_source_inspection": "18 clipped SOLIDFILL controls; 9 masks; Rick paint saved with spec/guides hidden",
+  "installed": false,
+  "in_car_verified": false,
+  "finish_verified": false,
+  "mips_created": false,
+  "limits": [
+    "Native first-draft masks need physical edge/bleed review",
+    "Exact cross-panel seams remain provisional",
+    "Metallic/roughness values need in-car lighting review"
+  ],
+  "separate_part_color_checks": {
+    "I009": {
+      "pixels": 25082,
+      "primary": 25082,
+      "secondary": 0,
+      "secondary_within_4_levels": 0,
+      "charcoal": 0
+    },
+    "I030": {
+      "pixels": 91948,
+      "primary": 50,
+      "secondary": 10720,
+      "secondary_within_4_levels": 89831,
+      "charcoal": 0
+    },
+    "I120": {
+      "pixels": 4283,
+      "primary": 50,
+      "secondary": 714,
+      "secondary_within_4_levels": 2303,
+      "charcoal": 0
+    },
+    "I143": {
+      "pixels": 4467,
+      "primary": 90,
+      "secondary": 546,
+      "secondary_within_4_levels": 1810,
+      "charcoal": 0
+    },
+    "I078": {
+      "pixels": 14770,
+      "primary": 2356,
+      "secondary": 1102,
+      "secondary_within_4_levels": 2414,
+      "charcoal": 0
+    },
+    "I156": {
+      "pixels": 14108,
+      "primary": 4770,
+      "secondary": 164,
+      "secondary_within_4_levels": 233,
+      "charcoal": 0
+    },
+    "I080": {
+      "pixels": 16617,
+      "primary": 736,
+      "secondary": 2242,
+      "secondary_within_4_levels": 8037,
+      "charcoal": 0
+    },
+    "I153": {
+      "pixels": 16665,
+      "primary": 868,
+      "secondary": 1958,
+      "secondary_within_4_levels": 6617,
+      "charcoal": 0
+    },
+    "I007": {
+      "pixels": 180194,
+      "primary": 442,
+      "secondary": 23057,
+      "secondary_within_4_levels": 172725,
+      "charcoal": 0
+    }
+  },
+  "hood_fender_join": "Common source sample at both contour edges; existing numbered views G02/G06 support coarse longitudinal alignment",
+  "texture": "Exact original r002 fine texture reused",
+  "boundary_sampling_pairs_checked": 770,
+  "alignment_status": "Reference-based corrections; physical fit provisional pending ordinary livery review. No new diagnostic required or installed."
+}

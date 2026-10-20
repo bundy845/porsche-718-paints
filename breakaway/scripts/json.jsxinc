@@ -1,0 +1,10 @@
+// ExtendScript has no native JSON object on this Photoshop installation.
+function hexJSON(value) {
+    if(value===null)return 'null';
+    if(typeof value=='string')return '"'+value.replace(/\\/g,'\\\\').replace(/"/g,'\\"').replace(/\r/g,'\\r').replace(/\n/g,'\\n').replace(/\t/g,'\\t')+'"';
+    if(typeof value=='number'||typeof value=='boolean')return String(value);
+    var result=[],i;
+    if(value instanceof Array){for(i=0;i<value.length;i++)result.push(hexJSON(value[i]));return '['+result.join(',')+']';}
+    for(i in value)if(value.hasOwnProperty(i))result.push(hexJSON(i)+':'+hexJSON(value[i]));
+    return '{'+result.join(',')+'}';
+}

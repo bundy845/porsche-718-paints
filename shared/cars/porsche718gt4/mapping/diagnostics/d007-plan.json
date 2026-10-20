@@ -1,0 +1,47 @@
+{
+  "diagnostic": "d007-hood-fender-check",
+  "status": "prepared_not_installed",
+  "based_on": "breakaway r003 Rick paint",
+  "base_sha256": "9527506ff85c5c9cded2a671cfb127f96f6344ef23cd67efda286e9306661370",
+  "tga_sha256": "5ed983d6462207c31d687fe2df2f9a579cdfed98fba5d5d5100ea401b56e7c18",
+  "panels": [
+    "I122",
+    "I136",
+    "I081"
+  ],
+  "seams": [
+    "S01",
+    "S02"
+  ],
+  "labels": [
+    {
+      "color": "cyan",
+      "number": 1,
+      "x": 640
+    },
+    {
+      "color": "orange",
+      "number": 2,
+      "x": 704
+    },
+    {
+      "color": "magenta",
+      "number": 3,
+      "x": 768
+    },
+    {
+      "color": "white",
+      "number": 4,
+      "x": 832
+    },
+    {
+      "color": "red",
+      "number": 5,
+      "x": 896
+    }
+  ],
+  "purpose": "Confirm or reject coarse shared longitudinal registration at hood/fender joins; same numbers are hypotheses, not confirmations",
+  "required_view": "Front overhead showing hood and both fenders; then front three-quarter if a join is occluded",
+  "restore_from": "breakaway/exports/r003/car_844824.tga",
+  "limits": "No exact boundary pairing or uniform texel scale assumed; diagnostics excluded from livery exports"
+}

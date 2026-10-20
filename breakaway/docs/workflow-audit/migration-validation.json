@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "master": "source/breakaway-master.psd",
+  "rollback": "source/breakaway-r008.psd",
+  "rollback_sha256": "e1b16f7783336be502d98fcde58a29f6e47f02a8471bcec40e126f9d019f83af",
+  "original_four_tgas_byte_identical": {
+    "car_844824.tga": true,
+    "car_845005.tga": true,
+    "car_spec_844824.tga": true,
+    "car_spec_845005.tga": true
+  },
+  "original_geometry_and_palette_preserved": true,
+  "user_approved_structure": true,
+  "manual_test_steps_separately_reported": false,
+  "test_artwork_omitted": true,
+  "in_car_continuity_verified": false,
+  "installed_files_written_by_migration": false,
+  "latest_installed_observation": {
+    "car_spec_844824.tga": {
+      "actual_sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "recorded_sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "matches_record": true
+    },
+    "car_844824.tga": {
+      "actual_sha256": "f95b7296169f5eba0a5c26f584c39204299f4b2c084aa73de3734627a6786d80",
+      "recorded_sha256": "a87bbe55dd2e23e0bf38bf6f5a5a324ae4dc54d3b24c7ff398b957cff48bdfcb",
+      "matches_record": false
+    }
+  },
+  "original_migrated_master_sha256": "48729a7cc1635fed8edfd5d0285f15b128747611964676c0f8af6c35bb0e2ce6",
+  "validation_scope": "Original approved migration baseline; latest renamed/saved source and exports are validated separately by exports/current/export-manifest.json",
+  "current_master_sha256": "59348ae0f1ca1e7940439b59f0416da1ca400fe772c4b95b8db871c0cf9eab68",
+  "current_export_manifest": "exports/current/export-manifest.json"
+}

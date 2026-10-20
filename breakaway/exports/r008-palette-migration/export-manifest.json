@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "revision": "r008",
+  "source": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\porsche718gt4\\breakaway\\source\\breakaway-master.psd",
+  "source_sha256": "48729a7cc1635fed8edfd5d0285f15b128747611964676c0f8af6c35bb0e2ce6",
+  "source_unchanged": true,
+  "files": {
+    "car_844824.tga": {
+      "sha256": "a87bbe55dd2e23e0bf38bf6f5a5a324ae4dc54d3b24c7ff398b957cff48bdfcb",
+      "bytes": 2505146,
+      "driver": "Rick",
+      "state": "paint",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_844824.png": {
+      "sha256": "fc623f529608dc58f96df93377ef734f181e2003313f718a6820f52ddcb2fd3e",
+      "bytes": 895830,
+      "driver": "Rick",
+      "state": "paint",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_spec_844824.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707,
+      "driver": "Rick",
+      "state": "spec",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_spec_844824.png": {
+      "sha256": "9f0f9f0cac9edc69ce3304ff7c0b8ab04df6445c701e0c942298627485c6be2c",
+      "bytes": 456029,
+      "driver": "Rick",
+      "state": "spec",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_845005.tga": {
+      "sha256": "4c5a3e06bf86cdbba0d65858364724bfd3351dc642a8afa24289a7b21372afb5",
+      "bytes": 2505146,
+      "driver": "Justin",
+      "state": "paint",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_845005.png": {
+      "sha256": "3a73f0042eef3d04e647d6b3903c8bef49202c77d8581ea4704e30722cd65725",
+      "bytes": 896543,
+      "driver": "Justin",
+      "state": "paint",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_spec_845005.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707,
+      "driver": "Justin",
+      "state": "spec",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    },
+    "car_spec_845005.png": {
+      "sha256": "4f7f72cb24c00e023e2425454990bd51b1658edd9017018c867880abb2c129f5",
+      "bytes": 456029,
+      "driver": "Justin",
+      "state": "spec",
+      "dimensions": [
+        2048,
+        2048
+      ]
+    }
+  },
+  "states": "One selected driver; paint/spec separate; guides hidden in temporary document; original source never saved",
+  "limits": "File structure/readability, dimensions, hashes and ownership; not in-car/material acceptance or independent verification of arbitrary manual artwork finish masks"
+}

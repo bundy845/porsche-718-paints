@@ -1,5 +1,7 @@
 # Porsche 718 GT4 livery work
 
+Before a livery edit, export, or mapping diagnostic, run that project's documented read-only preflight. For breakaway: `python breakaway/scripts/preflight.py --parts <affected-IDs> --seams <affected-seam-IDs>`. Resolve FAIL results first; report named provisional gaps before crossing panels. Reuse established evidence and the documented launcher. A new diagnostic requires a specific unresolved question, evidence already checked, smallest target, and persistence plan. Keep deferred items untouched. Ordinary edits/exports create no full PSD checkpoint or installed-paint backup; retain the recorded recovery source. Never rebuild over manual PSD edits.
+
 Before placing or moving artwork on the car, read `shared/cars/porsche718gt4/mapping/README.md` and the mapping entries for the affected physical parts. Identify the UV island, orientation, and evidence for each intended placement and cross-panel join. If the profile does not establish the placement, mark it provisional and use a targeted numbered diagnostic with an in-car view before calling it correct. A flat UV preview or a nearby wire edge alone does not confirm physical correspondence.
 
 Store reusable template references, diagnostics, screenshots, and confirmed or rejected mapping findings under `shared/cars/porsche718gt4/mapping/`. Keep livery artwork, export state, and revision history in the livery's own folder. Do not overwrite existing livery assets while collecting mapping evidence.

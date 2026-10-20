@@ -1,0 +1,16 @@
+I004: 99790 protected native-blue pixels
+I007: 224163 protected native-blue pixels
+I030: 108294 protected native-blue pixels
+I044: 10070 protected native-blue pixels
+I045: 9782 protected native-blue pixels
+I078: 14770 protected native-blue pixels
+I080: 16617 protected native-blue pixels
+I081: 476039 protected native-blue pixels
+I116: 217810 protected native-blue pixels
+I119: 82642 protected native-blue pixels
+I122: 259547 protected native-blue pixels
+I128: 185585 protected native-blue pixels
+I129: 114165 protected native-blue pixels
+I136: 483880 protected native-blue pixels
+I153: 16665 protected native-blue pixels
+I156: 14108 protected native-blue pixels

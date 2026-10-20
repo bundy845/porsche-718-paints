@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "car_folder": "porsche718gt4",
+  "template": "inputs/Porsche 718 GT4.psd",
+  "mapping": "../shared/cars/porsche718gt4/mapping",
+  "revision": "r008",
+  "source": "source/breakaway-master.psd",
+  "recorded_source_sha256": "59348ae0f1ca1e7940439b59f0416da1ca400fe772c4b95b8db871c0cf9eab68",
+  "exports": "exports/current",
+  "latest_accepted_revision": null,
+  "acceptance_note": "No whole-design acceptance established in the available records.",
+  "latest_rejected_revision": "r008",
+  "rejection_evidence": "User-adopted 01_Livery_Skills_Workflow_and_Editable_PSD_Handoff.md: rear continuity through r008 rejected. Retain source; no Task 2 calibration here.",
+  "rollback": "source/breakaway-r008.psd",
+  "rollback_status": "Preserved pre-migration r008, exact four-output baseline verified. Rear design remains rejected/provisional; no artwork acceptance inferred.",
+  "checkpoint_policy": "One working source and one existing recovery source; no ordinary full PSD copies. Additional copies only for milestones, high-risk structural work, or explicit request. Retain history pending approved recovery-tested migration.",
+  "installed_backup_policy": "No installed-paint backups by default, per user instruction.",
+  "human_editability": "Approved four-control linked palette structure active: PALETTES/RICK and JUSTIN, PRIMARY and SECONDARY. Each embedded smart object contains one Solid Color Fill. Current saved master reexported under breakaway; all four TGAs remain byte-identical to r008. Historical demo/checkpoints removed per user direction; original evidence retained.",
+  "deferred": [
+    "hood pins",
+    "number box",
+    "branding",
+    "rear seam calibration / r009"
+  ],
+  "commands": {
+    "preflight": "python scripts/preflight.py",
+    "renderer": "pwsh -NoProfile -File scripts/render-r008.ps1 (historical one-time renderer; refuses existing geometry, not an export step)",
+    "photoshop_launcher": "pwsh -NoProfile -File scripts/invoke-photoshop.ps1",
+    "inspect": "pwsh -NoProfile -File scripts/invoke-photoshop.ps1 -Script workflow.jsx -Operation inspect",
+    "export": "pwsh -NoProfile -File scripts/invoke-photoshop.ps1 -Script workflow.jsx -Operation export -OutputDirectory <new-project-output-folder>",
+    "validation": "python scripts/validate-exports.py; python scripts/validate-workflow.py",
+    "installation": "pwsh -NoProfile -File scripts/install-review.ps1 -Revision r008 -ExpectedInstalledPaintHash <observed-hash> (requires current validated exports; installation separately authorized)"
+  },
+  "rollback_sha256": "e1b16f7783336be502d98fcde58a29f6e47f02a8471bcec40e126f9d019f83af",
+  "palette_demo": {
+    "status": "REMOVED_BY_USER_DIRECTION",
+    "validation_evidence": "docs/workflow-audit/palette-validation.json",
+    "live_dependency": false
+  },
+  "installed_record": "exports/r008/installed-session.json",
+  "migration": {
+    "parent": "source/breakaway-r008.psd",
+    "parent_sha256": "e1b16f7783336be502d98fcde58a29f6e47f02a8471bcec40e126f9d019f83af",
+    "approval": "User: looks good, in response to demo review and request for real-master migration approval",
+    "validation": "docs/workflow-audit/migration-validation.json",
+    "rear_design_acceptance": false
+  },
+  "livery_name": "breakaway",
+  "cleanup_review_policy": "At each meaningful project step review remaining referenced historical/redundant files and ask for keep/archive/remove direction. User has authorized removal of nine historical PSDs and demo bundle, with dependency updates, in addition to unreferenced extras. Preserve active master, r008 rollback, original template and shared mapping evidence.",
+  "rename": {
+    "from": "former palette/concept project name",
+    "to": "breakaway",
+    "branches_changed": false,
+    "open_documents": "Saved and closed before moving to preserve all open changes"
+  },
+  "cleanup": {
+    "status": "complete",
+    "files_removed": 207,
+    "bytes_removed": 459287552,
+    "record": "docs/workflow-audit/cleanup-result.json",
+    "review": "docs/workflow-audit/file-review.json",
+    "source_psds_retained": [
+      "source/breakaway-master.psd",
+      "source/breakaway-r008.psd"
+    ],
+    "next_step": "Review remaining referenced legacy exports/derived graphics and ask user for keep/archive/remove direction before the next meaningful livery step."
+  }
+}

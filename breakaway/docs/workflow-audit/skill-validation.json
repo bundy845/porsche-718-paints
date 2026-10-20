@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "method": "Dependency-free check of actual simple frontmatter, local reference targets and reconciled policies",
+  "local_reference_targets": 7,
+  "bundled_validator": "Not run successfully: PyYAML missing; no tools installed to satisfy it"
+}

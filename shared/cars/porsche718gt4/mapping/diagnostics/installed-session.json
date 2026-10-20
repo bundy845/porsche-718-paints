@@ -1,13 +1,32 @@
 {
   "status": "restored",
+  "diagnostic": "d008-continuity-grid",
   "target": "C:\\Users\\bundy\\Documents\\iRacing\\paint\\porsche718gt4\\car_844824.tga",
-  "backup_paint": "diagnostics/backups/0e58949d69b346eb8bd96ca283615fbc/car_844824.tga",
-  "original_sha256": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
-  "backup_hashes": {
-    "car_spec_844824.tga": "7addd6f97f1dccefab4ec3392ed357fda47f94f0f635f24701c74c80cf18e7fc",
-    "car_844824.tga": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
-    "car_spec_844824.mip": "6e8242aff03f48e13b70e5255d2cc495ae231d621d9c7acfbbc2ea0c351bde63"
+  "diagnostic_sha256": "b17adc9ce084bb0f41765f77d564e1510b59f538295ec1262e1cf3861aa7de61",
+  "normal_sha256": "925389d083735e561d93dcffcad379951191834ea3c1999b881236eee0e14198",
+  "restore_source": "C:\\Dropbox\\2 Old 2 Slow\\Racing\\iRacing\\Paints\\porsche718gt4\\breakaway\\exports\\r004\\car_844824.tga",
+  "backup_created": false,
+  "backup_policy": "User explicitly waived backups; restore uses existing validated r004 export",
+  "installed_at_utc": "2026-10-19T21:19:00.6263913Z",
+  "previous_session": {
+    "status": "restored",
+    "target": "C:\\Users\\bundy\\Documents\\iRacing\\paint\\porsche718gt4\\car_844824.tga",
+    "backup_paint": "diagnostics/backups/0e58949d69b346eb8bd96ca283615fbc/car_844824.tga",
+    "original_sha256": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
+    "backup_hashes": {
+      "car_spec_844824.tga": "7addd6f97f1dccefab4ec3392ed357fda47f94f0f635f24701c74c80cf18e7fc",
+      "car_844824.tga": "ea6478a6419ef22a658a8eeb81c704d740c829ae3aa5fbd1f65fbec76b7de98b",
+      "car_spec_844824.mip": "6e8242aff03f48e13b70e5255d2cc495ae231d621d9c7acfbbc2ea0c351bde63"
+    },
+    "diagnostic": "d006-exterior-codes",
+    "diagnostic_sha256": "ce0e98ad556e86fb2948c10872410ef011cd4097595a306136a61500743aefeb"
   },
-  "diagnostic": "d006-exterior-codes",
-  "diagnostic_sha256": "ce0e98ad556e86fb2948c10872410ef011cd4097595a306136a61500743aefeb"
+  "installed_paint_sha256": "a87bbe55dd2e23e0bf38bf6f5a5a324ae4dc54d3b24c7ff398b957cff48bdfcb",
+  "restored_at_utc": "2026-10-19T21:28:11.8196670Z",
+  "current_normal_paint": {
+    "revision": "r008",
+    "source": "breakaway/exports/r008/car_844824.tga",
+    "sha256": "a87bbe55dd2e23e0bf38bf6f5a5a324ae4dc54d3b24c7ff398b957cff48bdfcb"
+  },
+  "continuation": "User directed reuse of saved reference evidence; no new mapping batch requested"
 }

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "revision": "r001",
+  "source_sha256": "d5da67142c9391b26e907e5463fdd419ad83ca58aab133e74c75c716ba2a723d",
+  "template_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "files": {
+    "car_844824.tga": {
+      "sha256": "f1fcd05f9f20acb0dcceb4d533dc4beb3c58e8bb6f85f59c764307cf93fea0e6",
+      "bytes": 326552,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_844824.tga": {
+      "sha256": "16e640613fd7c795b7170711403fba0b78481c1b8a29939201a434bc6e3eef45",
+      "bytes": 560576,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_845005.tga": {
+      "sha256": "bb52c44923c23a57eb536c593af4dfee84318c92273ea348938048b075f4339f",
+      "bytes": 326552,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_845005.tga": {
+      "sha256": "6f6ff8f377386f11018d702f03dc74a4363a69dc0b84e6625607b4f7a68187d4",
+      "bytes": 560775,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    }
+  },
+  "pixel_checks": {
+    "shared_charcoal_pixels": 404608,
+    "lime_to_violet_pixels": 307238,
+    "violet_to_lime_pixels": 1518268,
+    "number_reserve_pixels": 23871
+  },
+  "photoshop_source_inspection": "36 clipped SOLIDFILL controls; 18 masks; Rick paint saved with spec/guides hidden",
+  "installed": false,
+  "in_car_verified": false,
+  "finish_verified": false,
+  "mips_created": false,
+  "limits": [
+    "Native first-draft masks need physical edge/bleed review",
+    "Exact cross-panel seams remain provisional",
+    "Metallic/roughness values need in-car lighting review"
+  ]
+}

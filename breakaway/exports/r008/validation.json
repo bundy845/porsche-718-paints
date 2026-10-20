@@ -1,0 +1,147 @@
+{
+  "status": "PASS",
+  "revision": "r008",
+  "source_sha256": "e1b16f7783336be502d98fcde58a29f6e47f02a8471bcec40e126f9d019f83af",
+  "template_sha256": "5585e01015e643ed33f1f7545d0a8c0a66cb830c7e83f541d1cbe07af3c00b21",
+  "files": {
+    "car_844824.tga": {
+      "sha256": "a87bbe55dd2e23e0bf38bf6f5a5a324ae4dc54d3b24c7ff398b957cff48bdfcb",
+      "bytes": 2505146,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_844824.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707,
+      "driver": "Rick",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_845005.tga": {
+      "sha256": "4c5a3e06bf86cdbba0d65858364724bfd3351dc642a8afa24289a7b21372afb5",
+      "bytes": 2505146,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    },
+    "car_spec_845005.tga": {
+      "sha256": "8e1e16a53aec611722076b11ec57857664754a62d020bc94e5b7f44e69e768e3",
+      "bytes": 1626707,
+      "driver": "Justin",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "bits": 24
+    }
+  },
+  "pixel_checks": {
+    "violet_to_lime_pixels": 2558328,
+    "lime_to_violet_pixels": 276491,
+    "shared_charcoal_pixels": 82642,
+    "mapped_pixels_checked": 2604502,
+    "confirmed_panel_ids_included": 28,
+    "front_duct_primary_pixels": 24026,
+    "patterned_separate_parts_checked": 8,
+    "wing_secondary_pixels": 10720,
+    "wing_primary_remnants": 50
+  },
+  "photoshop_source_inspection": "18 clipped SOLIDFILL controls; 9 masks; Rick paint saved with spec/guides hidden",
+  "installed": false,
+  "in_car_verified": false,
+  "finish_verified": false,
+  "mips_created": false,
+  "limits": [
+    "Native first-draft masks need physical edge/bleed review",
+    "Exact cross-panel seams remain provisional",
+    "Metallic/roughness values need in-car lighting review"
+  ],
+  "separate_part_color_checks": {
+    "I009": {
+      "pixels": 24026,
+      "primary": 24026,
+      "secondary": 0,
+      "secondary_within_4_levels": 0,
+      "charcoal": 0
+    },
+    "I030": {
+      "pixels": 91948,
+      "primary": 50,
+      "secondary": 10720,
+      "secondary_within_4_levels": 89831,
+      "charcoal": 0
+    },
+    "I120": {
+      "pixels": 4283,
+      "primary": 50,
+      "secondary": 714,
+      "secondary_within_4_levels": 2303,
+      "charcoal": 0
+    },
+    "I143": {
+      "pixels": 4467,
+      "primary": 90,
+      "secondary": 546,
+      "secondary_within_4_levels": 1810,
+      "charcoal": 0
+    },
+    "I078": {
+      "pixels": 14770,
+      "primary": 3015,
+      "secondary": 96,
+      "secondary_within_4_levels": 1826,
+      "charcoal": 0
+    },
+    "I156": {
+      "pixels": 14108,
+      "primary": 3577,
+      "secondary": 4,
+      "secondary_within_4_levels": 148,
+      "charcoal": 0
+    },
+    "I080": {
+      "pixels": 16617,
+      "primary": 736,
+      "secondary": 2242,
+      "secondary_within_4_levels": 8037,
+      "charcoal": 0
+    },
+    "I153": {
+      "pixels": 16665,
+      "primary": 868,
+      "secondary": 1958,
+      "secondary_within_4_levels": 6617,
+      "charcoal": 0
+    },
+    "I007": {
+      "pixels": 181250,
+      "primary": 203,
+      "secondary": 22794,
+      "secondary_within_4_levels": 175561,
+      "charcoal": 0
+    }
+  },
+  "hood_fender_join": "Common source sample at both contour edges; existing numbered views G02/G06 support coarse longitudinal alignment",
+  "texture": "Exact original r002 fine texture reused",
+  "boundary_sampling_pairs_checked": 770,
+  "alignment_status": "Local side-return revision using existing numbered views and rejected r007 screenshots. Source directions checked; physical fit remains provisional.",
+  "bumper_return_checks": {
+    "unchanged_paint_spec_pixels_outside_returns": 4055308,
+    "changed_return_pixels": 83943,
+    "side_source_v_constant_fore_aft": true,
+    "opposed_fore_aft_source_directions": true,
+    "rear_center_and_deck_unchanged": true
+  },
+  "hood_pins": "Deferred, unchanged",
+  "number_box": "Deferred; preview options before installation"
+}

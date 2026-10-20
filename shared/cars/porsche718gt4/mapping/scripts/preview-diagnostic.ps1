@@ -3,6 +3,7 @@ param(
     [ValidateSet('d003-small-parts','d004-headlight-joins','d005-remaining-parts','d006-exterior-codes')][string]$Diagnostic = 'd003-small-parts'
 )
 $ErrorActionPreference = 'Stop'
+if($Action -eq 'Install'){throw 'Historical backup-generating installer retired. No installed backups by default. Run project preflight and document the specific gap, evidence checked, target and verified restore source before preparing a scoped installation.'}
 $mappingRoot = Split-Path $PSScriptRoot -Parent
 $paintFolder = 'C:\Users\bundy\Documents\iRacing\paint\porsche718gt4'
 $target = Join-Path $paintFolder 'car_844824.tga'
